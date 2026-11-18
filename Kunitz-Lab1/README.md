@@ -1,39 +1,66 @@
-# Kunitz final submission — Elham Hadadi
+# Detecting Kunitz domains with a profile HMM
 
-Submit Final_Report/Elham_Hadadi_Lab1_Visual_Report.pdf as the current report. Word is optional. Read Audit/Submission_Readiness_Audit.md before describing reproducibility. This repository preserves the existing results. The full original backup is stored separately (see below).
+**Elham Hadadi · Laboratory of Bioinformatics I · University of Bologna**
 
-## Contents
-- Final_Report: current four-page report, six figures and one table.
-- Notebooks: executed original snapshot and separate executed retrospective reanalysis.
-- Supplementary: selected model/alignment/raw HMMER outputs; recalculated tables; original recalculation; scientific figures and provenance.
-- Code: analysis and figure scripts. Some scripts use the documented project-root work/ layout and are supporting sources, not a standalone installed application.
-- Audit: fresh execution log and PASS/WARNING checklist.
+A structure-based approach to identifying Kunitz domains in protein sequences. This project builds a profile hidden Markov model (HMM) from selected PDB structures, evaluates its predictions against Swiss-Prot annotations, and examines the distribution of predicted domains across the database.
 
-## Run order / environment
-1. Original workflow is historical prerequisite: it made the structural alignment, HMM and archived searches. Inspect the saved outputs in the original notebook. A fresh original Run all uses Google Colab, Drive access, Python/Biopython/pandas/numpy/requests/matplotlib, MUSTANG3.2.4, HMMER3.4 and MMseqs2 15-6f452+ds-2, plus external PDB requests. IMPORTANT: cell55 also requires the separate Nov3 snapshot archive named in the audit; it is missing from this package. Do not replace its hash with that of Nov7.
-2. To reproduce reported retrospective results without rebuilding HMM: download the separately linked Nov7 backup and copy it to ~/Downloads locally, or MyDrive/kunitz_project_backups in Colab. Open Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb in Python3/Jupyter or Colab; use an empty working directory and Run all. Colab may request Drive mounting. It checks/extracts archived inputs and computes original benchmark, expanded validation threshold, expanded test and full-scan summaries. No HMMER execution or retraining occurs.
-3. Expected threshold17.2; test TP172/FN2/FP2/TN283816; full scan398 predictions. Original8.7 comparison remains historical. Reanalysis uses Python standard library; the notebook is self-contained.
-4. Figure code expects work/raw_audit (extracted backup), work/reanalysis (computed outputs), and matplotlib/numpy. To run locally, install those packages normally; task-specific work/report_packages is only an optional search path. Supplementary includes rendered figures and their source data so new rendering is not necessary to check counts.
+[**Read the report →**](Final_Report/Elham_Hadadi_Lab1_Visual_Report.pdf) · [Original notebook](Notebooks/Lab1.ElhamHadadi.snapshot-fixed.ipynb) · [Reanalysis notebook](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb)
 
-Reanalysis is retrospective. No direct seed overlap does not imply no homologous relatives. The entire supplementary archive may exceed portal limits; use its report-only PDF and provide supplementary files by the course-approved method. No upload or submission was performed.
+## Approach
 
-## Read the report
-[Final report (PDF)](Final_Report/Elham_Hadadi_Lab1_Visual_Report.pdf) · [Editable report](Final_Report/Elham_Hadadi_Lab1_Visual_Report.docx)
+1. Select structurally resolved Kunitz fragments, checking coordinate completeness, experimental quality and sequence redundancy.
+2. Align the selected fragments with **MUSTANG** and build a profile HMM with **HMMER**.
+3. Evaluate the model using reviewed, nonfragment Swiss-Prot proteins, with **PF00014 annotation** defining the reference labels.
+4. Select a score threshold using validation MCC, apply it to the test set, and inspect false positives and false negatives.
+5. Search complete Swiss-Prot and summarize the predicted proteins and their taxonomic distribution.
 
-## Large source archive
-The full Nov7 backup (616,589,569 bytes) is not committed to Git. The owner retains it in Google Drive:
-[Original backup download](https://drive.google.com/file/d/1WBFyxo18TtFOom_M_cH_BvdCJNNUbiA9/view).
-Access depends on existing Drive permissions; anonymous access has not been verified and no sharing settings were changed.
-The original older Nov3 snapshot required by the original notebook is still a separately documented missing dependency.
-Large reanalysis CSV and raw HMMER tables are stored with gzip compression (`.gz`); decompress with Python gzip or `gunzip` before using scripts that expect `.csv`. Their contents are unchanged.
+The final structural seed contains **13 fragments from 10 UniProt accessions**. Its alignment and HMM both have **53 positions**.
 
-## Results at the fixed 17.2-bit threshold
-Test: TP=172, FN=2, FP=2, TN=283,816; sensitivity/precision=98.85%, MCC=0.9885.
-Full Swiss-Prot scan: 398 predicted proteins, 485 above-threshold domains.
-These are retrospective archived-score results. Exact-overlap checks do not exclude residual homology. Model and threshold were not changed for this GitHub publication.
+![Sequence alignment derived from the structural superposition of the 13 seed fragments](Supplementary/model_evidence_figures/structural_alignment.png)
+*The MUSTANG-derived seed alignment. Cysteines are highlighted in yellow.*
 
-## Figures
-![Structural alignment](Supplementary/model_evidence_figures/structural_alignment.png)
-![Model emission logo](Supplementary/model_evidence_figures/hmm_logo.png)
-![Test confusion matrix](Supplementary/final_reanalysis_figures/test.png)
-![Taxonomic counts](Supplementary/model_evidence_figures/taxonomic_distribution.png)
+## Results
+
+The initial benchmark used a random sample of reference negatives. A retrospective reanalysis retained the same HMM and positive split while expanding evaluation to all **566,072 nonfragment reference negatives**. Validation MCC selected a best-domain score threshold of **17.2 bits**.
+
+| Test-set measure | Result |
+| :--- | ---: |
+| Sensitivity | 98.85% |
+| Precision | 98.85% |
+| Specificity | 99.9993% |
+| Matthews correlation coefficient (MCC) | 0.9885 |
+| True positives / false negatives | 172 / 2 |
+| True negatives / false positives | 283,816 / 2 |
+
+Applying this threshold to **575,748 Swiss-Prot proteins** identified **398 proteins** with **485 above-threshold domains**. Of the predicted proteins, 395 had PF00014 annotation and three had other archived Kunitz evidence. Three PF00014-annotated proteins were missed.
+
+![Taxonomic distribution of the 398 predicted proteins](Supplementary/model_evidence_figures/taxonomic_distribution.png)
+*Counts describe this Swiss-Prot search; they are not normalized estimates of biological prevalence.*
+
+## Files
+
+| Folder | Contents |
+| :--- | :--- |
+| [Final_Report](Final_Report/) | Four-page report in PDF and Word format |
+| [Notebooks](Notebooks/) | Executed original workflow and retrospective reanalysis |
+| [Code](Code/) | Calculation, figure-generation and consistency-check scripts |
+| [Supplementary](Supplementary/) | HMM, alignment, selected raw search outputs, result tables and figures |
+| [Audit](Audit/) | Verification checklist and execution log |
+
+## Reproducing the reanalysis
+
+The reanalysis notebook recalculates results from saved HMMER outputs; it does not rebuild the model or rerun the searches.
+
+1. Download the [original project backup](https://drive.google.com/file/d/1WBFyxo18TtFOom_M_cH_BvdCJNNUbiA9/view), named `kunitz_project_backup_20261107T213430_789701Z.zip`.
+2. Place it in `~/Downloads` for a local Python 3 notebook session, or in `MyDrive/kunitz_project_backups` for Google Colab.
+3. Open the [reanalysis notebook](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb) in a fresh working directory and run its cells in order. It verifies the archived inputs and recalculates the threshold, evaluation metrics and complete-database results.
+
+The backup is stored separately because of its size; Drive access may be required. Large tables in this repository are gzip-compressed. The supporting scripts use the directory layout documented in the notebooks.
+
+The original workflow used **Biopython, MUSTANG 3.2.4, HMMER 3.4 and MMseqs2**. A fresh end-to-end execution of the original notebook also requires an older November 3 snapshot that is not included here. See the [reproducibility checklist](Audit/Submission_Readiness_Audit.md) for the exact dependency and verification scope.
+
+## Interpretation and limitations
+
+PF00014 is an annotation-based reference rather than experimental ground truth. The two test false positives have other Kunitz evidence, so disagreement with these labels does not necessarily indicate a biological false match.
+
+Direct training-accession and exact seed-fragment overlap checks passed. Related sequences can nevertheless remain across the evaluation sets. The retrospective results therefore support performance on the defined dataset, rather than establishing performance on a new external dataset or on remote homologs. The complete-database search also includes training and evaluation proteins.
