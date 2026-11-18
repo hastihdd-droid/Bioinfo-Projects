@@ -1,0 +1,235 @@
+WARNING:
+Traceback (most recent call last):
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/toolshed/info.py", line 376, in initialize
+    api._api_caller.initialize(api, session, self)
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/toolshed/__init__.py", line 1412, in initialize
+    return cls._get_func(api, "initialize")(session, bi)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/bug_reporter/__init__.py", line 39, in initialize
+    crash_report.check_for_crash(session)
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/bug_reporter/crash_report.py", line 31, in check_for_crash
+    traceback = check_for_crash_on_mac(session)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/bug_reporter/mac_crash_report.py", line 41, in check_for_crash_on_mac
+    settings.last_crash_check = time()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/settings.py", line 199, in __setattr__
+    ConfigFile.__setattr__(self, name, value)
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/configfile.py", line 386, in __setattr__
+    ConfigFile.save(self)
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/configfile.py", line 335, in save
+    with SaveTextFile(self._filename) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/safesave.py", line 195, in __init__
+    SaveFile.__init__(self, filename, open=open_text, critical=critical)
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/safesave.py", line 88, in __init__
+    self._f = open(self._tmp_filename)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/ChimeraX-1.11.1.app/Contents/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/chimerax/core/safesave.py", line 194, in open_text
+    return open(filename, 'w', newline=newline, encoding=encoding)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted: '/Users/hasti/Library/Application Support/ChimeraX/Bug Reporter-1.75533.1795009632.970935.tmp'
+
+ERROR:
+Bundle 'ChimeraX-BugReporter' custom initialization failed
+INFO:
+Executing: runscript /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/run_chimerax.py
+INFO:
+Executing: close all
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/3TGI_chain_I.pdb
+INFO:
+Chain information for 3TGI_chain_I.pdb #1  
+---  
+Chain | Description  
+[I](cxcmd:select /I:1-56 "Select chain") | [No description available](cxcmd:sequence chain #1/I "Show sequence")  
+  
+
+INFO:
+Computing secondary structure
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/D3GGZ8.pdb
+INFO:
+_D3GGZ8.pdb_ title:  
+**Alphafold monomer V2.0 prediction for kunitz-type protein bli-5 (D3GGZ8)**
+[[more info...]](cxcmd:log metadata #2)  
+  
+
+INFO:
+Chain information for D3GGZ8.pdb #2  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select #2/A:1-195 "Select chain") | [kunitz-type protein bli-5](cxcmd:sequence chain #2/A "Show sequence") | [BLI5_HAECO](cxcmd:open D3GGZ8 from uniprot associate #2/A "Show annotations") [1-195](cxcmd:select #2/A:1-195 "Select sequence")  
+  
+
+INFO:
+Executing: matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true
+INFO:
+Computing secondary structure
+INFO:
+Parameters  
+---  
+Chain pairing | ss  
+Alignment algorithm | Needleman-Wunsch  
+Similarity matrix | BLOSUM-62  
+SS fraction | 0.3  
+Gap open (HH/SS/other) | 18/18/6  
+Gap extend | 1  
+SS matrix |  |  | H | S | O  
+---|---|---|---  
+H | 6 | -9 | -6  
+S |  | 6 | -6  
+O |  |  | 4  
+Iteration cutoff | 2  
+  
+
+INFO:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with D3GGZ8.pdb, chain A (#2), sequence alignment score = 77.6
+STATUS:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with D3GGZ8.pdb, chain A (#2), sequence alignment score = 77.6
+INFO:
+RMSD between 39 pruned atom pairs is 0.842 angstroms; (across all 53 pairs: 2.931)
+STATUS:
+RMSD between 39 pruned atom pairs is 0.842 angstroms; (across all 53 pairs: 2.931)
+INFO:
+
+INFO:
+Executing: save /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/results/D3GGZ8_superposed.pdb models #1,2
+STRUCTURAL_RESULT D3GGZ8 53 39 2.931367879131067 0.841814947645255 97.02333342723357
+INFO:
+Executing: close all
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/3TGI_chain_I.pdb
+INFO:
+Chain information for 3TGI_chain_I.pdb #1  
+---  
+Chain | Description  
+[I](cxcmd:select /I:1-56 "Select chain") | [No description available](cxcmd:sequence chain #1/I "Show sequence")  
+  
+
+INFO:
+Computing secondary structure
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/O62247.pdb
+INFO:
+_O62247.pdb_ title:  
+**Alphafold monomer V2.0 prediction for kunitz-type protein bli-5 (O62247)**
+[[more info...]](cxcmd:log metadata #2)  
+  
+
+INFO:
+Chain information for O62247.pdb #2  
+---  
+Chain | Description | UniProt  
+[A](cxcmd:select #2/A:1-202 "Select chain") | [kunitz-type protein bli-5](cxcmd:sequence chain #2/A "Show sequence") | [BLI5_CAEEL](cxcmd:open O62247 from uniprot associate #2/A "Show annotations") [1-202](cxcmd:select #2/A:1-202 "Select sequence")  
+  
+
+INFO:
+Executing: matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true
+INFO:
+Computing secondary structure
+INFO:
+Parameters  
+---  
+Chain pairing | ss  
+Alignment algorithm | Needleman-Wunsch  
+Similarity matrix | BLOSUM-62  
+SS fraction | 0.3  
+Gap open (HH/SS/other) | 18/18/6  
+Gap extend | 1  
+SS matrix |  |  | H | S | O  
+---|---|---|---  
+H | 6 | -9 | -6  
+S |  | 6 | -6  
+O |  |  | 4  
+Iteration cutoff | 2  
+  
+
+INFO:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with O62247.pdb, chain A (#2), sequence alignment score = 95.7
+STATUS:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with O62247.pdb, chain A (#2), sequence alignment score = 95.7
+INFO:
+RMSD between 39 pruned atom pairs is 0.817 angstroms; (across all 54 pairs: 3.383)
+STATUS:
+RMSD between 39 pruned atom pairs is 0.817 angstroms; (across all 54 pairs: 3.383)
+INFO:
+
+INFO:
+Executing: save /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/results/O62247_superposed.pdb models #1,2
+STRUCTURAL_RESULT O62247 54 39 3.3834625228249204 0.8167778826119768 95.67410297882863
+INFO:
+Executing: close all
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/3TGI_chain_I.pdb
+INFO:
+Chain information for 3TGI_chain_I.pdb #1  
+---  
+Chain | Description  
+[I](cxcmd:select /I:1-56 "Select chain") | [No description available](cxcmd:sequence chain #1/I "Show sequence")  
+  
+
+INFO:
+Computing secondary structure
+INFO:
+Executing: open /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/inputs/A0A1Q1NL17.pdb
+INFO:
+Summary of feedback from opening
+/Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-
+drive/outputs/Kunitz_Structural_Analysis/inputs/A0A1Q1NL17.pdb  
+---  
+_warning_ | Ignored bad PDB record found on line 38  
+DBREF XXXX A 1 101 UNP A0A1Q1NL17 HA11_HYAAI 1 101  
+  
+
+INFO:
+_A0A1Q1NL17.pdb_ title:  
+**Alphafold monomer V2.0 prediction for kunitz-type anticoagulant protein HA11
+(A0A1Q1NL17)** [[more info...]](cxcmd:log metadata #2)  
+  
+
+INFO:
+Chain information for A0A1Q1NL17.pdb #2  
+---  
+Chain | Description  
+[A](cxcmd:select #2/A:1-101 "Select chain") | [kunitz-type anticoagulant protein HA11](cxcmd:sequence chain #2/A "Show sequence")  
+  
+
+INFO:
+Executing: matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true
+INFO:
+Computing secondary structure
+INFO:
+Parameters  
+---  
+Chain pairing | ss  
+Alignment algorithm | Needleman-Wunsch  
+Similarity matrix | BLOSUM-62  
+SS fraction | 0.3  
+Gap open (HH/SS/other) | 18/18/6  
+Gap extend | 1  
+SS matrix |  |  | H | S | O  
+---|---|---|---  
+H | 6 | -9 | -6  
+S |  | 6 | -6  
+O |  |  | 4  
+Iteration cutoff | 2  
+  
+
+INFO:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with A0A1Q1NL17.pdb, chain A (#2), sequence alignment score = 120.6
+STATUS:
+Matchmaker 3TGI_chain_I.pdb, chain I (#1) with A0A1Q1NL17.pdb, chain A (#2), sequence alignment score = 120.6
+INFO:
+RMSD between 43 pruned atom pairs is 0.873 angstroms; (across all 56 pairs: 3.418)
+STATUS:
+RMSD between 43 pruned atom pairs is 0.873 angstroms; (across all 56 pairs: 3.418)
+INFO:
+
+INFO:
+Executing: save /Users/hasti/Documents/Codex/2026-11-07/https-colab-research-google-com-drive/outputs/Kunitz_Structural_Analysis/results/A0A1Q1NL17_superposed.pdb models #1,2
+STRUCTURAL_RESULT A0A1Q1NL17 56 43 3.4179942131523915 0.8731115291390434 91.39999939674554
+INFO:
+UCSF ChimeraX version: 1.11.1 (2026-01-23)
+INFO:
+© 2016-2025 Regents of the University of California.  All rights reserved.

@@ -1,0 +1,16 @@
+{
+  "training_fragments": 13,
+  "alignment_columns": 53,
+  "common_gap_free_columns": 52,
+  "pairs_recomputed": 78,
+  "maximum_archive_difference": 2.55351295663786e-15,
+  "mean_pairwise_rmsd_angstrom": 0.9200784389740405,
+  "minimum_pairwise_rmsd_angstrom": 0.43051281930916285,
+  "maximum_pairwise_rmsd_angstrom": 1.8785258427118026,
+  "mean_pairwise_Q": 0.8765852884055132,
+  "minimum_pairwise_Q": 0.6914900318829926,
+  "maximum_pairwise_Q": 0.9613348489484986,
+  "Q_definition": "Nalign^2 / ((1+(RMSD/3A)^2)*N1*N2), using fixed MUSTANG correspondence; not a new PDBeFold alignment",
+  "source_coordinates_modified": false,
+  "training_membership_modified": false
+}

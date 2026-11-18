@@ -1,0 +1,13 @@
+{
+  "analysis": "Structural alignment quality and predicted-structure review of all three missed reference positives",
+  "training_quality": "Use the52 gap-free columns of the existing MUSTANG alignment; independently fit all78 pairs by CA least squares; compare with archived pairwise RMSD; compute PDBeFold-form Q=Nalign^2/((1+(RMSD/3)^2)*N1*N2) on these fixed mappings; summarize mean pairwise values per fragment. These are not PDBeFold/SSM service outputs.",
+  "false_negatives": [
+    "D3GGZ8",
+    "O62247",
+    "A0A1Q1NL17"
+  ],
+  "reference": "Archived experimentally observed3TGI author chainI,56 residues",
+  "matchmaker": "ChimeraX1.11.1; chainA to chainI; BLOSUM62; Needleman-Wunsch; ssFraction0.3; gapExtend1; hgap18; sgap18; ogap6; computeSStrue; pruning cutoff2.0A",
+  "outputs": "Unpruned matched-pair count and RMSD under final fit; pruned-core count and RMSD; residue mapping and core pLDDT; transformed coordinates; figures",
+  "interpretation": "A locally matching predicted core supports fold similarity, not whole-protein equivalence or experimental confirmation. Report full and pruned measures together; do not change labels or HMM cutoff."
+}

@@ -1,0 +1,14 @@
+seed_id,entity_identifier,source_label_chain,source_model,start,end,residue_count,uniprot_ids,experimental_method,pdb_file,sequence_verified,ca_coverage_verified
+REVISED_001,1KTH_1,A,1,4,56,53,P12111,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_001.pdb,True,True
+REVISED_002,1BPI_1,A,1,4,56,53,P00974,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_002.pdb,True,True
+REVISED_004,1AAP_1,A,1,4,56,53,P05067,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_004.pdb,True,True
+REVISED_007,4U32_1,A,1,4,55,52,O43291,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_007.pdb,True,True
+REVISED_008,5NMV_3,C,1,32,84,53,P10646,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_008.pdb,True,True
+REVISED_009,4DTG_3,C,1,6,58,53,P10646,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_009.pdb,True,True
+REVISED_011,1ZR0_2,B,1,8,60,53,P48307,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_011.pdb,True,True
+REVISED_015,4ISO_2,B,1,5,57,53,O43278,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_015.pdb,True,True
+REVISED_021,1BIK_1,A,1,25,77,53,P02760,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_021.pdb,True,True
+REVISED_022,1BIK_1,A,1,81,133,53,P02760,X-RAY DIFFRACTION,/content/kunitz_project/data/processed/seed_fragments/REVISED_022.pdb,True,True
+REVISED_024,1IRH_1,A,1,7,59,53,P10646,SOLUTION NMR,/content/kunitz_project/data/processed/seed_fragments/REVISED_024.pdb,True,True
+REVISED_025,2DDI_1,A,1,9,61,53,Q96NZ8,SOLUTION NMR,/content/kunitz_project/data/processed/seed_fragments/REVISED_025.pdb,True,True
+REVISED_026,6NAN_1,A,1,75,127,53,Q964Q0,SOLUTION NMR,/content/kunitz_project/data/processed/seed_fragments/REVISED_026.pdb,True,True

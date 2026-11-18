@@ -5,7 +5,7 @@ Laboratory of Bioinformatics I · University of Bologna
 
 This report describes the complete project: structural data selection, seed alignment, profile-HMM construction, evaluation, retrospective threshold calibration, error analysis and application to Swiss-Prot. It distinguishes the original analysis from the subsequent reanalysis of the saved search results.
 
-[Four-page report (PDF)](Final_Report/Elham_Hadadi_Lab1_Visual_Report.pdf) · [Editable report](Final_Report/Elham_Hadadi_Lab1_Visual_Report.docx) · [Original executed notebook](Notebooks/Lab1.ElhamHadadi.snapshot-fixed.ipynb) · [Executed reanalysis notebook](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb)
+[Five-page report (PDF)](Final_Report/Elham_Hadadi_Lab1_Visual_Report.pdf) · [Editable report](Final_Report/Elham_Hadadi_Lab1_Visual_Report.docx) · [Original executed notebook](Notebooks/Lab1.ElhamHadadi.snapshot-fixed.ipynb) · [Executed reanalysis notebook](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb)
 
 ## Contents
 
@@ -93,6 +93,27 @@ This is a **training consistency check**: it shows that the model can recognize 
 **Figure 2.** Logo calculated from the saved HMM match-state emission probabilities. Stack height represents information relative to a uniform amino-acid background, with individual letters weighted by their emission probabilities. Positions refer to model states, not residue numbers in full-length proteins. The logo was extracted from the existing model without retraining.
 
 The saved [HMM and Stockholm alignment](Supplementary/selected_inputs/results/hmm/build_20261107T212501_925161Z/) are accompanied by a build record containing their hashes.
+
+### 4.3 Quantitative review of structural alignment quality
+
+The existing MUSTANG alignment was reviewed using its **52 gap-free columns**. Independent Cα least-squares fits were calculated for **all 78 unordered pairs** of the 13 fragments. They reproduced the archived pairwise RMSDs to numerical precision.
+
+| Structural quality measure | Result |
+| :--- | ---: |
+| Mean pairwise fitted Cα RMSD | 0.920 Å |
+| Pairwise RMSD range | 0.431–1.879 Å |
+| Mean pairwise Q score | 0.877 |
+| Largest per-fragment mean RMSD | 1.603 Å (6NAN) |
+
+Q was calculated from the fixed MUSTANG correspondence using the [PDBeFold definition](https://www.ebi.ac.uk/msd-srv/ssm/rl_qscore.html):
+
+```text
+Q = Nalign² / [(1 + (RMSD / 3 Å)²) × N1 × N2]
+```
+
+N1 and N2 are the full selected-fragment lengths. Each plotted point averages one fragment's 12 pairwise comparisons. This is a review of the original alignment, rather than a new PDBeFold/SSM alignment. All 13 fragments were retained and the HMM was unchanged.
+
+![Quality of the original structural seed](Supplementary/structural_analysis/figures/training_structural_quality.png)
 
 ## 5. Evaluation datasets and separation
 
@@ -262,6 +283,26 @@ Q09JW3 lies exactly at the reported cutoff. Both its stored score and the thresh
 
 The third additional candidate in the complete-database application, **P84555**, was explicitly annotated as a Kunitz fragment. Fragment status excluded it from evaluation but did not exclude it from the full-database scan. These annotation reviews provide existing support, rather than new experimental confirmation.
 
+### 8.3 Three-dimensional review of the missed reference positives
+
+AlphaFold DB models for **D3GGZ8, O62247 and A0A1Q1NL17** were retrieved as model files of version 6. Their full sequences matched the archived project sequences exactly. D3GGZ8 was the validation false negative; the other two were test false negatives.
+
+Each predicted chain was superimposed onto experimentally observed BPTI from **3TGI, author chain I**, using **ChimeraX 1.11.1 Matchmaker**. The settings were recorded explicitly, including BLOSUM-62, sequence/secondary-structure alignment and iterative **2 Å pruning**.
+
+| Protein | Subset | Core Cα pairs | Core RMSD | All aligned pairs | All-pair RMSD | Mean core pLDDT |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| D3GGZ8 | Validation | 39 | 0.842 Å | 53 | 2.931 Å | 97.0 |
+| O62247 | Test | 39 | 0.817 Å | 54 | 3.383 Å | 95.7 |
+| A0A1Q1NL17 | Test | 43 | 0.873 Å | 56 | 3.418 Å | 91.4 |
+
+![Predicted matched regions superimposed on BPTI](Supplementary/structural_analysis/figures/false_negative_superpositions.png)
+
+The images display Cα traces of the matched regions. Gold is experimental BPTI; dark blue marks the retained predicted core, and pale blue the other residues in that target region. All-pair RMSD is calculated over every sequence-aligned pair under the final core transform; it is not a full-protein RMSD.
+
+The small core deviations and high mean core prediction confidence support local fold similarity in the missed sequences. The larger all-pair deviations show why the core fit should not be generalized to the complete protein. This is predicted structural evidence, not experimental confirmation or proof of the unique cause of each low HMM score. The full and core RMSDs were independently checked from the transformed coordinates.
+
+[Structural methods and inputs](Supplementary/structural_analysis/README.md) · [Executed calculation notebook](Supplementary/structural_analysis/Structural_Analysis_Executed.ipynb) · [Native ChimeraX log](Supplementary/structural_analysis/results/chimerax_execution.log) · [Results table](Supplementary/structural_analysis/results/false_negative_structure_summary.csv)
+
 ## 9. Complete Swiss-Prot search
 
 ### 9.1 Protein and domain counts
@@ -343,7 +384,7 @@ The earlier audit did not rebuild the HMM or rerun its searches. The subsequent 
 
 | Location | Purpose |
 | :--- | :--- |
-| [Final_Report](Final_Report/) | Four-page PDF and editable Word report |
+| [Final_Report](Final_Report/) | Five-page PDF and editable Word report |
 | [Notebooks](Notebooks/) | Executed original workflow and retrospective reanalysis |
 | [Code](Code/) | Score recalculation, full-scan summaries, overlap checks and figure-generation sources |
 | [Supplementary/selected_inputs](Supplementary/selected_inputs/) | Structural seed, fragment manifest, Stockholm alignment, HMM, build record and selected HMMER outputs |
@@ -351,6 +392,7 @@ The earlier audit did not rebuild the HMM or rerun its searches. The subsequent 
 | [Supplementary/raw_recomputed](Supplementary/raw_recomputed/) | Recalculation of the original benchmark |
 | [Supplementary/model_evidence_figures](Supplementary/model_evidence_figures/) | Alignment figure, model logo, taxonomy figure, emission table and provenance |
 | [Supplementary/final_reanalysis_figures](Supplementary/final_reanalysis_figures/) | Confusion matrix, validation curve and full-scan comparison |
+| [Supplementary/structural_analysis](Supplementary/structural_analysis/) | Seed quality, predicted-structure superpositions, coordinates and executed checks |
 | [Supplementary/pfam_comparison](Supplementary/pfam_comparison/) | Official reference HMM, matched search outputs, comparison notebook and provenance |
 | [Audit](Audit/) | Submission-readiness checklist and calculation log |
 | [SHA256SUMS.json](SHA256SUMS.json) | Checksums of repository project files |
@@ -385,3 +427,7 @@ Applied to complete Swiss-Prot, the fixed rule identified **398 candidate protei
 4. Hadadi E. Laboratory of Bioinformatics I Kunitz project. [Original executed notebook](Notebooks/Lab1.ElhamHadadi.snapshot-fixed.ipynb) and [retrospective reanalysis](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb), with archived inputs and outputs linked above.
 
 5. InterPro. Pfam PF00014.31 Kunitz/BPTI profile HMM, InterPro 111.0. [Official profile source](https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF00014/?annotation=hmm).
+
+6. EMBL-EBI. [PDBeFold Q-score definition](https://www.ebi.ac.uk/msd-srv/ssm/rl_qscore.html).
+7. UCSF RBVI. [ChimeraX Matchmaker documentation](https://www.cgl.ucsf.edu/chimerax/docs/user/commands/matchmaker.html).
+8. AlphaFold Protein Structure Database. [Model metadata and API](https://alphafold.ebi.ac.uk/api-docs); individual model records are archived in the structural supplement.

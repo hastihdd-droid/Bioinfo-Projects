@@ -1,0 +1,7751 @@
+[
+  {
+    "Entry": "D3GGZ8",
+    "status": "success",
+    "command": "matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true",
+    "full_pairs": 53,
+    "core_pairs": 39,
+    "full_rmsd_angstrom": 2.931367879131067,
+    "core_rmsd_angstrom": 0.841814947645255,
+    "mean_core_pLDDT": 97.02333342723357,
+    "minimum_core_pLDDT": 91.25,
+    "mapping": [
+      {
+        "reference_residue": 1,
+        "target_residue": 138,
+        "target_pLDDT": 96.05999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 2,
+        "target_residue": 139,
+        "target_pLDDT": 96.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 3,
+        "target_residue": 140,
+        "target_pLDDT": 97.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 4,
+        "target_residue": 141,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 5,
+        "target_residue": 142,
+        "target_pLDDT": 97.87999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 6,
+        "target_residue": 143,
+        "target_pLDDT": 97.25,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 7,
+        "target_residue": 144,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 8,
+        "target_residue": 145,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 9,
+        "target_residue": 146,
+        "target_pLDDT": 98.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 10,
+        "target_residue": 147,
+        "target_pLDDT": 97.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 11,
+        "target_residue": 148,
+        "target_pLDDT": 97.69000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 12,
+        "target_residue": 149,
+        "target_pLDDT": 97.75,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 13,
+        "target_residue": 150,
+        "target_pLDDT": 96.87999725341797,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 15,
+        "target_residue": 151,
+        "target_pLDDT": 97.37999725341797,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 16,
+        "target_residue": 152,
+        "target_pLDDT": 97.19000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 17,
+        "target_residue": 153,
+        "target_pLDDT": 96.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 18,
+        "target_residue": 154,
+        "target_pLDDT": 97.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 19,
+        "target_residue": 155,
+        "target_pLDDT": 98.25,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 20,
+        "target_residue": 156,
+        "target_pLDDT": 98.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 21,
+        "target_residue": 157,
+        "target_pLDDT": 98.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 22,
+        "target_residue": 158,
+        "target_pLDDT": 98.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 23,
+        "target_residue": 159,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 24,
+        "target_residue": 160,
+        "target_pLDDT": 97.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 25,
+        "target_residue": 161,
+        "target_pLDDT": 95.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 26,
+        "target_residue": 162,
+        "target_pLDDT": 95.05999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 27,
+        "target_residue": 163,
+        "target_pLDDT": 96.62000274658203,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 30,
+        "target_residue": 164,
+        "target_pLDDT": 98.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 31,
+        "target_residue": 165,
+        "target_pLDDT": 98.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 32,
+        "target_residue": 166,
+        "target_pLDDT": 98.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 33,
+        "target_residue": 167,
+        "target_pLDDT": 98.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 34,
+        "target_residue": 168,
+        "target_pLDDT": 98.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 35,
+        "target_residue": 169,
+        "target_pLDDT": 98.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 36,
+        "target_residue": 170,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 37,
+        "target_residue": 171,
+        "target_pLDDT": 97.25,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 38,
+        "target_residue": 172,
+        "target_pLDDT": 96.19000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 39,
+        "target_residue": 173,
+        "target_pLDDT": 96.75,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 40,
+        "target_residue": 175,
+        "target_pLDDT": 95.0,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 41,
+        "target_residue": 176,
+        "target_pLDDT": 97.69000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 42,
+        "target_residue": 177,
+        "target_pLDDT": 98.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 43,
+        "target_residue": 178,
+        "target_pLDDT": 98.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 44,
+        "target_residue": 179,
+        "target_pLDDT": 98.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 45,
+        "target_residue": 180,
+        "target_pLDDT": 98.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 46,
+        "target_residue": 181,
+        "target_pLDDT": 96.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 47,
+        "target_residue": 182,
+        "target_pLDDT": 95.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 48,
+        "target_residue": 183,
+        "target_pLDDT": 96.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 49,
+        "target_residue": 184,
+        "target_pLDDT": 93.75,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 50,
+        "target_residue": 185,
+        "target_pLDDT": 94.94000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 51,
+        "target_residue": 186,
+        "target_pLDDT": 96.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 52,
+        "target_residue": 187,
+        "target_pLDDT": 94.75,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 53,
+        "target_residue": 188,
+        "target_pLDDT": 92.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 54,
+        "target_residue": 189,
+        "target_pLDDT": 94.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 55,
+        "target_residue": 190,
+        "target_pLDDT": 95.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 56,
+        "target_residue": 191,
+        "target_pLDDT": 91.25,
+        "is_pruned_core": true
+      }
+    ],
+    "reference_trace": [
+      {
+        "residue": 1,
+        "resname": "ARG",
+        "coord": [
+          -36.905,
+          -106.992,
+          -26.297
+        ],
+        "bfactor": 11.649999618530273
+      },
+      {
+        "residue": 2,
+        "resname": "PRO",
+        "coord": [
+          -34.73,
+          -108.461,
+          -23.484
+        ],
+        "bfactor": 11.5
+      },
+      {
+        "residue": 3,
+        "resname": "ASP",
+        "coord": [
+          -35.835,
+          -107.792,
+          -19.915
+        ],
+        "bfactor": 13.319999694824219
+      },
+      {
+        "residue": 4,
+        "resname": "PHE",
+        "coord": [
+          -32.646,
+          -106.084,
+          -18.719
+        ],
+        "bfactor": 13.979999542236328
+      },
+      {
+        "residue": 5,
+        "resname": "CYS",
+        "coord": [
+          -33.402,
+          -103.382,
+          -21.301
+        ],
+        "bfactor": 13.9399995803833
+      },
+      {
+        "residue": 6,
+        "resname": "LEU",
+        "coord": [
+          -36.394,
+          -102.322,
+          -19.205
+        ],
+        "bfactor": 16.540000915527344
+      },
+      {
+        "residue": 7,
+        "resname": "GLU",
+        "coord": [
+          -34.484,
+          -102.006,
+          -15.916
+        ],
+        "bfactor": 18.059999465942383
+      },
+      {
+        "residue": 8,
+        "resname": "PRO",
+        "coord": [
+          -33.413,
+          -98.528,
+          -14.76
+        ],
+        "bfactor": 16.239999771118164
+      },
+      {
+        "residue": 9,
+        "resname": "PRO",
+        "coord": [
+          -29.704,
+          -97.569,
+          -15.102
+        ],
+        "bfactor": 12.720000267028809
+      },
+      {
+        "residue": 10,
+        "resname": "TYR",
+        "coord": [
+          -27.503,
+          -98.932,
+          -12.313
+        ],
+        "bfactor": 11.270000457763672
+      },
+      {
+        "residue": 11,
+        "resname": "THR",
+        "coord": [
+          -24.774,
+          -96.63,
+          -10.994
+        ],
+        "bfactor": 10.859999656677246
+      },
+      {
+        "residue": 12,
+        "resname": "GLY",
+        "coord": [
+          -23.341,
+          -99.249,
+          -8.669
+        ],
+        "bfactor": 9.329999923706055
+      },
+      {
+        "residue": 13,
+        "resname": "PRO",
+        "coord": [
+          -21.492,
+          -98.839,
+          -5.336
+        ],
+        "bfactor": 9.539999961853027
+      },
+      {
+        "residue": 14,
+        "resname": "CYS",
+        "coord": [
+          -18.226,
+          -97.47,
+          -6.748
+        ],
+        "bfactor": 6.760000228881836
+      },
+      {
+        "residue": 15,
+        "resname": "LYS",
+        "coord": [
+          -17.649,
+          -93.732,
+          -6.778
+        ],
+        "bfactor": 6.980000019073486
+      },
+      {
+        "residue": 16,
+        "resname": "ALA",
+        "coord": [
+          -16.033,
+          -92.989,
+          -10.129
+        ],
+        "bfactor": 6.599999904632568
+      },
+      {
+        "residue": 17,
+        "resname": "ARG",
+        "coord": [
+          -17.818,
+          -90.83,
+          -12.716
+        ],
+        "bfactor": 9.109999656677246
+      },
+      {
+        "residue": 18,
+        "resname": "ILE",
+        "coord": [
+          -17.968,
+          -92.813,
+          -15.948
+        ],
+        "bfactor": 9.520000457763672
+      },
+      {
+        "residue": 19,
+        "resname": "ILE",
+        "coord": [
+          -20.467,
+          -91.936,
+          -18.665
+        ],
+        "bfactor": 13.109999656677246
+      },
+      {
+        "residue": 20,
+        "resname": "ARG",
+        "coord": [
+          -22.242,
+          -94.99,
+          -20.08
+        ],
+        "bfactor": 9.90999984741211
+      },
+      {
+        "residue": 21,
+        "resname": "TYR",
+        "coord": [
+          -25.304,
+          -95.582,
+          -22.218
+        ],
+        "bfactor": 12.729999542236328
+      },
+      {
+        "residue": 22,
+        "resname": "PHE",
+        "coord": [
+          -28.569,
+          -97.2,
+          -21.172
+        ],
+        "bfactor": 11.569999694824219
+      },
+      {
+        "residue": 23,
+        "resname": "TYR",
+        "coord": [
+          -31.836,
+          -97.926,
+          -22.976
+        ],
+        "bfactor": 12.960000038146973
+      },
+      {
+        "residue": 24,
+        "resname": "ASN",
+        "coord": [
+          -34.655,
+          -95.736,
+          -21.711
+        ],
+        "bfactor": 19.760000228881836
+      },
+      {
+        "residue": 25,
+        "resname": "ALA",
+        "coord": [
+          -37.781,
+          -97.714,
+          -22.595
+        ],
+        "bfactor": 26.860000610351562
+      },
+      {
+        "residue": 26,
+        "resname": "LYS",
+        "coord": [
+          -40.102,
+          -94.894,
+          -21.478
+        ],
+        "bfactor": 32.97999954223633
+      },
+      {
+        "residue": 27,
+        "resname": "ALA",
+        "coord": [
+          -38.44,
+          -92.679,
+          -24.098
+        ],
+        "bfactor": 28.399999618530273
+      },
+      {
+        "residue": 28,
+        "resname": "GLY",
+        "coord": [
+          -37.676,
+          -95.516,
+          -26.496
+        ],
+        "bfactor": 23.649999618530273
+      },
+      {
+        "residue": 29,
+        "resname": "LEU",
+        "coord": [
+          -34.064,
+          -94.413,
+          -26.809
+        ],
+        "bfactor": 24.040000915527344
+      },
+      {
+        "residue": 30,
+        "resname": "CYS",
+        "coord": [
+          -30.532,
+          -94.827,
+          -25.454
+        ],
+        "bfactor": 18.579999923706055
+      },
+      {
+        "residue": 31,
+        "resname": "GLN",
+        "coord": [
+          -29.283,
+          -92.109,
+          -23.141
+        ],
+        "bfactor": 18.219999313354492
+      },
+      {
+        "residue": 32,
+        "resname": "THR",
+        "coord": [
+          -26.274,
+          -91.481,
+          -20.93
+        ],
+        "bfactor": 16.709999084472656
+      },
+      {
+        "residue": 33,
+        "resname": "PHE",
+        "coord": [
+          -25.983,
+          -91.915,
+          -17.175
+        ],
+        "bfactor": 11.6899995803833
+      },
+      {
+        "residue": 34,
+        "resname": "VAL",
+        "coord": [
+          -23.209,
+          -91.907,
+          -14.601
+        ],
+        "bfactor": 8.699999809265137
+      },
+      {
+        "residue": 35,
+        "resname": "TYR",
+        "coord": [
+          -21.79,
+          -95.366,
+          -13.905
+        ],
+        "bfactor": 8.59000015258789
+      },
+      {
+        "residue": 36,
+        "resname": "GLY",
+        "coord": [
+          -19.74,
+          -95.785,
+          -10.726
+        ],
+        "bfactor": 7.289999961853027
+      },
+      {
+        "residue": 37,
+        "resname": "GLY",
+        "coord": [
+          -17.007,
+          -97.991,
+          -12.144
+        ],
+        "bfactor": 8.1899995803833
+      },
+      {
+        "residue": 38,
+        "resname": "CYS",
+        "coord": [
+          -17.945,
+          -101.46,
+          -10.841
+        ],
+        "bfactor": 9.350000381469727
+      },
+      {
+        "residue": 39,
+        "resname": "ARG",
+        "coord": [
+          -20.595,
+          -104.187,
+          -10.792
+        ],
+        "bfactor": 14.130000114440918
+      },
+      {
+        "residue": 40,
+        "resname": "ALA",
+        "coord": [
+          -22.365,
+          -103.02,
+          -13.946
+        ],
+        "bfactor": 11.970000267028809
+      },
+      {
+        "residue": 41,
+        "resname": "LYS",
+        "coord": [
+          -25.756,
+          -104.44,
+          -14.898
+        ],
+        "bfactor": 15.149999618530273
+      },
+      {
+        "residue": 42,
+        "resname": "ARG",
+        "coord": [
+          -26.61,
+          -105.477,
+          -18.459
+        ],
+        "bfactor": 14.079999923706055
+      },
+      {
+        "residue": 43,
+        "resname": "ASN",
+        "coord": [
+          -28.406,
+          -102.218,
+          -19.354
+        ],
+        "bfactor": 11.90999984741211
+      },
+      {
+        "residue": 44,
+        "resname": "ASN",
+        "coord": [
+          -24.987,
+          -100.547,
+          -19.522
+        ],
+        "bfactor": 13.029999732971191
+      },
+      {
+        "residue": 45,
+        "resname": "PHE",
+        "coord": [
+          -23.241,
+          -99.854,
+          -22.848
+        ],
+        "bfactor": 15.020000457763672
+      },
+      {
+        "residue": 46,
+        "resname": "LYS",
+        "coord": [
+          -20.02,
+          -98.135,
+          -23.883
+        ],
+        "bfactor": 22.809999465942383
+      },
+      {
+        "residue": 47,
+        "resname": "SER",
+        "coord": [
+          -21.733,
+          -96.756,
+          -27.002
+        ],
+        "bfactor": 24.209999084472656
+      },
+      {
+        "residue": 48,
+        "resname": "ALA",
+        "coord": [
+          -25.192,
+          -95.732,
+          -28.166
+        ],
+        "bfactor": 24.100000381469727
+      },
+      {
+        "residue": 49,
+        "resname": "GLU",
+        "coord": [
+          -24.857,
+          -97.991,
+          -31.212
+        ],
+        "bfactor": 28.260000228881836
+      },
+      {
+        "residue": 50,
+        "resname": "ASP",
+        "coord": [
+          -24.255,
+          -101.112,
+          -29.143
+        ],
+        "bfactor": 25.780000686645508
+      },
+      {
+        "residue": 51,
+        "resname": "CYS",
+        "coord": [
+          -27.081,
+          -100.026,
+          -26.863
+        ],
+        "bfactor": 18.25
+      },
+      {
+        "residue": 52,
+        "resname": "MET",
+        "coord": [
+          -29.583,
+          -99.606,
+          -29.711
+        ],
+        "bfactor": 19.610000610351562
+      },
+      {
+        "residue": 53,
+        "resname": "ARG",
+        "coord": [
+          -28.534,
+          -102.872,
+          -31.349
+        ],
+        "bfactor": 21.270000457763672
+      },
+      {
+        "residue": 54,
+        "resname": "THR",
+        "coord": [
+          -29.013,
+          -104.846,
+          -28.141
+        ],
+        "bfactor": 18.459999084472656
+      },
+      {
+        "residue": 55,
+        "resname": "CYS",
+        "coord": [
+          -32.081,
+          -103.065,
+          -26.758
+        ],
+        "bfactor": 20.040000915527344
+      },
+      {
+        "residue": 56,
+        "resname": "GLY",
+        "coord": [
+          -33.495,
+          -101.42,
+          -29.878
+        ],
+        "bfactor": 35.720001220703125
+      }
+    ],
+    "target_trace": [
+      {
+        "residue": 1,
+        "resname": "MET",
+        "coord": [
+          -52.21936823546825,
+          -166.84595567572816,
+          -45.695613215626835
+        ],
+        "bfactor": 35.189998626708984
+      },
+      {
+        "residue": 2,
+        "resname": "LYS",
+        "coord": [
+          -50.37772716818862,
+          -163.86901345428748,
+          -44.01224985927355
+        ],
+        "bfactor": 43.65999984741211
+      },
+      {
+        "residue": 3,
+        "resname": "THR",
+        "coord": [
+          -47.80774142286398,
+          -161.88285658007524,
+          -43.75120553382753
+        ],
+        "bfactor": 43.90999984741211
+      },
+      {
+        "residue": 4,
+        "resname": "ALA",
+        "coord": [
+          -46.53037350763884,
+          -159.43137810809228,
+          -46.397362088258376
+        ],
+        "bfactor": 45.220001220703125
+      },
+      {
+        "residue": 5,
+        "resname": "LEU",
+        "coord": [
+          -46.63797810438756,
+          -156.06328958825804,
+          -44.56614774435448
+        ],
+        "bfactor": 48.0
+      },
+      {
+        "residue": 6,
+        "resname": "LEU",
+        "coord": [
+          -43.198453637817536,
+          -154.90405348077752,
+          -43.259276254505686
+        ],
+        "bfactor": 48.689998626708984
+      },
+      {
+        "residue": 7,
+        "resname": "SER",
+        "coord": [
+          -41.77902843239698,
+          -152.7277030652391,
+          -46.10272010923581
+        ],
+        "bfactor": 45.0
+      },
+      {
+        "residue": 8,
+        "resname": "LEU",
+        "coord": [
+          -42.799876814676935,
+          -148.98903411732053,
+          -46.346890292235145
+        ],
+        "bfactor": 44.75
+      },
+      {
+        "residue": 9,
+        "resname": "ILE",
+        "coord": [
+          -41.90260424361145,
+          -146.36660553268715,
+          -44.622793354208966
+        ],
+        "bfactor": 47.59000015258789
+      },
+      {
+        "residue": 10,
+        "resname": "LEU",
+        "coord": [
+          -38.30114377729762,
+          -145.57647835793588,
+          -43.52842204733996
+        ],
+        "bfactor": 48.779998779296875
+      },
+      {
+        "residue": 11,
+        "resname": "PHE",
+        "coord": [
+          -38.53880407240367,
+          -142.54474840706933,
+          -45.86065704603732
+        ],
+        "bfactor": 47.15999984741211
+      },
+      {
+        "residue": 12,
+        "resname": "SER",
+        "coord": [
+          -36.69350646374273,
+          -139.60212590813072,
+          -44.75344452614311
+        ],
+        "bfactor": 45.15999984741211
+      },
+      {
+        "residue": 13,
+        "resname": "CYS",
+        "coord": [
+          -36.96212595055221,
+          -137.49909456020052,
+          -41.69561102496469
+        ],
+        "bfactor": 47.5
+      },
+      {
+        "residue": 14,
+        "resname": "HIS",
+        "coord": [
+          -33.71588218616439,
+          -136.01459838696468,
+          -42.95875849609435
+        ],
+        "bfactor": 44.619998931884766
+      },
+      {
+        "residue": 15,
+        "resname": "ILE",
+        "coord": [
+          -34.589769333873306,
+          -132.77843603044968,
+          -41.241669256903634
+        ],
+        "bfactor": 52.59000015258789
+      },
+      {
+        "residue": 16,
+        "resname": "TRP",
+        "coord": [
+          -31.581681385948844,
+          -131.06877329568457,
+          -42.72795530975719
+        ],
+        "bfactor": 53.779998779296875
+      },
+      {
+        "residue": 17,
+        "resname": "ALA",
+        "coord": [
+          -30.228429625289294,
+          -129.44185120858307,
+          -39.61451939508459
+        ],
+        "bfactor": 54.189998626708984
+      },
+      {
+        "residue": 18,
+        "resname": "VAL",
+        "coord": [
+          -29.90752365809552,
+          -126.03262986556835,
+          -41.265910080098976
+        ],
+        "bfactor": 55.470001220703125
+      },
+      {
+        "residue": 19,
+        "resname": "LYS",
+        "coord": [
+          -26.583474873755833,
+          -125.38094228631414,
+          -39.5615894006564
+        ],
+        "bfactor": 52.619998931884766
+      },
+      {
+        "residue": 20,
+        "resname": "HIS",
+        "coord": [
+          -27.249861837512718,
+          -121.67843772328976,
+          -38.9471454444501
+        ],
+        "bfactor": 55.75
+      },
+      {
+        "residue": 21,
+        "resname": "GLN",
+        "coord": [
+          -24.05059236649002,
+          -120.55404057911888,
+          -40.62069284860766
+        ],
+        "bfactor": 59.970001220703125
+      },
+      {
+        "residue": 22,
+        "resname": "ALA",
+        "coord": [
+          -22.644731304894364,
+          -117.84126951959605,
+          -38.340381936888704
+        ],
+        "bfactor": 69.05999755859375
+      },
+      {
+        "residue": 23,
+        "resname": "LYS",
+        "coord": [
+          -22.95849337911374,
+          -114.47851598415687,
+          -40.18176267445301
+        ],
+        "bfactor": 82.25
+      },
+      {
+        "residue": 24,
+        "resname": "LYS",
+        "coord": [
+          -19.632865326770556,
+          -113.75432748071923,
+          -41.92263431502758
+        ],
+        "bfactor": 91.69000244140625
+      },
+      {
+        "residue": 25,
+        "resname": "CYS",
+        "coord": [
+          -18.324468258218182,
+          -110.22949372718678,
+          -41.31668207189129
+        ],
+        "bfactor": 94.37999725341797
+      },
+      {
+        "residue": 26,
+        "resname": "THR",
+        "coord": [
+          -16.595548217496003,
+          -108.25835268880826,
+          -44.137966088010415
+        ],
+        "bfactor": 95.75
+      },
+      {
+        "residue": 27,
+        "resname": "GLU",
+        "coord": [
+          -15.456786611286429,
+          -105.22134819063774,
+          -42.05803371355323
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 28,
+        "resname": "ASP",
+        "coord": [
+          -14.838685595357498,
+          -104.38173218416907,
+          -38.349387316848734
+        ],
+        "bfactor": 96.05999755859375
+      },
+      {
+        "residue": 29,
+        "resname": "ARG",
+        "coord": [
+          -18.00573233198861,
+          -102.18616577362064,
+          -38.21141592537304
+        ],
+        "bfactor": 93.30999755859375
+      },
+      {
+        "residue": 30,
+        "resname": "GLU",
+        "coord": [
+          -20.319697372889305,
+          -105.24715172890242,
+          -38.548728497117935
+        ],
+        "bfactor": 91.75
+      },
+      {
+        "residue": 31,
+        "resname": "CYS",
+        "coord": [
+          -18.661882307669565,
+          -106.63044172925558,
+          -35.38364587821943
+        ],
+        "bfactor": 94.30999755859375
+      },
+      {
+        "residue": 32,
+        "resname": "GLU",
+        "coord": [
+          -18.505026181777502,
+          -103.26734370532037,
+          -33.495496298029025
+        ],
+        "bfactor": 93.25
+      },
+      {
+        "residue": 33,
+        "resname": "GLU",
+        "coord": [
+          -22.32028155983853,
+          -102.95399574515902,
+          -33.93959815125544
+        ],
+        "bfactor": 88.37999725341797
+      },
+      {
+        "residue": 34,
+        "resname": "ILE",
+        "coord": [
+          -22.649812407158745,
+          -106.2713363524925,
+          -31.96351446992997
+        ],
+        "bfactor": 88.75
+      },
+      {
+        "residue": 35,
+        "resname": "TRP",
+        "coord": [
+          -19.840954088213,
+          -105.6167514675437,
+          -29.422574767283358
+        ],
+        "bfactor": 94.37999725341797
+      },
+      {
+        "residue": 36,
+        "resname": "PRO",
+        "coord": [
+          -17.71971803403243,
+          -102.3983188862731,
+          -29.055562066875922
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 37,
+        "resname": "GLY",
+        "coord": [
+          -14.056889864089328,
+          -102.75796949978114,
+          -30.154987022784493
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 38,
+        "resname": "SER",
+        "coord": [
+          -14.606441752648879,
+          -106.19299892355208,
+          -31.767127705109864
+        ],
+        "bfactor": 96.75
+      },
+      {
+        "residue": 39,
+        "resname": "THR",
+        "coord": [
+          -12.799959561616042,
+          -106.80614370622594,
+          -35.105192049750485
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 40,
+        "resname": "CYS",
+        "coord": [
+          -13.551113105117379,
+          -108.79763290024572,
+          -38.26975096754422
+        ],
+        "bfactor": 97.19000244140625
+      },
+      {
+        "residue": 41,
+        "resname": "GLN",
+        "coord": [
+          -10.755341882148258,
+          -111.37138873536779,
+          -38.607415253474585
+        ],
+        "bfactor": 96.37999725341797
+      },
+      {
+        "residue": 42,
+        "resname": "ARG",
+        "coord": [
+          -10.988593667289463,
+          -113.97844611908806,
+          -41.419321973605605
+        ],
+        "bfactor": 95.0
+      },
+      {
+        "residue": 43,
+        "resname": "ALA",
+        "coord": [
+          -14.758299435690647,
+          -113.31427476380925,
+          -41.75760710557262
+        ],
+        "bfactor": 94.94000244140625
+      },
+      {
+        "residue": 44,
+        "resname": "ARG",
+        "coord": [
+          -15.39234483203027,
+          -113.8346095526285,
+          -37.97196592567654
+        ],
+        "bfactor": 94.5
+      },
+      {
+        "residue": 45,
+        "resname": "CYS",
+        "coord": [
+          -16.000442831442204,
+          -111.2666344380595,
+          -35.23558480564492
+        ],
+        "bfactor": 95.62000274658203
+      },
+      {
+        "residue": 46,
+        "resname": "ARG",
+        "coord": [
+          -13.40274564227156,
+          -111.35412263896444,
+          -32.41612667896927
+        ],
+        "bfactor": 96.69000244140625
+      },
+      {
+        "residue": 47,
+        "resname": "CYS",
+        "coord": [
+          -13.708846608637339,
+          -109.75179559078362,
+          -28.996327236157157
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 48,
+        "resname": "PRO",
+        "coord": [
+          -11.255343264253582,
+          -106.93291151366965,
+          -28.065912866700693
+        ],
+        "bfactor": 96.87999725341797
+      },
+      {
+        "residue": 49,
+        "resname": "GLU",
+        "coord": [
+          -8.130821182276522,
+          -107.52153311107041,
+          -25.92321308037711
+        ],
+        "bfactor": 95.69000244140625
+      },
+      {
+        "residue": 50,
+        "resname": "ASN",
+        "coord": [
+          -8.8653326935937,
+          -108.57623267065607,
+          -22.290998923867008
+        ],
+        "bfactor": 96.30999755859375
+      },
+      {
+        "residue": 51,
+        "resname": "TYR",
+        "coord": [
+          -12.213204038192114,
+          -110.09514912025375,
+          -23.372730997514804
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 52,
+        "resname": "VAL",
+        "coord": [
+          -13.429413382080423,
+          -113.66685699180921,
+          -23.829477877205854
+        ],
+        "bfactor": 96.80999755859375
+      },
+      {
+        "residue": 53,
+        "resname": "ARG",
+        "coord": [
+          -16.02476014567216,
+          -114.6041632761418,
+          -26.48882123714727
+        ],
+        "bfactor": 96.44000244140625
+      },
+      {
+        "residue": 54,
+        "resname": "ARG",
+        "coord": [
+          -19.014056764085314,
+          -116.64307960425622,
+          -25.194537676990493
+        ],
+        "bfactor": 95.87999725341797
+      },
+      {
+        "residue": 55,
+        "resname": "LYS",
+        "coord": [
+          -22.18975431021764,
+          -118.03454229615498,
+          -26.770957250753444
+        ],
+        "bfactor": 94.69000244140625
+      },
+      {
+        "residue": 56,
+        "resname": "SER",
+        "coord": [
+          -25.40185454153325,
+          -116.15586310357979,
+          -25.88087770634899
+        ],
+        "bfactor": 94.75
+      },
+      {
+        "residue": 57,
+        "resname": "PRO",
+        "coord": [
+          -28.8814046702282,
+          -117.66015246182005,
+          -26.55915377741747
+        ],
+        "bfactor": 94.30999755859375
+      },
+      {
+        "residue": 58,
+        "resname": "SER",
+        "coord": [
+          -30.401005166029144,
+          -114.15531013992985,
+          -27.14489743453116
+        ],
+        "bfactor": 93.12000274658203
+      },
+      {
+        "residue": 59,
+        "resname": "ARG",
+        "coord": [
+          -27.40517867916719,
+          -112.40514215524311,
+          -28.876992318189068
+        ],
+        "bfactor": 91.5
+      },
+      {
+        "residue": 60,
+        "resname": "GLU",
+        "coord": [
+          -25.678716365831555,
+          -115.40440297220981,
+          -30.614532657991287
+        ],
+        "bfactor": 91.62000274658203
+      },
+      {
+        "residue": 61,
+        "resname": "TRP",
+        "coord": [
+          -22.380681806234907,
+          -114.26953070000816,
+          -28.983258625373217
+        ],
+        "bfactor": 94.30999755859375
+      },
+      {
+        "residue": 62,
+        "resname": "VAL",
+        "coord": [
+          -21.122975585067945,
+          -111.8150684274253,
+          -26.353181057371604
+        ],
+        "bfactor": 96.75
+      },
+      {
+        "residue": 63,
+        "resname": "CYS",
+        "coord": [
+          -17.75913813316705,
+          -110.70381121835939,
+          -24.913952092790943
+        ],
+        "bfactor": 97.75
+      },
+      {
+        "residue": 64,
+        "resname": "LEU",
+        "coord": [
+          -17.003020994873225,
+          -111.08561493554093,
+          -21.195335307650975
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 65,
+        "resname": "SER",
+        "coord": [
+          -14.534506218299828,
+          -108.56929063857424,
+          -19.729766533988723
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 66,
+        "resname": "VAL",
+        "coord": [
+          -11.648625272495426,
+          -110.33497235675462,
+          -17.93510967633413
+        ],
+        "bfactor": 97.44000244140625
+      },
+      {
+        "residue": 67,
+        "resname": "ASN",
+        "coord": [
+          -11.016626936054111,
+          -107.20070229802084,
+          -15.84649403393833
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 68,
+        "resname": "ASP",
+        "coord": [
+          -13.27353203869806,
+          -105.70810611131672,
+          -13.162575260745664
+        ],
+        "bfactor": 97.05999755859375
+      },
+      {
+        "residue": 69,
+        "resname": "ALA",
+        "coord": [
+          -14.429520800320436,
+          -102.13965981838095,
+          -13.964873856927674
+        ],
+        "bfactor": 97.19000244140625
+      },
+      {
+        "residue": 70,
+        "resname": "ALA",
+        "coord": [
+          -13.857897873730446,
+          -100.79539600571236,
+          -10.401707283253856
+        ],
+        "bfactor": 96.44000244140625
+      },
+      {
+        "residue": 71,
+        "resname": "THR",
+        "coord": [
+          -10.333467180775,
+          -102.19026807811349,
+          -9.782926876171516
+        ],
+        "bfactor": 96.55999755859375
+      },
+      {
+        "residue": 72,
+        "resname": "GLY",
+        "coord": [
+          -8.936978902371392,
+          -102.73185927425219,
+          -13.330538532560412
+        ],
+        "bfactor": 96.0
+      },
+      {
+        "residue": 73,
+        "resname": "GLN",
+        "coord": [
+          -7.731644823993264,
+          -106.1650690617601,
+          -12.028250809182692
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 74,
+        "resname": "VAL",
+        "coord": [
+          -8.881869145905327,
+          -109.69381075345333,
+          -13.02101064045499
+        ],
+        "bfactor": 96.5
+      },
+      {
+        "residue": 75,
+        "resname": "GLY",
+        "coord": [
+          -12.563937476294512,
+          -109.93791071167787,
+          -12.014300642123906
+        ],
+        "bfactor": 94.62000274658203
+      },
+      {
+        "residue": 76,
+        "resname": "PRO",
+        "coord": [
+          -14.606665279797836,
+          -112.88427039178312,
+          -10.625433565602671
+        ],
+        "bfactor": 93.69000244140625
+      },
+      {
+        "residue": 77,
+        "resname": "PRO",
+        "coord": [
+          -14.62824851885932,
+          -116.19965964697971,
+          -12.630369786612853
+        ],
+        "bfactor": 92.94000244140625
+      },
+      {
+        "residue": 78,
+        "resname": "LEU",
+        "coord": [
+          -18.420017350655645,
+          -115.77038170445918,
+          -13.149429103341937
+        ],
+        "bfactor": 94.12000274658203
+      },
+      {
+        "residue": 79,
+        "resname": "THR",
+        "coord": [
+          -19.590030299680315,
+          -112.55604867014998,
+          -14.843202950011907
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 80,
+        "resname": "CYS",
+        "coord": [
+          -22.40075737053337,
+          -111.43866971465606,
+          -17.13585722028318
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 81,
+        "resname": "PRO",
+        "coord": [
+          -21.697257195398898,
+          -109.55805384253073,
+          -20.416777281042975
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 82,
+        "resname": "LEU",
+        "coord": [
+          -23.21848542836618,
+          -106.31276657806532,
+          -19.01894852389069
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 83,
+        "resname": "PRO",
+        "coord": [
+          -22.257943002740394,
+          -104.076513770267,
+          -17.289733491517016
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 84,
+        "resname": "ASP",
+        "coord": [
+          -18.85572328190699,
+          -104.28622375272732,
+          -19.022773506758657
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 85,
+        "resname": "GLY",
+        "coord": [
+          -16.41660932042779,
+          -105.35325414436376,
+          -16.22870152732766
+        ],
+        "bfactor": 97.25
+      },
+      {
+        "residue": 86,
+        "resname": "ALA",
+        "coord": [
+          -19.179817709332784,
+          -105.52149864711531,
+          -13.521670277641217
+        ],
+        "bfactor": 97.5
+      },
+      {
+        "residue": 87,
+        "resname": "GLY",
+        "coord": [
+          -21.49854354376508,
+          -108.2967574440607,
+          -14.83568972754044
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 88,
+        "resname": "TYR",
+        "coord": [
+          -20.973288300956092,
+          -110.3521773650771,
+          -11.605035633058861
+        ],
+        "bfactor": 95.37999725341797
+      },
+      {
+        "residue": 89,
+        "resname": "GLN",
+        "coord": [
+          -23.244361816071056,
+          -107.77244798370292,
+          -9.86737933568066
+        ],
+        "bfactor": 95.30999755859375
+      },
+      {
+        "residue": 90,
+        "resname": "VAL",
+        "coord": [
+          -26.270643306567216,
+          -108.75533974474341,
+          -12.047409410326203
+        ],
+        "bfactor": 96.62000274658203
+      },
+      {
+        "residue": 91,
+        "resname": "ILE",
+        "coord": [
+          -25.965581464747743,
+          -112.57439978589586,
+          -11.940865171916768
+        ],
+        "bfactor": 95.87999725341797
+      },
+      {
+        "residue": 92,
+        "resname": "LEU",
+        "coord": [
+          -29.276277459402323,
+          -114.12247303906584,
+          -10.832862358834664
+        ],
+        "bfactor": 95.37999725341797
+      },
+      {
+        "residue": 93,
+        "resname": "ARG",
+        "coord": [
+          -28.966973723913647,
+          -115.02208900629546,
+          -7.132363431565766
+        ],
+        "bfactor": 92.25
+      },
+      {
+        "residue": 94,
+        "resname": "GLY",
+        "coord": [
+          -31.152485918840473,
+          -117.45202300858888,
+          -5.201686298970985
+        ],
+        "bfactor": 83.30999755859375
+      },
+      {
+        "residue": 95,
+        "resname": "SER",
+        "coord": [
+          -33.910507633000606,
+          -116.25545084910968,
+          -2.8377564583495527
+        ],
+        "bfactor": 70.80999755859375
+      },
+      {
+        "residue": 96,
+        "resname": "SER",
+        "coord": [
+          -32.23959923105775,
+          -116.03736222260208,
+          0.5985641703614526
+        ],
+        "bfactor": 55.060001373291016
+      },
+      {
+        "residue": 97,
+        "resname": "THR",
+        "coord": [
+          -33.417091240693395,
+          -113.76286792502638,
+          3.4489122644615122
+        ],
+        "bfactor": 57.84000015258789
+      },
+      {
+        "residue": 98,
+        "resname": "ASN",
+        "coord": [
+          -30.173020741200354,
+          -111.80592292817539,
+          2.6648090355312384
+        ],
+        "bfactor": 52.84000015258789
+      },
+      {
+        "residue": 99,
+        "resname": "ASN",
+        "coord": [
+          -29.750912584920254,
+          -111.20128566239431,
+          -1.1540841917311582
+        ],
+        "bfactor": 54.529998779296875
+      },
+      {
+        "residue": 100,
+        "resname": "LEU",
+        "coord": [
+          -26.05301225694925,
+          -110.17241190735638,
+          -0.577794368303671
+        ],
+        "bfactor": 57.220001220703125
+      },
+      {
+        "residue": 101,
+        "resname": "LEU",
+        "coord": [
+          -25.179214819286162,
+          -113.72566988381924,
+          0.6679434815815064
+        ],
+        "bfactor": 66.19000244140625
+      },
+      {
+        "residue": 102,
+        "resname": "SER",
+        "coord": [
+          -27.331144211198357,
+          -115.64978365221944,
+          -1.8421449826916536
+        ],
+        "bfactor": 80.5
+      },
+      {
+        "residue": 103,
+        "resname": "PRO",
+        "coord": [
+          -25.15433976217779,
+          -117.8850236754286,
+          -4.06165335829381
+        ],
+        "bfactor": 87.94000244140625
+      },
+      {
+        "residue": 104,
+        "resname": "PRO",
+        "coord": [
+          -25.24903064734272,
+          -117.255179525438,
+          -7.841452292495111
+        ],
+        "bfactor": 92.55999755859375
+      },
+      {
+        "residue": 105,
+        "resname": "VAL",
+        "coord": [
+          -27.66786944916407,
+          -119.45704043499285,
+          -9.81264847394882
+        ],
+        "bfactor": 94.19000244140625
+      },
+      {
+        "residue": 106,
+        "resname": "LEU",
+        "coord": [
+          -25.274882875001456,
+          -121.71116015515359,
+          -11.733939067029404
+        ],
+        "bfactor": 94.12000274658203
+      },
+      {
+        "residue": 107,
+        "resname": "CYS",
+        "coord": [
+          -26.260700950170158,
+          -123.24118806732649,
+          -15.100456007524805
+        ],
+        "bfactor": 95.37999725341797
+      },
+      {
+        "residue": 108,
+        "resname": "SER",
+        "coord": [
+          -24.99769635765025,
+          -125.41324363533604,
+          -17.990665171020126
+        ],
+        "bfactor": 93.80999755859375
+      },
+      {
+        "residue": 109,
+        "resname": "SER",
+        "coord": [
+          -24.233870566724406,
+          -123.54129690533657,
+          -21.26271584317677
+        ],
+        "bfactor": 91.37999725341797
+      },
+      {
+        "residue": 110,
+        "resname": "LYS",
+        "coord": [
+          -25.462199079100518,
+          -126.6834509823269,
+          -23.141662309188202
+        ],
+        "bfactor": 89.37999725341797
+      },
+      {
+        "residue": 111,
+        "resname": "THR",
+        "coord": [
+          -28.94423286584438,
+          -126.86949241307737,
+          -21.52756990352534
+        ],
+        "bfactor": 90.75
+      },
+      {
+        "residue": 112,
+        "resname": "ASN",
+        "coord": [
+          -29.668642013545224,
+          -123.19799209440552,
+          -20.62669766135116
+        ],
+        "bfactor": 87.62000274658203
+      },
+      {
+        "residue": 113,
+        "resname": "ASP",
+        "coord": [
+          -31.365022076833846,
+          -124.18251252005287,
+          -17.287998032399784
+        ],
+        "bfactor": 89.55999755859375
+      },
+      {
+        "residue": 114,
+        "resname": "CYS",
+        "coord": [
+          -32.10902391780506,
+          -120.527766391866,
+          -16.312182988892808
+        ],
+        "bfactor": 95.69000244140625
+      },
+      {
+        "residue": 115,
+        "resname": "GLU",
+        "coord": [
+          -35.51229202805413,
+          -119.08615596783996,
+          -15.355322207430213
+        ],
+        "bfactor": 94.94000244140625
+      },
+      {
+        "residue": 116,
+        "resname": "THR",
+        "coord": [
+          -37.49198765457168,
+          -116.82876580408926,
+          -17.755150091872938
+        ],
+        "bfactor": 95.12000274658203
+      },
+      {
+        "residue": 117,
+        "resname": "GLY",
+        "coord": [
+          -35.72788915641954,
+          -113.47927672364973,
+          -18.343593282702574
+        ],
+        "bfactor": 96.30999755859375
+      },
+      {
+        "residue": 118,
+        "resname": "TYR",
+        "coord": [
+          -32.30808639496947,
+          -115.13814739706966,
+          -17.83912706812939
+        ],
+        "bfactor": 98.0
+      },
+      {
+        "residue": 119,
+        "resname": "GLU",
+        "coord": [
+          -29.84436355171338,
+          -116.97909187312419,
+          -20.072878215348428
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 120,
+        "resname": "CYS",
+        "coord": [
+          -26.892439642807066,
+          -119.21645778216103,
+          -19.2665848288525
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 121,
+        "resname": "ILE",
+        "coord": [
+          -23.576578318145764,
+          -117.47828682723525,
+          -19.95151650943667
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 122,
+        "resname": "GLN",
+        "coord": [
+          -20.450937325889214,
+          -119.6189569247956,
+          -19.669534380682922
+        ],
+        "bfactor": 96.62000274658203
+      },
+      {
+        "residue": 123,
+        "resname": "GLY",
+        "coord": [
+          -18.01609202634999,
+          -117.99139667880651,
+          -17.179733783649556
+        ],
+        "bfactor": 94.44000244140625
+      },
+      {
+        "residue": 124,
+        "resname": "LEU",
+        "coord": [
+          -14.278939921130755,
+          -117.24244274430393,
+          -17.51935290332412
+        ],
+        "bfactor": 92.12000274658203
+      },
+      {
+        "residue": 125,
+        "resname": "SER",
+        "coord": [
+          -13.654531696218323,
+          -120.50216541997372,
+          -15.556738461721832
+        ],
+        "bfactor": 87.0
+      },
+      {
+        "residue": 126,
+        "resname": "PRO",
+        "coord": [
+          -15.929008967380199,
+          -123.42952031550097,
+          -14.48049896300384
+        ],
+        "bfactor": 81.55999755859375
+      },
+      {
+        "residue": 127,
+        "resname": "VAL",
+        "coord": [
+          -17.303443801373756,
+          -123.44669449940604,
+          -10.873289524322422
+        ],
+        "bfactor": 79.44000244140625
+      },
+      {
+        "residue": 128,
+        "resname": "ASP",
+        "coord": [
+          -18.668912343676645,
+          -126.51292717722224,
+          -8.962771839119448
+        ],
+        "bfactor": 78.80999755859375
+      },
+      {
+        "residue": 129,
+        "resname": "GLY",
+        "coord": [
+          -18.9360408681996,
+          -128.70236583954772,
+          -12.132309612249864
+        ],
+        "bfactor": 79.19000244140625
+      },
+      {
+        "residue": 130,
+        "resname": "LEU",
+        "coord": [
+          -21.138557375334344,
+          -126.11476067102845,
+          -13.938580502136329
+        ],
+        "bfactor": 83.69000244140625
+      },
+      {
+        "residue": 131,
+        "resname": "ASP",
+        "coord": [
+          -19.710520721569274,
+          -123.84205232473761,
+          -16.65204361929922
+        ],
+        "bfactor": 90.25
+      },
+      {
+        "residue": 132,
+        "resname": "GLY",
+        "coord": [
+          -22.062714170128064,
+          -120.7970174559707,
+          -16.471381978238217
+        ],
+        "bfactor": 95.5
+      },
+      {
+        "residue": 133,
+        "resname": "ALA",
+        "coord": [
+          -24.242128341604108,
+          -118.42647085124736,
+          -14.458153311642189
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 134,
+        "resname": "CYS",
+        "coord": [
+          -27.768357118032018,
+          -117.133235248656,
+          -15.136873646155522
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 135,
+        "resname": "CYS",
+        "coord": [
+          -27.446597498687137,
+          -113.63603125136314,
+          -16.646852436959485
+        ],
+        "bfactor": 98.25
+      },
+      {
+        "residue": 136,
+        "resname": "PRO",
+        "coord": [
+          -30.226593817342696,
+          -111.21063014639915,
+          -17.725941843960122
+        ],
+        "bfactor": 98.25
+      },
+      {
+        "residue": 137,
+        "resname": "ASP",
+        "coord": [
+          -31.315241750695456,
+          -111.98980620565399,
+          -21.30233616588421
+        ],
+        "bfactor": 97.37999725341797
+      },
+      {
+        "residue": 138,
+        "resname": "GLN",
+        "coord": [
+          -31.61783351882697,
+          -109.29988109519174,
+          -24.016460356477506
+        ],
+        "bfactor": 96.05999755859375
+      },
+      {
+        "residue": 139,
+        "resname": "ILE",
+        "coord": [
+          -35.24997579680144,
+          -108.34929563039957,
+          -23.12722430981936
+        ],
+        "bfactor": 96.5
+      },
+      {
+        "residue": 140,
+        "resname": "THR",
+        "coord": [
+          -34.6024004874954,
+          -108.28681126904034,
+          -19.342035949464925
+        ],
+        "bfactor": 97.5
+      },
+      {
+        "residue": 141,
+        "resname": "THR",
+        "coord": [
+          -31.3748391208389,
+          -106.27427664235837,
+          -19.862779649256343
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 142,
+        "resname": "CYS",
+        "coord": [
+          -33.33617410239017,
+          -103.60650304106517,
+          -21.812739418683996
+        ],
+        "bfactor": 97.87999725341797
+      },
+      {
+        "residue": 143,
+        "resname": "ALA",
+        "coord": [
+          -36.23128270073418,
+          -103.59816906936011,
+          -19.261891961717936
+        ],
+        "bfactor": 97.25
+      },
+      {
+        "residue": 144,
+        "resname": "HIS",
+        "coord": [
+          -33.909475191738736,
+          -103.00586347252056,
+          -16.250487808980395
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 145,
+        "resname": "PRO",
+        "coord": [
+          -33.68774529854814,
+          -99.45998352142263,
+          -14.761236914447359
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 146,
+        "resname": "ILE",
+        "coord": [
+          -30.73262825550441,
+          -97.14838009532082,
+          -15.518858101022037
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 147,
+        "resname": "PHE",
+        "coord": [
+          -28.486946592240095,
+          -96.59990615551504,
+          -12.470770962400117
+        ],
+        "bfactor": 97.94000244140625
+      },
+      {
+        "residue": 148,
+        "resname": "ASP",
+        "coord": [
+          -27.23641673566037,
+          -92.9929961247216,
+          -12.775094979796574
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 149,
+        "resname": "HIS",
+        "coord": [
+          -24.711954227956184,
+          -92.43305682945672,
+          -9.957714985402106
+        ],
+        "bfactor": 97.75
+      },
+      {
+        "residue": 150,
+        "resname": "GLU",
+        "coord": [
+          -23.855961204282877,
+          -88.92320834809777,
+          -8.654122418176854
+        ],
+        "bfactor": 96.87999725341797
+      },
+      {
+        "residue": 151,
+        "resname": "SER",
+        "coord": [
+          -20.336667456720786,
+          -90.36118968391453,
+          -7.92607077425798
+        ],
+        "bfactor": 97.37999725341797
+      },
+      {
+        "residue": 152,
+        "resname": "GLY",
+        "coord": [
+          -20.19614338673601,
+          -91.8521889375704,
+          -11.462491028038992
+        ],
+        "bfactor": 97.19000244140625
+      },
+      {
+        "residue": 153,
+        "resname": "THR",
+        "coord": [
+          -16.9792656756623,
+          -91.18280826334748,
+          -13.41258853969681
+        ],
+        "bfactor": 96.12000274658203
+      },
+      {
+        "residue": 154,
+        "resname": "LEU",
+        "coord": [
+          -17.657628435975578,
+          -93.53022545205363,
+          -16.37281986639867
+        ],
+        "bfactor": 97.12000274658203
+      },
+      {
+        "residue": 155,
+        "resname": "GLU",
+        "coord": [
+          -19.881852614631295,
+          -92.33176791564607,
+          -19.225520225095877
+        ],
+        "bfactor": 98.25
+      },
+      {
+        "residue": 156,
+        "resname": "ARG",
+        "coord": [
+          -22.370936328496768,
+          -95.10774219506553,
+          -20.151266986025274
+        ],
+        "bfactor": 98.44000244140625
+      },
+      {
+        "residue": 157,
+        "resname": "TRP",
+        "coord": [
+          -25.53518475124768,
+          -95.58180173779877,
+          -22.22113400326622
+        ],
+        "bfactor": 98.62000274658203
+      },
+      {
+        "residue": 158,
+        "resname": "GLY",
+        "coord": [
+          -28.858299509776913,
+          -97.17230791425857,
+          -21.159209615991692
+        ],
+        "bfactor": 98.44000244140625
+      },
+      {
+        "residue": 159,
+        "resname": "PHE",
+        "coord": [
+          -32.27096869296304,
+          -97.76718219269044,
+          -22.766048636862152
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 160,
+        "resname": "ASP",
+        "coord": [
+          -35.095152899737215,
+          -95.6757141184434,
+          -21.19436359824509
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 161,
+        "resname": "GLY",
+        "coord": [
+          -37.878959821235426,
+          -97.6415935223338,
+          -22.993655734941665
+        ],
+        "bfactor": 95.0
+      },
+      {
+        "residue": 162,
+        "resname": "SER",
+        "coord": [
+          -37.77664362504993,
+          -95.26764638899127,
+          -26.02928802560087
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 163,
+        "resname": "GLU",
+        "coord": [
+          -34.132959392965276,
+          -94.37151116314887,
+          -26.786924398712703
+        ],
+        "bfactor": 96.62000274658203
+      },
+      {
+        "residue": 164,
+        "resname": "CYS",
+        "coord": [
+          -30.537284288091005,
+          -94.84478655121809,
+          -25.656881060059142
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 165,
+        "resname": "VAL",
+        "coord": [
+          -29.721680838068124,
+          -92.1260496024262,
+          -23.083610492166105
+        ],
+        "bfactor": 98.55999755859375
+      },
+      {
+        "residue": 166,
+        "resname": "LYS",
+        "coord": [
+          -26.349709095959284,
+          -91.1881959878131,
+          -21.560155482007744
+        ],
+        "bfactor": 98.55999755859375
+      },
+      {
+        "residue": 167,
+        "resname": "PHE",
+        "coord": [
+          -25.68779825398101,
+          -91.50105450712334,
+          -17.78226194404686
+        ],
+        "bfactor": 98.62000274658203
+      },
+      {
+        "residue": 168,
+        "resname": "LYS",
+        "coord": [
+          -22.80138099857965,
+          -91.49017301174992,
+          -15.227019877083396
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 169,
+        "resname": "TRP",
+        "coord": [
+          -21.775873934042366,
+          -94.84656000996704,
+          -13.805990820806509
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 170,
+        "resname": "ASP",
+        "coord": [
+          -19.85379771547086,
+          -95.78605557337892,
+          -10.664179226147901
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 171,
+        "resname": "PRO",
+        "coord": [
+          -18.747420510655274,
+          -99.48440376277262,
+          -10.9738276569091
+        ],
+        "bfactor": 97.25
+      },
+      {
+        "residue": 172,
+        "resname": "GLU",
+        "coord": [
+          -18.319335884413594,
+          -99.77704274782732,
+          -7.141139308347261
+        ],
+        "bfactor": 96.19000244140625
+      },
+      {
+        "residue": 173,
+        "resname": "LYS",
+        "coord": [
+          -22.098731641440207,
+          -99.14291995633948,
+          -6.717020224734023
+        ],
+        "bfactor": 96.75
+      },
+      {
+        "residue": 174,
+        "resname": "PRO",
+        "coord": [
+          -25.013609172098583,
+          -101.54928381422779,
+          -7.408987684020865
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 175,
+        "resname": "SER",
+        "coord": [
+          -25.993145249733413,
+          -101.50104824815291,
+          -11.11710370199781
+        ],
+        "bfactor": 95.0
+      },
+      {
+        "residue": 176,
+        "resname": "SER",
+        "coord": [
+          -28.250868920925686,
+          -103.27022562267504,
+          -13.627725386365459
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 177,
+        "resname": "ALA",
+        "coord": [
+          -27.408934533473975,
+          -104.90893560008595,
+          -16.969040261853888
+        ],
+        "bfactor": 98.30999755859375
+      },
+      {
+        "residue": 178,
+        "resname": "ASN",
+        "coord": [
+          -28.958915219110374,
+          -101.78382601774247,
+          -18.686344827881417
+        ],
+        "bfactor": 98.62000274658203
+      },
+      {
+        "residue": 179,
+        "resname": "ASN",
+        "coord": [
+          -25.4323322325426,
+          -100.33074034501962,
+          -18.96475004798035
+        ],
+        "bfactor": 98.62000274658203
+      },
+      {
+        "residue": 180,
+        "resname": "PHE",
+        "coord": [
+          -23.687201243245333,
+          -100.125551242256,
+          -22.369752289139875
+        ],
+        "bfactor": 98.05999755859375
+      },
+      {
+        "residue": 181,
+        "resname": "LYS",
+        "coord": [
+          -20.20105104881725,
+          -98.80580839105413,
+          -23.317858100002034
+        ],
+        "bfactor": 96.37999725341797
+      },
+      {
+        "residue": 182,
+        "resname": "THR",
+        "coord": [
+          -21.438851231511173,
+          -96.98474358074063,
+          -26.47341631755416
+        ],
+        "bfactor": 95.80999755859375
+      },
+      {
+        "residue": 183,
+        "resname": "LYS",
+        "coord": [
+          -24.71511266603725,
+          -95.55408403447208,
+          -27.87068518048206
+        ],
+        "bfactor": 96.0
+      },
+      {
+        "residue": 184,
+        "resname": "LEU",
+        "coord": [
+          -24.428625426752845,
+          -97.90952482790395,
+          -30.88297512840611
+        ],
+        "bfactor": 93.75
+      },
+      {
+        "residue": 185,
+        "resname": "GLN",
+        "coord": [
+          -24.16328188788012,
+          -100.96344877954827,
+          -28.572095792752332
+        ],
+        "bfactor": 94.94000244140625
+      },
+      {
+        "residue": 186,
+        "resname": "CYS",
+        "coord": [
+          -27.28748342716053,
+          -99.85283961722962,
+          -26.637756104245746
+        ],
+        "bfactor": 96.55999755859375
+      },
+      {
+        "residue": 187,
+        "resname": "GLU",
+        "coord": [
+          -29.270680459493413,
+          -99.23221880913542,
+          -29.89222708176368
+        ],
+        "bfactor": 94.75
+      },
+      {
+        "residue": 188,
+        "resname": "SER",
+        "coord": [
+          -28.189046460248928,
+          -102.59622597417541,
+          -31.416604228416695
+        ],
+        "bfactor": 92.37999725341797
+      },
+      {
+        "residue": 189,
+        "resname": "TYR",
+        "coord": [
+          -29.14795561171185,
+          -104.27680258503376,
+          -28.099732133463906
+        ],
+        "bfactor": 94.30999755859375
+      },
+      {
+        "residue": 190,
+        "resname": "CYS",
+        "coord": [
+          -32.477197597811866,
+          -102.5721272071312,
+          -27.216396606066986
+        ],
+        "bfactor": 95.80999755859375
+      },
+      {
+        "residue": 191,
+        "resname": "VAL",
+        "coord": [
+          -33.960036146232426,
+          -100.51782169166907,
+          -30.12040567775734
+        ],
+        "bfactor": 91.25
+      },
+      {
+        "residue": 192,
+        "resname": "ASN",
+        "coord": [
+          -33.74633310973246,
+          -103.25384800531617,
+          -32.81086939675103
+        ],
+        "bfactor": 77.19000244140625
+      },
+      {
+        "residue": 193,
+        "resname": "ILE",
+        "coord": [
+          -34.96031839581237,
+          -106.32305268766073,
+          -30.75694672462931
+        ],
+        "bfactor": 71.55999755859375
+      },
+      {
+        "residue": 194,
+        "resname": "PHE",
+        "coord": [
+          -37.69360686426674,
+          -107.09596061406806,
+          -33.40178953385467
+        ],
+        "bfactor": 56.119998931884766
+      },
+      {
+        "residue": 195,
+        "resname": "ALA",
+        "coord": [
+          -35.94630634887645,
+          -105.94748758515586,
+          -36.64459520345284
+        ],
+        "bfactor": 45.0
+      }
+    ],
+    "transform": [
+      [
+        0.7469662990731248,
+        -0.605291647508949,
+        0.2750697538896285,
+        -24.111254451011312
+      ],
+      [
+        -0.6645601922488914,
+        -0.6921935787699255,
+        0.2814743334440979,
+        -108.62198670539695
+      ],
+      [
+        0.020027454334363343,
+        -0.39305224966355934,
+        -0.9192980094111484,
+        -20.454348076535087
+      ]
+    ]
+  },
+  {
+    "Entry": "O62247",
+    "status": "success",
+    "command": "matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true",
+    "full_pairs": 54,
+    "core_pairs": 39,
+    "full_rmsd_angstrom": 3.3834625228249204,
+    "core_rmsd_angstrom": 0.8167778826119768,
+    "mean_core_pLDDT": 95.67410297882863,
+    "minimum_core_pLDDT": 87.44000244140625,
+    "mapping": [
+      {
+        "reference_residue": 1,
+        "target_residue": 131,
+        "target_pLDDT": 92.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 2,
+        "target_residue": 132,
+        "target_pLDDT": 93.25,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 3,
+        "target_residue": 133,
+        "target_pLDDT": 96.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 4,
+        "target_residue": 134,
+        "target_pLDDT": 97.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 5,
+        "target_residue": 135,
+        "target_pLDDT": 96.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 6,
+        "target_residue": 136,
+        "target_pLDDT": 97.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 7,
+        "target_residue": 137,
+        "target_pLDDT": 97.87999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 8,
+        "target_residue": 138,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 9,
+        "target_residue": 139,
+        "target_pLDDT": 98.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 10,
+        "target_residue": 140,
+        "target_pLDDT": 97.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 11,
+        "target_residue": 141,
+        "target_pLDDT": 98.12000274658203,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 12,
+        "target_residue": 142,
+        "target_pLDDT": 97.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 13,
+        "target_residue": 143,
+        "target_pLDDT": 97.0,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 14,
+        "target_residue": 144,
+        "target_pLDDT": 97.5,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 15,
+        "target_residue": 145,
+        "target_pLDDT": 97.75,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 16,
+        "target_residue": 146,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 17,
+        "target_residue": 147,
+        "target_pLDDT": 96.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 18,
+        "target_residue": 148,
+        "target_pLDDT": 96.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 19,
+        "target_residue": 149,
+        "target_pLDDT": 97.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 20,
+        "target_residue": 150,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 21,
+        "target_residue": 151,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 22,
+        "target_residue": 152,
+        "target_pLDDT": 98.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 23,
+        "target_residue": 153,
+        "target_pLDDT": 98.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 24,
+        "target_residue": 154,
+        "target_pLDDT": 97.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 25,
+        "target_residue": 155,
+        "target_pLDDT": 95.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 26,
+        "target_residue": 156,
+        "target_pLDDT": 95.25,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 27,
+        "target_residue": 157,
+        "target_pLDDT": 96.75,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 30,
+        "target_residue": 158,
+        "target_pLDDT": 97.94000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 31,
+        "target_residue": 159,
+        "target_pLDDT": 98.5,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 32,
+        "target_residue": 160,
+        "target_pLDDT": 98.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 33,
+        "target_residue": 161,
+        "target_pLDDT": 98.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 34,
+        "target_residue": 162,
+        "target_pLDDT": 98.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 35,
+        "target_residue": 163,
+        "target_pLDDT": 98.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 36,
+        "target_residue": 164,
+        "target_pLDDT": 97.75,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 37,
+        "target_residue": 165,
+        "target_pLDDT": 96.19000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 38,
+        "target_residue": 166,
+        "target_pLDDT": 94.87999725341797,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 39,
+        "target_residue": 167,
+        "target_pLDDT": 96.44000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 40,
+        "target_residue": 169,
+        "target_pLDDT": 95.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 41,
+        "target_residue": 170,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 42,
+        "target_residue": 171,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 43,
+        "target_residue": 172,
+        "target_pLDDT": 98.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 44,
+        "target_residue": 173,
+        "target_pLDDT": 98.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 45,
+        "target_residue": 174,
+        "target_pLDDT": 95.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 46,
+        "target_residue": 175,
+        "target_pLDDT": 92.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 47,
+        "target_residue": 176,
+        "target_pLDDT": 91.87999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 48,
+        "target_residue": 177,
+        "target_pLDDT": 93.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 49,
+        "target_residue": 178,
+        "target_pLDDT": 88.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 50,
+        "target_residue": 179,
+        "target_pLDDT": 88.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 51,
+        "target_residue": 180,
+        "target_pLDDT": 94.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 52,
+        "target_residue": 181,
+        "target_pLDDT": 92.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 53,
+        "target_residue": 182,
+        "target_pLDDT": 87.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 54,
+        "target_residue": 183,
+        "target_pLDDT": 89.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 55,
+        "target_residue": 184,
+        "target_pLDDT": 93.12000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 56,
+        "target_residue": 185,
+        "target_pLDDT": 90.44000244140625,
+        "is_pruned_core": true
+      }
+    ],
+    "reference_trace": [
+      {
+        "residue": 1,
+        "resname": "ARG",
+        "coord": [
+          -36.905,
+          -106.992,
+          -26.297
+        ],
+        "bfactor": 11.649999618530273
+      },
+      {
+        "residue": 2,
+        "resname": "PRO",
+        "coord": [
+          -34.73,
+          -108.461,
+          -23.484
+        ],
+        "bfactor": 11.5
+      },
+      {
+        "residue": 3,
+        "resname": "ASP",
+        "coord": [
+          -35.835,
+          -107.792,
+          -19.915
+        ],
+        "bfactor": 13.319999694824219
+      },
+      {
+        "residue": 4,
+        "resname": "PHE",
+        "coord": [
+          -32.646,
+          -106.084,
+          -18.719
+        ],
+        "bfactor": 13.979999542236328
+      },
+      {
+        "residue": 5,
+        "resname": "CYS",
+        "coord": [
+          -33.402,
+          -103.382,
+          -21.301
+        ],
+        "bfactor": 13.9399995803833
+      },
+      {
+        "residue": 6,
+        "resname": "LEU",
+        "coord": [
+          -36.394,
+          -102.322,
+          -19.205
+        ],
+        "bfactor": 16.540000915527344
+      },
+      {
+        "residue": 7,
+        "resname": "GLU",
+        "coord": [
+          -34.484,
+          -102.006,
+          -15.916
+        ],
+        "bfactor": 18.059999465942383
+      },
+      {
+        "residue": 8,
+        "resname": "PRO",
+        "coord": [
+          -33.413,
+          -98.528,
+          -14.76
+        ],
+        "bfactor": 16.239999771118164
+      },
+      {
+        "residue": 9,
+        "resname": "PRO",
+        "coord": [
+          -29.704,
+          -97.569,
+          -15.102
+        ],
+        "bfactor": 12.720000267028809
+      },
+      {
+        "residue": 10,
+        "resname": "TYR",
+        "coord": [
+          -27.503,
+          -98.932,
+          -12.313
+        ],
+        "bfactor": 11.270000457763672
+      },
+      {
+        "residue": 11,
+        "resname": "THR",
+        "coord": [
+          -24.774,
+          -96.63,
+          -10.994
+        ],
+        "bfactor": 10.859999656677246
+      },
+      {
+        "residue": 12,
+        "resname": "GLY",
+        "coord": [
+          -23.341,
+          -99.249,
+          -8.669
+        ],
+        "bfactor": 9.329999923706055
+      },
+      {
+        "residue": 13,
+        "resname": "PRO",
+        "coord": [
+          -21.492,
+          -98.839,
+          -5.336
+        ],
+        "bfactor": 9.539999961853027
+      },
+      {
+        "residue": 14,
+        "resname": "CYS",
+        "coord": [
+          -18.226,
+          -97.47,
+          -6.748
+        ],
+        "bfactor": 6.760000228881836
+      },
+      {
+        "residue": 15,
+        "resname": "LYS",
+        "coord": [
+          -17.649,
+          -93.732,
+          -6.778
+        ],
+        "bfactor": 6.980000019073486
+      },
+      {
+        "residue": 16,
+        "resname": "ALA",
+        "coord": [
+          -16.033,
+          -92.989,
+          -10.129
+        ],
+        "bfactor": 6.599999904632568
+      },
+      {
+        "residue": 17,
+        "resname": "ARG",
+        "coord": [
+          -17.818,
+          -90.83,
+          -12.716
+        ],
+        "bfactor": 9.109999656677246
+      },
+      {
+        "residue": 18,
+        "resname": "ILE",
+        "coord": [
+          -17.968,
+          -92.813,
+          -15.948
+        ],
+        "bfactor": 9.520000457763672
+      },
+      {
+        "residue": 19,
+        "resname": "ILE",
+        "coord": [
+          -20.467,
+          -91.936,
+          -18.665
+        ],
+        "bfactor": 13.109999656677246
+      },
+      {
+        "residue": 20,
+        "resname": "ARG",
+        "coord": [
+          -22.242,
+          -94.99,
+          -20.08
+        ],
+        "bfactor": 9.90999984741211
+      },
+      {
+        "residue": 21,
+        "resname": "TYR",
+        "coord": [
+          -25.304,
+          -95.582,
+          -22.218
+        ],
+        "bfactor": 12.729999542236328
+      },
+      {
+        "residue": 22,
+        "resname": "PHE",
+        "coord": [
+          -28.569,
+          -97.2,
+          -21.172
+        ],
+        "bfactor": 11.569999694824219
+      },
+      {
+        "residue": 23,
+        "resname": "TYR",
+        "coord": [
+          -31.836,
+          -97.926,
+          -22.976
+        ],
+        "bfactor": 12.960000038146973
+      },
+      {
+        "residue": 24,
+        "resname": "ASN",
+        "coord": [
+          -34.655,
+          -95.736,
+          -21.711
+        ],
+        "bfactor": 19.760000228881836
+      },
+      {
+        "residue": 25,
+        "resname": "ALA",
+        "coord": [
+          -37.781,
+          -97.714,
+          -22.595
+        ],
+        "bfactor": 26.860000610351562
+      },
+      {
+        "residue": 26,
+        "resname": "LYS",
+        "coord": [
+          -40.102,
+          -94.894,
+          -21.478
+        ],
+        "bfactor": 32.97999954223633
+      },
+      {
+        "residue": 27,
+        "resname": "ALA",
+        "coord": [
+          -38.44,
+          -92.679,
+          -24.098
+        ],
+        "bfactor": 28.399999618530273
+      },
+      {
+        "residue": 28,
+        "resname": "GLY",
+        "coord": [
+          -37.676,
+          -95.516,
+          -26.496
+        ],
+        "bfactor": 23.649999618530273
+      },
+      {
+        "residue": 29,
+        "resname": "LEU",
+        "coord": [
+          -34.064,
+          -94.413,
+          -26.809
+        ],
+        "bfactor": 24.040000915527344
+      },
+      {
+        "residue": 30,
+        "resname": "CYS",
+        "coord": [
+          -30.532,
+          -94.827,
+          -25.454
+        ],
+        "bfactor": 18.579999923706055
+      },
+      {
+        "residue": 31,
+        "resname": "GLN",
+        "coord": [
+          -29.283,
+          -92.109,
+          -23.141
+        ],
+        "bfactor": 18.219999313354492
+      },
+      {
+        "residue": 32,
+        "resname": "THR",
+        "coord": [
+          -26.274,
+          -91.481,
+          -20.93
+        ],
+        "bfactor": 16.709999084472656
+      },
+      {
+        "residue": 33,
+        "resname": "PHE",
+        "coord": [
+          -25.983,
+          -91.915,
+          -17.175
+        ],
+        "bfactor": 11.6899995803833
+      },
+      {
+        "residue": 34,
+        "resname": "VAL",
+        "coord": [
+          -23.209,
+          -91.907,
+          -14.601
+        ],
+        "bfactor": 8.699999809265137
+      },
+      {
+        "residue": 35,
+        "resname": "TYR",
+        "coord": [
+          -21.79,
+          -95.366,
+          -13.905
+        ],
+        "bfactor": 8.59000015258789
+      },
+      {
+        "residue": 36,
+        "resname": "GLY",
+        "coord": [
+          -19.74,
+          -95.785,
+          -10.726
+        ],
+        "bfactor": 7.289999961853027
+      },
+      {
+        "residue": 37,
+        "resname": "GLY",
+        "coord": [
+          -17.007,
+          -97.991,
+          -12.144
+        ],
+        "bfactor": 8.1899995803833
+      },
+      {
+        "residue": 38,
+        "resname": "CYS",
+        "coord": [
+          -17.945,
+          -101.46,
+          -10.841
+        ],
+        "bfactor": 9.350000381469727
+      },
+      {
+        "residue": 39,
+        "resname": "ARG",
+        "coord": [
+          -20.595,
+          -104.187,
+          -10.792
+        ],
+        "bfactor": 14.130000114440918
+      },
+      {
+        "residue": 40,
+        "resname": "ALA",
+        "coord": [
+          -22.365,
+          -103.02,
+          -13.946
+        ],
+        "bfactor": 11.970000267028809
+      },
+      {
+        "residue": 41,
+        "resname": "LYS",
+        "coord": [
+          -25.756,
+          -104.44,
+          -14.898
+        ],
+        "bfactor": 15.149999618530273
+      },
+      {
+        "residue": 42,
+        "resname": "ARG",
+        "coord": [
+          -26.61,
+          -105.477,
+          -18.459
+        ],
+        "bfactor": 14.079999923706055
+      },
+      {
+        "residue": 43,
+        "resname": "ASN",
+        "coord": [
+          -28.406,
+          -102.218,
+          -19.354
+        ],
+        "bfactor": 11.90999984741211
+      },
+      {
+        "residue": 44,
+        "resname": "ASN",
+        "coord": [
+          -24.987,
+          -100.547,
+          -19.522
+        ],
+        "bfactor": 13.029999732971191
+      },
+      {
+        "residue": 45,
+        "resname": "PHE",
+        "coord": [
+          -23.241,
+          -99.854,
+          -22.848
+        ],
+        "bfactor": 15.020000457763672
+      },
+      {
+        "residue": 46,
+        "resname": "LYS",
+        "coord": [
+          -20.02,
+          -98.135,
+          -23.883
+        ],
+        "bfactor": 22.809999465942383
+      },
+      {
+        "residue": 47,
+        "resname": "SER",
+        "coord": [
+          -21.733,
+          -96.756,
+          -27.002
+        ],
+        "bfactor": 24.209999084472656
+      },
+      {
+        "residue": 48,
+        "resname": "ALA",
+        "coord": [
+          -25.192,
+          -95.732,
+          -28.166
+        ],
+        "bfactor": 24.100000381469727
+      },
+      {
+        "residue": 49,
+        "resname": "GLU",
+        "coord": [
+          -24.857,
+          -97.991,
+          -31.212
+        ],
+        "bfactor": 28.260000228881836
+      },
+      {
+        "residue": 50,
+        "resname": "ASP",
+        "coord": [
+          -24.255,
+          -101.112,
+          -29.143
+        ],
+        "bfactor": 25.780000686645508
+      },
+      {
+        "residue": 51,
+        "resname": "CYS",
+        "coord": [
+          -27.081,
+          -100.026,
+          -26.863
+        ],
+        "bfactor": 18.25
+      },
+      {
+        "residue": 52,
+        "resname": "MET",
+        "coord": [
+          -29.583,
+          -99.606,
+          -29.711
+        ],
+        "bfactor": 19.610000610351562
+      },
+      {
+        "residue": 53,
+        "resname": "ARG",
+        "coord": [
+          -28.534,
+          -102.872,
+          -31.349
+        ],
+        "bfactor": 21.270000457763672
+      },
+      {
+        "residue": 54,
+        "resname": "THR",
+        "coord": [
+          -29.013,
+          -104.846,
+          -28.141
+        ],
+        "bfactor": 18.459999084472656
+      },
+      {
+        "residue": 55,
+        "resname": "CYS",
+        "coord": [
+          -32.081,
+          -103.065,
+          -26.758
+        ],
+        "bfactor": 20.040000915527344
+      },
+      {
+        "residue": 56,
+        "resname": "GLY",
+        "coord": [
+          -33.495,
+          -101.42,
+          -29.878
+        ],
+        "bfactor": 35.720001220703125
+      }
+    ],
+    "target_trace": [
+      {
+        "residue": 1,
+        "resname": "MET",
+        "coord": [
+          -29.835427765780675,
+          -137.4340914238696,
+          -73.32261161749679
+        ],
+        "bfactor": 44.119998931884766
+      },
+      {
+        "residue": 2,
+        "resname": "VAL",
+        "coord": [
+          -27.583223116807634,
+          -135.4399904914779,
+          -70.94218966108261
+        ],
+        "bfactor": 49.75
+      },
+      {
+        "residue": 3,
+        "resname": "SER",
+        "coord": [
+          -29.286435467156544,
+          -136.23916223460373,
+          -67.62500512979585
+        ],
+        "bfactor": 54.220001220703125
+      },
+      {
+        "residue": 4,
+        "resname": "ILE",
+        "coord": [
+          -31.182412389701195,
+          -133.3589224236336,
+          -65.90451388004163
+        ],
+        "bfactor": 62.029998779296875
+      },
+      {
+        "residue": 5,
+        "resname": "HIS",
+        "coord": [
+          -29.80679162945437,
+          -134.80490824176485,
+          -62.5868503139546
+        ],
+        "bfactor": 58.90999984741211
+      },
+      {
+        "residue": 6,
+        "resname": "ASN",
+        "coord": [
+          -26.20092882721439,
+          -133.64444917667566,
+          -63.32903237361006
+        ],
+        "bfactor": 59.029998779296875
+      },
+      {
+        "residue": 7,
+        "resname": "SER",
+        "coord": [
+          -27.32085104887187,
+          -129.9595361170416,
+          -63.606153214356794
+        ],
+        "bfactor": 58.810001373291016
+      },
+      {
+        "residue": 8,
+        "resname": "PHE",
+        "coord": [
+          -29.163009471336327,
+          -130.03986107108878,
+          -60.22010444797722
+        ],
+        "bfactor": 61.060001373291016
+      },
+      {
+        "residue": 9,
+        "resname": "ILE",
+        "coord": [
+          -26.16493149156215,
+          -131.5293117259086,
+          -58.30667319129461
+        ],
+        "bfactor": 64.62000274658203
+      },
+      {
+        "residue": 10,
+        "resname": "LEU",
+        "coord": [
+          -23.812615391632487,
+          -128.85345783538742,
+          -59.76321873558578
+        ],
+        "bfactor": 60.90999984741211
+      },
+      {
+        "residue": 11,
+        "resname": "LEU",
+        "coord": [
+          -26.32842923010546,
+          -126.08335880335542,
+          -58.81550248961169
+        ],
+        "bfactor": 61.5
+      },
+      {
+        "residue": 12,
+        "resname": "MET",
+        "coord": [
+          -26.624475916429137,
+          -127.4292182736539,
+          -55.19678467169267
+        ],
+        "bfactor": 61.689998626708984
+      },
+      {
+        "residue": 13,
+        "resname": "LEU",
+        "coord": [
+          -22.77435969204655,
+          -127.68268583887644,
+          -54.94565472101752
+        ],
+        "bfactor": 59.0
+      },
+      {
+        "residue": 14,
+        "resname": "MET",
+        "coord": [
+          -22.507903035520467,
+          -123.9560738925994,
+          -55.952925415547185
+        ],
+        "bfactor": 57.779998779296875
+      },
+      {
+        "residue": 15,
+        "resname": "ILE",
+        "coord": [
+          -25.20829029819385,
+          -122.76076781839042,
+          -53.43221400395116
+        ],
+        "bfactor": 58.279998779296875
+      },
+      {
+        "residue": 16,
+        "resname": "SER",
+        "coord": [
+          -23.377747586110978,
+          -124.09180451250704,
+          -50.29419652500759
+        ],
+        "bfactor": 60.189998626708984
+      },
+      {
+        "residue": 17,
+        "resname": "ILE",
+        "coord": [
+          -20.770137734356183,
+          -121.34549993950617,
+          -50.49271869844383
+        ],
+        "bfactor": 55.939998626708984
+      },
+      {
+        "residue": 18,
+        "resname": "CYS",
+        "coord": [
+          -20.971033152626568,
+          -120.49646051158841,
+          -46.82885597165411
+        ],
+        "bfactor": 57.619998931884766
+      },
+      {
+        "residue": 19,
+        "resname": "PHE",
+        "coord": [
+          -20.376839565319255,
+          -116.78813171555258,
+          -47.406331097780196
+        ],
+        "bfactor": 57.060001373291016
+      },
+      {
+        "residue": 20,
+        "resname": "CYS",
+        "coord": [
+          -18.624236961564055,
+          -116.38127998975963,
+          -44.11534571547753
+        ],
+        "bfactor": 63.65999984741211
+      },
+      {
+        "residue": 21,
+        "resname": "GLU",
+        "coord": [
+          -18.7469219158762,
+          -112.64934693069523,
+          -44.86825742653514
+        ],
+        "bfactor": 78.30999755859375
+      },
+      {
+        "residue": 22,
+        "resname": "LYS",
+        "coord": [
+          -15.197745719394556,
+          -111.70031152692806,
+          -43.93039702715547
+        ],
+        "bfactor": 89.19000244140625
+      },
+      {
+        "residue": 23,
+        "resname": "CYS",
+        "coord": [
+          -15.068144141518594,
+          -108.52677611963276,
+          -41.90394755834183
+        ],
+        "bfactor": 91.44000244140625
+      },
+      {
+        "residue": 24,
+        "resname": "LEU",
+        "coord": [
+          -12.98862038681093,
+          -105.75017286821141,
+          -43.57507153273838
+        ],
+        "bfactor": 92.44000244140625
+      },
+      {
+        "residue": 25,
+        "resname": "THR",
+        "coord": [
+          -13.272531661931025,
+          -103.1827874690357,
+          -40.73718488948444
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 26,
+        "resname": "ASN",
+        "coord": [
+          -13.655583317690988,
+          -103.14749956347116,
+          -36.92361055655995
+        ],
+        "bfactor": 89.69000244140625
+      },
+      {
+        "residue": 27,
+        "resname": "GLU",
+        "coord": [
+          -16.941496595424827,
+          -101.20226630811361,
+          -37.39153738146262
+        ],
+        "bfactor": 86.25
+      },
+      {
+        "residue": 28,
+        "resname": "GLU",
+        "coord": [
+          -18.474712601991918,
+          -104.27150364955169,
+          -39.169498522525195
+        ],
+        "bfactor": 85.69000244140625
+      },
+      {
+        "residue": 29,
+        "resname": "CYS",
+        "coord": [
+          -17.52139959333804,
+          -106.31196170382924,
+          -36.066685889402606
+        ],
+        "bfactor": 87.05999755859375
+      },
+      {
+        "residue": 30,
+        "resname": "ASP",
+        "coord": [
+          -18.634422638382595,
+          -103.65882341666668,
+          -33.49403143720895
+        ],
+        "bfactor": 82.05999755859375
+      },
+      {
+        "residue": 31,
+        "resname": "LEU",
+        "coord": [
+          -22.1699415032428,
+          -104.11035787070996,
+          -34.943395778232095
+        ],
+        "bfactor": 73.69000244140625
+      },
+      {
+        "residue": 32,
+        "resname": "LYS",
+        "coord": [
+          -21.9156124174365,
+          -107.86255665555242,
+          -33.99105708053066
+        ],
+        "bfactor": 75.37999725341797
+      },
+      {
+        "residue": 33,
+        "resname": "TRP",
+        "coord": [
+          -20.238925916475946,
+          -107.47302312550079,
+          -30.5657220594762
+        ],
+        "bfactor": 76.30999755859375
+      },
+      {
+        "residue": 34,
+        "resname": "PRO",
+        "coord": [
+          -19.1049580389547,
+          -104.19441602420706,
+          -28.89283344151734
+        ],
+        "bfactor": 67.80999755859375
+      },
+      {
+        "residue": 35,
+        "resname": "ASP",
+        "coord": [
+          -15.411254603997886,
+          -103.35073810992085,
+          -29.357698488099572
+        ],
+        "bfactor": 74.05999755859375
+      },
+      {
+        "residue": 36,
+        "resname": "ALA",
+        "coord": [
+          -15.08837714890114,
+          -106.4921892155016,
+          -31.5466635632517
+        ],
+        "bfactor": 84.75
+      },
+      {
+        "residue": 37,
+        "resname": "ILE",
+        "coord": [
+          -12.049147573322214,
+          -106.33249074247506,
+          -33.79791521169959
+        ],
+        "bfactor": 91.19000244140625
+      },
+      {
+        "residue": 38,
+        "resname": "CYS",
+        "coord": [
+          -11.670856689340816,
+          -107.69757489406312,
+          -37.30735095924928
+        ],
+        "bfactor": 92.69000244140625
+      },
+      {
+        "residue": 39,
+        "resname": "VAL",
+        "coord": [
+          -8.750758350303368,
+          -110.17058553837167,
+          -37.2166368837847
+        ],
+        "bfactor": 92.94000244140625
+      },
+      {
+        "residue": 40,
+        "resname": "ARG",
+        "coord": [
+          -7.904788762589536,
+          -111.73257664220384,
+          -40.61306695787904
+        ],
+        "bfactor": 92.5
+      },
+      {
+        "residue": 41,
+        "resname": "GLY",
+        "coord": [
+          -11.551618682770746,
+          -111.45256703826921,
+          -41.807427102465056
+        ],
+        "bfactor": 91.69000244140625
+      },
+      {
+        "residue": 42,
+        "resname": "ARG",
+        "coord": [
+          -13.09600081173087,
+          -112.76938647111191,
+          -38.51854151293227
+        ],
+        "bfactor": 90.94000244140625
+      },
+      {
+        "residue": 43,
+        "resname": "CYS",
+        "coord": [
+          -14.742068830727085,
+          -110.77774839876946,
+          -35.74158943094852
+        ],
+        "bfactor": 90.19000244140625
+      },
+      {
+        "residue": 44,
+        "resname": "ARG",
+        "coord": [
+          -13.076723696117755,
+          -111.41207590497096,
+          -32.35290071737373
+        ],
+        "bfactor": 92.44000244140625
+      },
+      {
+        "residue": 45,
+        "resname": "CYS",
+        "coord": [
+          -13.697620168966242,
+          -110.06079891661096,
+          -28.886358914548758
+        ],
+        "bfactor": 92.37999725341797
+      },
+      {
+        "residue": 46,
+        "resname": "SER",
+        "coord": [
+          -11.397172774513775,
+          -107.13774157831294,
+          -27.89891241859116
+        ],
+        "bfactor": 90.05999755859375
+      },
+      {
+        "residue": 47,
+        "resname": "GLU",
+        "coord": [
+          -8.411885570207971,
+          -107.41285471259084,
+          -25.54237532549124
+        ],
+        "bfactor": 89.19000244140625
+      },
+      {
+        "residue": 48,
+        "resname": "ASN",
+        "coord": [
+          -9.2565356107783,
+          -108.42886264666657,
+          -21.92827527335382
+        ],
+        "bfactor": 91.5
+      },
+      {
+        "residue": 49,
+        "resname": "THR",
+        "coord": [
+          -12.503322551753705,
+          -110.09461779571309,
+          -23.125973208284226
+        ],
+        "bfactor": 92.55999755859375
+      },
+      {
+        "residue": 50,
+        "resname": "ILE",
+        "coord": [
+          -13.451529571812392,
+          -113.73422761464995,
+          -23.95198701749681
+        ],
+        "bfactor": 92.87999725341797
+      },
+      {
+        "residue": 51,
+        "resname": "ARG",
+        "coord": [
+          -16.04900772965826,
+          -114.91764400908224,
+          -26.500077647145318
+        ],
+        "bfactor": 92.0
+      },
+      {
+        "residue": 52,
+        "resname": "LYS",
+        "coord": [
+          -18.928734840361706,
+          -117.03071698513034,
+          -25.041236886207116
+        ],
+        "bfactor": 93.19000244140625
+      },
+      {
+        "residue": 53,
+        "resname": "LYS",
+        "coord": [
+          -22.20018725990418,
+          -118.49079332655671,
+          -26.38748394521103
+        ],
+        "bfactor": 91.75
+      },
+      {
+        "residue": 54,
+        "resname": "SER",
+        "coord": [
+          -25.5162939984824,
+          -116.72400461373141,
+          -25.633818407595538
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 55,
+        "resname": "ALA",
+        "coord": [
+          -29.009094523268626,
+          -118.02174060313004,
+          -26.45004129129373
+        ],
+        "bfactor": 91.5
+      },
+      {
+        "residue": 56,
+        "resname": "SER",
+        "coord": [
+          -30.436088962874017,
+          -114.45400822466445,
+          -26.72507864327255
+        ],
+        "bfactor": 90.25
+      },
+      {
+        "residue": 57,
+        "resname": "ARG",
+        "coord": [
+          -27.463989034589268,
+          -112.99303969922794,
+          -28.749277740193023
+        ],
+        "bfactor": 85.19000244140625
+      },
+      {
+        "residue": 58,
+        "resname": "GLU",
+        "coord": [
+          -25.713032839907473,
+          -116.05274179890895,
+          -30.31970808424301
+        ],
+        "bfactor": 86.44000244140625
+      },
+      {
+        "residue": 59,
+        "resname": "TRP",
+        "coord": [
+          -22.232942525651303,
+          -114.80626883379327,
+          -29.138227000240366
+        ],
+        "bfactor": 88.19000244140625
+      },
+      {
+        "residue": 60,
+        "resname": "VAL",
+        "coord": [
+          -21.031873103894846,
+          -112.35867894432917,
+          -26.43636375849131
+        ],
+        "bfactor": 91.5
+      },
+      {
+        "residue": 61,
+        "resname": "CYS",
+        "coord": [
+          -17.739408379635478,
+          -110.94460435397758,
+          -25.098382408684927
+        ],
+        "bfactor": 92.37999725341797
+      },
+      {
+        "residue": 62,
+        "resname": "LEU",
+        "coord": [
+          -17.119091233520727,
+          -111.35351274645379,
+          -21.32970458154202
+        ],
+        "bfactor": 94.44000244140625
+      },
+      {
+        "residue": 63,
+        "resname": "ALA",
+        "coord": [
+          -14.711965729224215,
+          -108.92647005497275,
+          -19.637406859421674
+        ],
+        "bfactor": 94.5
+      },
+      {
+        "residue": 64,
+        "resname": "THR",
+        "coord": [
+          -11.778327283086176,
+          -110.63812021729693,
+          -17.83920548328039
+        ],
+        "bfactor": 94.69000244140625
+      },
+      {
+        "residue": 65,
+        "resname": "ASN",
+        "coord": [
+          -11.100565817962972,
+          -107.40824693458471,
+          -15.943602419868672
+        ],
+        "bfactor": 94.80999755859375
+      },
+      {
+        "residue": 66,
+        "resname": "ASP",
+        "coord": [
+          -13.580986509713036,
+          -105.52097107180036,
+          -13.785209265299814
+        ],
+        "bfactor": 94.0
+      },
+      {
+        "residue": 67,
+        "resname": "ALA",
+        "coord": [
+          -14.5369060455058,
+          -101.89736674755608,
+          -14.597265016100156
+        ],
+        "bfactor": 92.87999725341797
+      },
+      {
+        "residue": 68,
+        "resname": "THR",
+        "coord": [
+          -11.678413994447416,
+          -100.696992308989,
+          -12.244390093527603
+        ],
+        "bfactor": 91.75
+      },
+      {
+        "residue": 69,
+        "resname": "GLY",
+        "coord": [
+          -9.102979493008402,
+          -102.52661121271673,
+          -14.47027436633239
+        ],
+        "bfactor": 91.80999755859375
+      },
+      {
+        "residue": 70,
+        "resname": "ASN",
+        "coord": [
+          -8.403352239564818,
+          -105.34816132769693,
+          -11.939937698042128
+        ],
+        "bfactor": 94.75
+      },
+      {
+        "residue": 71,
+        "resname": "SER",
+        "coord": [
+          -8.957040599070265,
+          -109.10093292334811,
+          -12.560840710936894
+        ],
+        "bfactor": 94.05999755859375
+      },
+      {
+        "residue": 72,
+        "resname": "GLY",
+        "coord": [
+          -12.728808764392813,
+          -109.75296825079667,
+          -12.456285276748082
+        ],
+        "bfactor": 92.12000274658203
+      },
+      {
+        "residue": 73,
+        "resname": "PRO",
+        "coord": [
+          -14.461382072589565,
+          -112.81804448828285,
+          -10.916488085517477
+        ],
+        "bfactor": 92.80999755859375
+      },
+      {
+        "residue": 74,
+        "resname": "PRO",
+        "coord": [
+          -14.52329582852663,
+          -116.1074260176664,
+          -12.956317941406489
+        ],
+        "bfactor": 92.05999755859375
+      },
+      {
+        "residue": 75,
+        "resname": "LEU",
+        "coord": [
+          -18.35714898216189,
+          -115.78765619741742,
+          -13.186674748162686
+        ],
+        "bfactor": 94.19000244140625
+      },
+      {
+        "residue": 76,
+        "resname": "THR",
+        "coord": [
+          -19.671869797633818,
+          -112.61506301722459,
+          -14.861081117703458
+        ],
+        "bfactor": 95.55999755859375
+      },
+      {
+        "residue": 77,
+        "resname": "CYS",
+        "coord": [
+          -22.467984068604654,
+          -111.49598012981997,
+          -17.174564092525486
+        ],
+        "bfactor": 96.80999755859375
+      },
+      {
+        "residue": 78,
+        "resname": "PRO",
+        "coord": [
+          -21.843121379277896,
+          -109.66912495287352,
+          -20.513144147272
+        ],
+        "bfactor": 94.80999755859375
+      },
+      {
+        "residue": 79,
+        "resname": "THR",
+        "coord": [
+          -23.382734899797143,
+          -106.37329924075632,
+          -19.22608972620757
+        ],
+        "bfactor": 95.62000274658203
+      },
+      {
+        "residue": 80,
+        "resname": "PRO",
+        "coord": [
+          -22.304229073110683,
+          -104.12357394740503,
+          -17.592522682508765
+        ],
+        "bfactor": 96.62000274658203
+      },
+      {
+        "residue": 81,
+        "resname": "GLU",
+        "coord": [
+          -18.861830749431327,
+          -104.70610773018436,
+          -19.13935951070053
+        ],
+        "bfactor": 94.25
+      },
+      {
+        "residue": 82,
+        "resname": "GLY",
+        "coord": [
+          -16.48020679028923,
+          -105.26377170872021,
+          -16.172169728383953
+        ],
+        "bfactor": 94.55999755859375
+      },
+      {
+        "residue": 83,
+        "resname": "ALA",
+        "coord": [
+          -19.404852423959582,
+          -105.44833836964874,
+          -13.638951604114617
+        ],
+        "bfactor": 96.55999755859375
+      },
+      {
+        "residue": 84,
+        "resname": "GLY",
+        "coord": [
+          -21.66125022111821,
+          -108.28577503464894,
+          -14.9472559085829
+        ],
+        "bfactor": 96.55999755859375
+      },
+      {
+        "residue": 85,
+        "resname": "TYR",
+        "coord": [
+          -21.004209150569874,
+          -110.2933500012663,
+          -11.718989534036961
+        ],
+        "bfactor": 95.62000274658203
+      },
+      {
+        "residue": 86,
+        "resname": "GLN",
+        "coord": [
+          -23.181795319366277,
+          -107.70171787463256,
+          -9.891284306800765
+        ],
+        "bfactor": 96.19000244140625
+      },
+      {
+        "residue": 87,
+        "resname": "VAL",
+        "coord": [
+          -26.278323400634445,
+          -108.41434171894483,
+          -12.070558520486436
+        ],
+        "bfactor": 97.30999755859375
+      },
+      {
+        "residue": 88,
+        "resname": "MET",
+        "coord": [
+          -26.316732530805183,
+          -112.23976162585336,
+          -12.256634511810915
+        ],
+        "bfactor": 97.19000244140625
+      },
+      {
+        "residue": 89,
+        "resname": "TYR",
+        "coord": [
+          -29.46030645072662,
+          -113.9110493397737,
+          -10.876664806604053
+        ],
+        "bfactor": 98.05999755859375
+      },
+      {
+        "residue": 90,
+        "resname": "ARG",
+        "coord": [
+          -29.21875536789384,
+          -114.60301047514702,
+          -7.130952476283531
+        ],
+        "bfactor": 97.55999755859375
+      },
+      {
+        "residue": 91,
+        "resname": "LYS",
+        "coord": [
+          -31.401422778153528,
+          -116.84375917550564,
+          -4.983103962530427
+        ],
+        "bfactor": 97.0
+      },
+      {
+        "residue": 92,
+        "resname": "ASP",
+        "coord": [
+          -31.05074819935709,
+          -116.31414825717962,
+          -1.2040632621706386
+        ],
+        "bfactor": 95.87999725341797
+      },
+      {
+        "residue": 93,
+        "resname": "GLY",
+        "coord": [
+          -27.988567592434922,
+          -114.03848921233401,
+          -1.8443989883347491
+        ],
+        "bfactor": 94.44000244140625
+      },
+      {
+        "residue": 94,
+        "resname": "GLU",
+        "coord": [
+          -26.12658236499137,
+          -116.77105218256145,
+          -3.821206674105877
+        ],
+        "bfactor": 94.87999725341797
+      },
+      {
+        "residue": 95,
+        "resname": "PRO",
+        "coord": [
+          -25.38975554404155,
+          -116.77388350577887,
+          -7.610394478838945
+        ],
+        "bfactor": 95.37999725341797
+      },
+      {
+        "residue": 96,
+        "resname": "VAL",
+        "coord": [
+          -27.53615565743371,
+          -119.35204206145588,
+          -9.440123151352871
+        ],
+        "bfactor": 96.44000244140625
+      },
+      {
+        "residue": 97,
+        "resname": "LYS",
+        "coord": [
+          -25.085086307011586,
+          -121.58879028234323,
+          -11.307845410089039
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 98,
+        "resname": "CYS",
+        "coord": [
+          -26.125229990030885,
+          -123.39601166522587,
+          -14.50472388634158
+        ],
+        "bfactor": 95.62000274658203
+      },
+      {
+        "residue": 99,
+        "resname": "SER",
+        "coord": [
+          -24.718119913660832,
+          -125.84777963355158,
+          -17.097696131173734
+        ],
+        "bfactor": 93.55999755859375
+      },
+      {
+        "residue": 100,
+        "resname": "SER",
+        "coord": [
+          -23.997257124212993,
+          -124.1498601077081,
+          -20.460660169421676
+        ],
+        "bfactor": 90.05999755859375
+      },
+      {
+        "residue": 101,
+        "resname": "LYS",
+        "coord": [
+          -24.176254669163484,
+          -127.61510907741237,
+          -22.160409108784506
+        ],
+        "bfactor": 88.94000244140625
+      },
+      {
+        "residue": 102,
+        "resname": "LYS",
+        "coord": [
+          -27.649865121693736,
+          -128.62136500207106,
+          -20.813159526056097
+        ],
+        "bfactor": 87.19000244140625
+      },
+      {
+        "residue": 103,
+        "resname": "LYS",
+        "coord": [
+          -30.752958857179557,
+          -127.63415629710347,
+          -22.86264854569608
+        ],
+        "bfactor": 86.44000244140625
+      },
+      {
+        "residue": 104,
+        "resname": "PRO",
+        "coord": [
+          -33.15736497149484,
+          -126.285764932493,
+          -21.70684667457492
+        ],
+        "bfactor": 85.62000274658203
+      },
+      {
+        "residue": 105,
+        "resname": "ASP",
+        "coord": [
+          -30.886188716295912,
+          -124.5074078697335,
+          -19.219085718382793
+        ],
+        "bfactor": 89.19000244140625
+      },
+      {
+        "residue": 106,
+        "resname": "THR",
+        "coord": [
+          -31.871157754237338,
+          -124.20485818705808,
+          -15.516473575069675
+        ],
+        "bfactor": 93.05999755859375
+      },
+      {
+        "residue": 107,
+        "resname": "CYS",
+        "coord": [
+          -32.15428307271901,
+          -120.38631586174503,
+          -15.448572442328516
+        ],
+        "bfactor": 97.05999755859375
+      },
+      {
+        "residue": 108,
+        "resname": "PRO",
+        "coord": [
+          -35.43902983236249,
+          -118.62922439735068,
+          -14.5079857579851
+        ],
+        "bfactor": 97.0
+      },
+      {
+        "residue": 109,
+        "resname": "GLU",
+        "coord": [
+          -37.52147978585372,
+          -116.71570131704695,
+          -17.099594642896037
+        ],
+        "bfactor": 96.0
+      },
+      {
+        "residue": 110,
+        "resname": "GLY",
+        "coord": [
+          -35.74134234286079,
+          -113.55604665127952,
+          -18.377144672111605
+        ],
+        "bfactor": 96.12000274658203
+      },
+      {
+        "residue": 111,
+        "resname": "PHE",
+        "coord": [
+          -32.32131440822944,
+          -115.20204454100464,
+          -17.715077550618865
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 112,
+        "resname": "GLU",
+        "coord": [
+          -29.944491882083298,
+          -117.33353634866796,
+          -19.808440002051594
+        ],
+        "bfactor": 96.37999725341797
+      },
+      {
+        "residue": 113,
+        "resname": "CYS",
+        "coord": [
+          -27.004743527647975,
+          -119.58299445848343,
+          -18.91234021699404
+        ],
+        "bfactor": 96.94000244140625
+      },
+      {
+        "residue": 114,
+        "resname": "ILE",
+        "coord": [
+          -23.650780143410984,
+          -117.87081136966052,
+          -19.67512045241339
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 115,
+        "resname": "GLN",
+        "coord": [
+          -20.501122502237095,
+          -120.01203424177169,
+          -19.396067849230935
+        ],
+        "bfactor": 95.30999755859375
+      },
+      {
+        "residue": 116,
+        "resname": "GLY",
+        "coord": [
+          -17.879290341977512,
+          -118.60306097627303,
+          -16.970202341718494
+        ],
+        "bfactor": 93.37999725341797
+      },
+      {
+        "residue": 117,
+        "resname": "LEU",
+        "coord": [
+          -14.238652433150419,
+          -117.6930093866954,
+          -17.737078290694804
+        ],
+        "bfactor": 89.19000244140625
+      },
+      {
+        "residue": 118,
+        "resname": "SER",
+        "coord": [
+          -13.026254423904053,
+          -120.78952936802767,
+          -15.772380840097025
+        ],
+        "bfactor": 80.87999725341797
+      },
+      {
+        "residue": 119,
+        "resname": "ILE",
+        "coord": [
+          -14.218631289034533,
+          -124.44361727746404,
+          -15.920842827193319
+        ],
+        "bfactor": 69.19000244140625
+      },
+      {
+        "residue": 120,
+        "resname": "LEU",
+        "coord": [
+          -16.295519066761464,
+          -124.9628859388971,
+          -12.70066314028422
+        ],
+        "bfactor": 69.19000244140625
+      },
+      {
+        "residue": 121,
+        "resname": "GLY",
+        "coord": [
+          -17.030055146340406,
+          -128.6851728835383,
+          -13.336492244328994
+        ],
+        "bfactor": 79.05999755859375
+      },
+      {
+        "residue": 122,
+        "resname": "ALA",
+        "coord": [
+          -20.616027517908815,
+          -129.6252768742383,
+          -14.390741093993071
+        ],
+        "bfactor": 80.94000244140625
+      },
+      {
+        "residue": 123,
+        "resname": "LEU",
+        "coord": [
+          -22.070365389009904,
+          -126.17856785697418,
+          -13.416915490000529
+        ],
+        "bfactor": 84.69000244140625
+      },
+      {
+        "residue": 124,
+        "resname": "ASP",
+        "coord": [
+          -19.780542972602323,
+          -124.1574909288734,
+          -15.721694297612231
+        ],
+        "bfactor": 91.94000244140625
+      },
+      {
+        "residue": 125,
+        "resname": "GLY",
+        "coord": [
+          -22.012879096191412,
+          -121.02620309662855,
+          -15.99429646736619
+        ],
+        "bfactor": 95.5
+      },
+      {
+        "residue": 126,
+        "resname": "VAL",
+        "coord": [
+          -24.228373926433452,
+          -118.4704805022081,
+          -14.221595229836398
+        ],
+        "bfactor": 96.62000274658203
+      },
+      {
+        "residue": 127,
+        "resname": "CYS",
+        "coord": [
+          -27.745410700734947,
+          -117.15718992964578,
+          -14.929061978334065
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 128,
+        "resname": "CYS",
+        "coord": [
+          -27.46655132357022,
+          -113.73714521322098,
+          -16.62710955876936
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 129,
+        "resname": "PRO",
+        "coord": [
+          -30.239889644132038,
+          -111.32922219630213,
+          -17.747389124009988
+        ],
+        "bfactor": 97.87999725341797
+      },
+      {
+        "residue": 130,
+        "resname": "ASP",
+        "coord": [
+          -31.225220137955,
+          -112.14793248452281,
+          -21.332073389312054
+        ],
+        "bfactor": 95.87999725341797
+      },
+      {
+        "residue": 131,
+        "resname": "ARG",
+        "coord": [
+          -31.50838331714086,
+          -109.49375897615123,
+          -24.089796834730723
+        ],
+        "bfactor": 92.94000244140625
+      },
+      {
+        "residue": 132,
+        "resname": "ALA",
+        "coord": [
+          -35.16259933741079,
+          -108.59716046092281,
+          -23.315707447325885
+        ],
+        "bfactor": 93.25
+      },
+      {
+        "residue": 133,
+        "resname": "LYS",
+        "coord": [
+          -34.66362810740389,
+          -108.50284325539876,
+          -19.496461189702853
+        ],
+        "bfactor": 96.80999755859375
+      },
+      {
+        "residue": 134,
+        "resname": "THR",
+        "coord": [
+          -31.515888742197923,
+          -106.34310749275096,
+          -19.894535710707284
+        ],
+        "bfactor": 97.0
+      },
+      {
+        "residue": 135,
+        "resname": "CYS",
+        "coord": [
+          -33.36955703811254,
+          -103.5798249900077,
+          -21.831051566246273
+        ],
+        "bfactor": 96.69000244140625
+      },
+      {
+        "residue": 136,
+        "resname": "VAL",
+        "coord": [
+          -36.223079347211566,
+          -103.31020369827677,
+          -19.251252583666524
+        ],
+        "bfactor": 97.19000244140625
+      },
+      {
+        "residue": 137,
+        "resname": "HIS",
+        "coord": [
+          -33.84760079423704,
+          -102.98728291582526,
+          -16.264653713275834
+        ],
+        "bfactor": 97.87999725341797
+      },
+      {
+        "residue": 138,
+        "resname": "PRO",
+        "coord": [
+          -33.6184912067979,
+          -99.49752191966476,
+          -14.666968203977966
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 139,
+        "resname": "ILE",
+        "coord": [
+          -30.68128474436414,
+          -97.18986320863758,
+          -15.47353715357728
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 140,
+        "resname": "PHE",
+        "coord": [
+          -28.45143599347407,
+          -96.7951591431458,
+          -12.381947231087842
+        ],
+        "bfactor": 97.94000244140625
+      },
+      {
+        "residue": 141,
+        "resname": "ASP",
+        "coord": [
+          -27.325776091960464,
+          -93.17161665286443,
+          -12.765409885397068
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 142,
+        "resname": "HIS",
+        "coord": [
+          -24.721407957968964,
+          -92.04019094944722,
+          -10.199361074423956
+        ],
+        "bfactor": 97.94000244140625
+      },
+      {
+        "residue": 143,
+        "resname": "PRO",
+        "coord": [
+          -24.659103569588293,
+          -88.20642056969977,
+          -10.740390499279586
+        ],
+        "bfactor": 97.0
+      },
+      {
+        "residue": 144,
+        "resname": "ASP",
+        "coord": [
+          -22.74744582774993,
+          -87.43305438275706,
+          -7.485964832750522
+        ],
+        "bfactor": 97.5
+      },
+      {
+        "residue": 145,
+        "resname": "ASP",
+        "coord": [
+          -19.790959036399954,
+          -89.9102269953891,
+          -7.854489865548707
+        ],
+        "bfactor": 97.75
+      },
+      {
+        "residue": 146,
+        "resname": "GLY",
+        "coord": [
+          -20.13469168745953,
+          -91.52704749009222,
+          -11.348568907657443
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 147,
+        "resname": "TYR",
+        "coord": [
+          -16.912467813165563,
+          -91.23974790255555,
+          -13.392547687129287
+        ],
+        "bfactor": 96.80999755859375
+      },
+      {
+        "residue": 148,
+        "resname": "LEU",
+        "coord": [
+          -17.664913055079644,
+          -93.54759447589285,
+          -16.390914134356198
+        ],
+        "bfactor": 96.44000244140625
+      },
+      {
+        "residue": 149,
+        "resname": "SER",
+        "coord": [
+          -19.987313739991027,
+          -92.31953989990765,
+          -19.162926944053325
+        ],
+        "bfactor": 97.69000244140625
+      },
+      {
+        "residue": 150,
+        "resname": "ARG",
+        "coord": [
+          -22.36342420378374,
+          -95.17412969031507,
+          -20.12587252525532
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 151,
+        "resname": "TRP",
+        "coord": [
+          -25.522308454518882,
+          -95.63485458034219,
+          -22.21114873385863
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 152,
+        "resname": "GLY",
+        "coord": [
+          -28.85581454326042,
+          -97.16091392702813,
+          -21.110486193969308
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 153,
+        "resname": "PHE",
+        "coord": [
+          -32.27172329903395,
+          -97.70413414927526,
+          -22.72729049949658
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 154,
+        "resname": "ASP",
+        "coord": [
+          -35.06360086702506,
+          -95.58188529949835,
+          -21.12923591189056
+        ],
+        "bfactor": 97.62000274658203
+      },
+      {
+        "residue": 155,
+        "resname": "GLY",
+        "coord": [
+          -37.861323237702436,
+          -97.43954386553033,
+          -23.03397846369628
+        ],
+        "bfactor": 95.55999755859375
+      },
+      {
+        "residue": 156,
+        "resname": "GLU",
+        "coord": [
+          -37.799280302927585,
+          -95.02598691746915,
+          -26.040517925055493
+        ],
+        "bfactor": 95.25
+      },
+      {
+        "residue": 157,
+        "resname": "GLN",
+        "coord": [
+          -34.10302637636497,
+          -94.26329461012918,
+          -26.727012902964972
+        ],
+        "bfactor": 96.75
+      },
+      {
+        "residue": 158,
+        "resname": "CYS",
+        "coord": [
+          -30.537641224107283,
+          -94.82451471681533,
+          -25.566184876118793
+        ],
+        "bfactor": 97.94000244140625
+      },
+      {
+        "residue": 159,
+        "resname": "ILE",
+        "coord": [
+          -29.522369408571507,
+          -92.06193200563732,
+          -23.107284124872624
+        ],
+        "bfactor": 98.5
+      },
+      {
+        "residue": 160,
+        "resname": "GLU",
+        "coord": [
+          -26.093438445127354,
+          -91.24174294288267,
+          -21.636314257991728
+        ],
+        "bfactor": 98.44000244140625
+      },
+      {
+        "residue": 161,
+        "resname": "PHE",
+        "coord": [
+          -25.648828288173256,
+          -91.48252694880837,
+          -17.811866863815204
+        ],
+        "bfactor": 98.62000274658203
+      },
+      {
+        "residue": 162,
+        "resname": "LYS",
+        "coord": [
+          -22.833571094645016,
+          -91.35606664597886,
+          -15.170635952649775
+        ],
+        "bfactor": 98.44000244140625
+      },
+      {
+        "residue": 163,
+        "resname": "TRP",
+        "coord": [
+          -21.792501737300746,
+          -94.68144005294124,
+          -13.66788936806999
+        ],
+        "bfactor": 98.19000244140625
+      },
+      {
+        "residue": 164,
+        "resname": "ASN",
+        "coord": [
+          -19.714059651552873,
+          -95.5848632184482,
+          -10.628718086253613
+        ],
+        "bfactor": 97.75
+      },
+      {
+        "residue": 165,
+        "resname": "PRO",
+        "coord": [
+          -18.934747403191697,
+          -99.38232627459168,
+          -11.050206824869225
+        ],
+        "bfactor": 96.19000244140625
+      },
+      {
+        "residue": 166,
+        "resname": "GLU",
+        "coord": [
+          -18.375283527717585,
+          -99.74427322271879,
+          -7.245231584636912
+        ],
+        "bfactor": 94.87999725341797
+      },
+      {
+        "residue": 167,
+        "resname": "ARG",
+        "coord": [
+          -22.130458442648653,
+          -98.99147238292416,
+          -6.7274340818648835
+        ],
+        "bfactor": 96.44000244140625
+      },
+      {
+        "residue": 168,
+        "resname": "PRO",
+        "coord": [
+          -25.152808641982983,
+          -101.24607831097066,
+          -7.48099587880081
+        ],
+        "bfactor": 95.5
+      },
+      {
+        "residue": 169,
+        "resname": "SER",
+        "coord": [
+          -25.84720902279045,
+          -101.54943588687621,
+          -11.230338126752464
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 170,
+        "resname": "SER",
+        "coord": [
+          -28.21261557910343,
+          -103.22067521774012,
+          -13.687563171864348
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 171,
+        "resname": "ALA",
+        "coord": [
+          -27.555278770059925,
+          -105.00171009151781,
+          -16.997879938861765
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 172,
+        "resname": "ASN",
+        "coord": [
+          -28.99906859371871,
+          -101.84516424446835,
+          -18.744734042836722
+        ],
+        "bfactor": 98.12000274658203
+      },
+      {
+        "residue": 173,
+        "resname": "ASN",
+        "coord": [
+          -25.490375136934258,
+          -100.36069903801231,
+          -19.023628784879996
+        ],
+        "bfactor": 98.05999755859375
+      },
+      {
+        "residue": 174,
+        "resname": "PHE",
+        "coord": [
+          -23.612803906760984,
+          -100.126620747997,
+          -22.34142182088588
+        ],
+        "bfactor": 95.80999755859375
+      },
+      {
+        "residue": 175,
+        "resname": "LYS",
+        "coord": [
+          -20.18476588062548,
+          -98.64283432119338,
+          -23.276706874226495
+        ],
+        "bfactor": 92.62000274658203
+      },
+      {
+        "residue": 176,
+        "resname": "THR",
+        "coord": [
+          -21.45080060004769,
+          -96.9845401395552,
+          -26.50688867969232
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 177,
+        "resname": "ARG",
+        "coord": [
+          -24.74569561458667,
+          -95.5476028159814,
+          -27.821714893032613
+        ],
+        "bfactor": 93.37999725341797
+      },
+      {
+        "residue": 178,
+        "resname": "ALA",
+        "coord": [
+          -24.58366492959954,
+          -97.83578201517817,
+          -30.88401860257644
+        ],
+        "bfactor": 88.80999755859375
+      },
+      {
+        "residue": 179,
+        "resname": "HIS",
+        "coord": [
+          -24.33397582305939,
+          -100.93390775570552,
+          -28.632457089768696
+        ],
+        "bfactor": 88.05999755859375
+      },
+      {
+        "residue": 180,
+        "resname": "CYS",
+        "coord": [
+          -27.336417253448726,
+          -99.79990576627821,
+          -26.531281241569275
+        ],
+        "bfactor": 94.12000274658203
+      },
+      {
+        "residue": 181,
+        "resname": "GLU",
+        "coord": [
+          -29.35211155495844,
+          -99.12629454701137,
+          -29.744880688939638
+        ],
+        "bfactor": 92.44000244140625
+      },
+      {
+        "residue": 182,
+        "resname": "ASP",
+        "coord": [
+          -28.41090576300057,
+          -102.49016395254269,
+          -31.34525323297907
+        ],
+        "bfactor": 87.44000244140625
+      },
+      {
+        "residue": 183,
+        "resname": "TYR",
+        "coord": [
+          -29.0744624576795,
+          -104.31488095282397,
+          -28.047614626061797
+        ],
+        "bfactor": 89.80999755859375
+      },
+      {
+        "residue": 184,
+        "resname": "CYS",
+        "coord": [
+          -32.470286390615215,
+          -102.68641892186854,
+          -27.218186973859666
+        ],
+        "bfactor": 93.12000274658203
+      },
+      {
+        "residue": 185,
+        "resname": "ILE",
+        "coord": [
+          -33.818958944130024,
+          -101.17823642652391,
+          -30.51987031787251
+        ],
+        "bfactor": 90.44000244140625
+      },
+      {
+        "residue": 186,
+        "resname": "GLY",
+        "coord": [
+          -32.14207702943807,
+          -103.38159395978383,
+          -33.227870433235466
+        ],
+        "bfactor": 75.0
+      },
+      {
+        "residue": 187,
+        "resname": "SER",
+        "coord": [
+          -34.79325169627615,
+          -106.11816876635268,
+          -32.59901415874292
+        ],
+        "bfactor": 59.189998626708984
+      },
+      {
+        "residue": 188,
+        "resname": "ILE",
+        "coord": [
+          -37.61296650558185,
+          -103.56530244558932,
+          -33.329263391877916
+        ],
+        "bfactor": 51.220001220703125
+      },
+      {
+        "residue": 189,
+        "resname": "ASN",
+        "coord": [
+          -35.97776351390263,
+          -102.6663896275198,
+          -36.70407122663143
+        ],
+        "bfactor": 41.59000015258789
+      },
+      {
+        "residue": 190,
+        "resname": "GLY",
+        "coord": [
+          -34.77581922901845,
+          -106.29459391087617,
+          -37.32502582583233
+        ],
+        "bfactor": 36.380001068115234
+      },
+      {
+        "residue": 191,
+        "resname": "ILE",
+        "coord": [
+          -38.307577781883445,
+          -107.87616233369475,
+          -37.564142634543316
+        ],
+        "bfactor": 39.970001220703125
+      },
+      {
+        "residue": 192,
+        "resname": "THR",
+        "coord": [
+          -37.78787352685262,
+          -108.15427107879043,
+          -41.412127823340725
+        ],
+        "bfactor": 39.40999984741211
+      },
+      {
+        "residue": 193,
+        "resname": "ASN",
+        "coord": [
+          -34.10955449462907,
+          -108.96800602974201,
+          -42.3194676311205
+        ],
+        "bfactor": 30.030000686645508
+      },
+      {
+        "residue": 194,
+        "resname": "TYR",
+        "coord": [
+          -32.792934106987865,
+          -112.01982489262757,
+          -40.32553824847343
+        ],
+        "bfactor": 32.5
+      },
+      {
+        "residue": 195,
+        "resname": "HIS",
+        "coord": [
+          -36.021659637846085,
+          -114.07734535862079,
+          -40.63058411126025
+        ],
+        "bfactor": 31.360000610351562
+      },
+      {
+        "residue": 196,
+        "resname": "GLN",
+        "coord": [
+          -35.943965232198416,
+          -113.43302577779227,
+          -44.43017222802922
+        ],
+        "bfactor": 32.220001220703125
+      },
+      {
+        "residue": 197,
+        "resname": "SER",
+        "coord": [
+          -32.30034501497946,
+          -114.60281337310577,
+          -44.92835863342777
+        ],
+        "bfactor": 33.90999984741211
+      },
+      {
+        "residue": 198,
+        "resname": "ASN",
+        "coord": [
+          -33.12801852326164,
+          -118.04909519727406,
+          -43.3522481829532
+        ],
+        "bfactor": 30.25
+      },
+      {
+        "residue": 199,
+        "resname": "PHE",
+        "coord": [
+          -36.513857281529226,
+          -119.01699094611337,
+          -44.98494249677676
+        ],
+        "bfactor": 34.529998779296875
+      },
+      {
+        "residue": 200,
+        "resname": "HIS",
+        "coord": [
+          -35.0489223150912,
+          -120.30365282569193,
+          -48.3068160271428
+        ],
+        "bfactor": 30.670000076293945
+      },
+      {
+        "residue": 201,
+        "resname": "LEU",
+        "coord": [
+          -33.750816019029884,
+          -123.75205136001864,
+          -47.27840142564234
+        ],
+        "bfactor": 32.880001068115234
+      },
+      {
+        "residue": 202,
+        "resname": "PHE",
+        "coord": [
+          -36.467630098314835,
+          -126.40436420257568,
+          -47.239020671383244
+        ],
+        "bfactor": 54.560001373291016
+      }
+    ],
+    "transform": [
+      [
+        0.11316314856066481,
+        -0.9407099265239013,
+        0.31977951145630473,
+        -26.145259924292844
+      ],
+      [
+        -0.12541069131618465,
+        -0.33279643045921536,
+        -0.9346222201388115,
+        -106.17948028454032
+      ],
+      [
+        0.985629879981037,
+        0.06566102354517972,
+        -0.15563537411387487,
+        -20.05203566950311
+      ]
+    ]
+  },
+  {
+    "Entry": "A0A1Q1NL17",
+    "status": "success",
+    "command": "matchmaker #2/A to #1/I pairing ss matrix BLOSUM-62 alg nw ssFraction 0.3 gapExtend 1 hgap 18 sgap 18 ogap 6 computeSS true cutoffDistance 2.0 showAlignment false logParameters true",
+    "full_pairs": 56,
+    "core_pairs": 43,
+    "full_rmsd_angstrom": 3.4179942131523915,
+    "core_rmsd_angstrom": 0.8731115291390434,
+    "mean_core_pLDDT": 91.39999939674554,
+    "minimum_core_pLDDT": 70.30999755859375,
+    "mapping": [
+      {
+        "reference_residue": 1,
+        "target_residue": 28,
+        "target_pLDDT": 93.94000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 2,
+        "target_residue": 29,
+        "target_pLDDT": 95.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 3,
+        "target_residue": 30,
+        "target_pLDDT": 94.25,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 4,
+        "target_residue": 31,
+        "target_pLDDT": 93.75,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 5,
+        "target_residue": 32,
+        "target_pLDDT": 94.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 6,
+        "target_residue": 33,
+        "target_pLDDT": 90.25,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 7,
+        "target_residue": 34,
+        "target_pLDDT": 89.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 8,
+        "target_residue": 35,
+        "target_pLDDT": 80.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 9,
+        "target_residue": 36,
+        "target_pLDDT": 71.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 10,
+        "target_residue": 37,
+        "target_pLDDT": 70.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 11,
+        "target_residue": 38,
+        "target_pLDDT": 73.12000274658203,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 12,
+        "target_residue": 39,
+        "target_pLDDT": 74.80999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 13,
+        "target_residue": 40,
+        "target_pLDDT": 75.87999725341797,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 14,
+        "target_residue": 41,
+        "target_pLDDT": 76.80999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 15,
+        "target_residue": 42,
+        "target_pLDDT": 79.5,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 16,
+        "target_residue": 43,
+        "target_pLDDT": 83.69000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 17,
+        "target_residue": 44,
+        "target_pLDDT": 78.75,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 18,
+        "target_residue": 51,
+        "target_pLDDT": 87.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 19,
+        "target_residue": 52,
+        "target_pLDDT": 89.44000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 20,
+        "target_residue": 53,
+        "target_pLDDT": 91.87999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 21,
+        "target_residue": 54,
+        "target_pLDDT": 94.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 22,
+        "target_residue": 55,
+        "target_pLDDT": 93.62000274658203,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 23,
+        "target_residue": 56,
+        "target_pLDDT": 95.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 24,
+        "target_residue": 57,
+        "target_pLDDT": 93.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 25,
+        "target_residue": 58,
+        "target_pLDDT": 90.19000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 26,
+        "target_residue": 59,
+        "target_pLDDT": 90.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 27,
+        "target_residue": 60,
+        "target_pLDDT": 91.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 28,
+        "target_residue": 61,
+        "target_pLDDT": 91.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 29,
+        "target_residue": 62,
+        "target_pLDDT": 94.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 30,
+        "target_residue": 63,
+        "target_pLDDT": 95.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 31,
+        "target_residue": 64,
+        "target_pLDDT": 93.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 32,
+        "target_residue": 65,
+        "target_pLDDT": 92.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 33,
+        "target_residue": 66,
+        "target_pLDDT": 87.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 34,
+        "target_residue": 67,
+        "target_pLDDT": 86.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 35,
+        "target_residue": 68,
+        "target_pLDDT": 83.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 36,
+        "target_residue": 69,
+        "target_pLDDT": 76.87999725341797,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 37,
+        "target_residue": 70,
+        "target_pLDDT": 72.55999755859375,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 38,
+        "target_residue": 71,
+        "target_pLDDT": 75.5,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 39,
+        "target_residue": 72,
+        "target_pLDDT": 67.94000244140625,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 40,
+        "target_residue": 73,
+        "target_pLDDT": 67.12000274658203,
+        "is_pruned_core": false
+      },
+      {
+        "reference_residue": 41,
+        "target_residue": 74,
+        "target_pLDDT": 75.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 42,
+        "target_residue": 75,
+        "target_pLDDT": 88.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 43,
+        "target_residue": 76,
+        "target_pLDDT": 93.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 44,
+        "target_residue": 77,
+        "target_pLDDT": 91.87999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 45,
+        "target_residue": 78,
+        "target_pLDDT": 93.55999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 46,
+        "target_residue": 79,
+        "target_pLDDT": 92.30999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 47,
+        "target_residue": 80,
+        "target_pLDDT": 95.94000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 48,
+        "target_residue": 81,
+        "target_pLDDT": 97.05999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 49,
+        "target_residue": 82,
+        "target_pLDDT": 97.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 50,
+        "target_residue": 83,
+        "target_pLDDT": 96.80999755859375,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 51,
+        "target_residue": 84,
+        "target_pLDDT": 97.0,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 52,
+        "target_residue": 85,
+        "target_pLDDT": 97.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 53,
+        "target_residue": 86,
+        "target_pLDDT": 96.94000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 54,
+        "target_residue": 87,
+        "target_pLDDT": 96.69000244140625,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 55,
+        "target_residue": 88,
+        "target_pLDDT": 96.37999725341797,
+        "is_pruned_core": true
+      },
+      {
+        "reference_residue": 56,
+        "target_residue": 89,
+        "target_pLDDT": 95.0,
+        "is_pruned_core": true
+      }
+    ],
+    "reference_trace": [
+      {
+        "residue": 1,
+        "resname": "ARG",
+        "coord": [
+          -36.905,
+          -106.992,
+          -26.297
+        ],
+        "bfactor": 11.649999618530273
+      },
+      {
+        "residue": 2,
+        "resname": "PRO",
+        "coord": [
+          -34.73,
+          -108.461,
+          -23.484
+        ],
+        "bfactor": 11.5
+      },
+      {
+        "residue": 3,
+        "resname": "ASP",
+        "coord": [
+          -35.835,
+          -107.792,
+          -19.915
+        ],
+        "bfactor": 13.319999694824219
+      },
+      {
+        "residue": 4,
+        "resname": "PHE",
+        "coord": [
+          -32.646,
+          -106.084,
+          -18.719
+        ],
+        "bfactor": 13.979999542236328
+      },
+      {
+        "residue": 5,
+        "resname": "CYS",
+        "coord": [
+          -33.402,
+          -103.382,
+          -21.301
+        ],
+        "bfactor": 13.9399995803833
+      },
+      {
+        "residue": 6,
+        "resname": "LEU",
+        "coord": [
+          -36.394,
+          -102.322,
+          -19.205
+        ],
+        "bfactor": 16.540000915527344
+      },
+      {
+        "residue": 7,
+        "resname": "GLU",
+        "coord": [
+          -34.484,
+          -102.006,
+          -15.916
+        ],
+        "bfactor": 18.059999465942383
+      },
+      {
+        "residue": 8,
+        "resname": "PRO",
+        "coord": [
+          -33.413,
+          -98.528,
+          -14.76
+        ],
+        "bfactor": 16.239999771118164
+      },
+      {
+        "residue": 9,
+        "resname": "PRO",
+        "coord": [
+          -29.704,
+          -97.569,
+          -15.102
+        ],
+        "bfactor": 12.720000267028809
+      },
+      {
+        "residue": 10,
+        "resname": "TYR",
+        "coord": [
+          -27.503,
+          -98.932,
+          -12.313
+        ],
+        "bfactor": 11.270000457763672
+      },
+      {
+        "residue": 11,
+        "resname": "THR",
+        "coord": [
+          -24.774,
+          -96.63,
+          -10.994
+        ],
+        "bfactor": 10.859999656677246
+      },
+      {
+        "residue": 12,
+        "resname": "GLY",
+        "coord": [
+          -23.341,
+          -99.249,
+          -8.669
+        ],
+        "bfactor": 9.329999923706055
+      },
+      {
+        "residue": 13,
+        "resname": "PRO",
+        "coord": [
+          -21.492,
+          -98.839,
+          -5.336
+        ],
+        "bfactor": 9.539999961853027
+      },
+      {
+        "residue": 14,
+        "resname": "CYS",
+        "coord": [
+          -18.226,
+          -97.47,
+          -6.748
+        ],
+        "bfactor": 6.760000228881836
+      },
+      {
+        "residue": 15,
+        "resname": "LYS",
+        "coord": [
+          -17.649,
+          -93.732,
+          -6.778
+        ],
+        "bfactor": 6.980000019073486
+      },
+      {
+        "residue": 16,
+        "resname": "ALA",
+        "coord": [
+          -16.033,
+          -92.989,
+          -10.129
+        ],
+        "bfactor": 6.599999904632568
+      },
+      {
+        "residue": 17,
+        "resname": "ARG",
+        "coord": [
+          -17.818,
+          -90.83,
+          -12.716
+        ],
+        "bfactor": 9.109999656677246
+      },
+      {
+        "residue": 18,
+        "resname": "ILE",
+        "coord": [
+          -17.968,
+          -92.813,
+          -15.948
+        ],
+        "bfactor": 9.520000457763672
+      },
+      {
+        "residue": 19,
+        "resname": "ILE",
+        "coord": [
+          -20.467,
+          -91.936,
+          -18.665
+        ],
+        "bfactor": 13.109999656677246
+      },
+      {
+        "residue": 20,
+        "resname": "ARG",
+        "coord": [
+          -22.242,
+          -94.99,
+          -20.08
+        ],
+        "bfactor": 9.90999984741211
+      },
+      {
+        "residue": 21,
+        "resname": "TYR",
+        "coord": [
+          -25.304,
+          -95.582,
+          -22.218
+        ],
+        "bfactor": 12.729999542236328
+      },
+      {
+        "residue": 22,
+        "resname": "PHE",
+        "coord": [
+          -28.569,
+          -97.2,
+          -21.172
+        ],
+        "bfactor": 11.569999694824219
+      },
+      {
+        "residue": 23,
+        "resname": "TYR",
+        "coord": [
+          -31.836,
+          -97.926,
+          -22.976
+        ],
+        "bfactor": 12.960000038146973
+      },
+      {
+        "residue": 24,
+        "resname": "ASN",
+        "coord": [
+          -34.655,
+          -95.736,
+          -21.711
+        ],
+        "bfactor": 19.760000228881836
+      },
+      {
+        "residue": 25,
+        "resname": "ALA",
+        "coord": [
+          -37.781,
+          -97.714,
+          -22.595
+        ],
+        "bfactor": 26.860000610351562
+      },
+      {
+        "residue": 26,
+        "resname": "LYS",
+        "coord": [
+          -40.102,
+          -94.894,
+          -21.478
+        ],
+        "bfactor": 32.97999954223633
+      },
+      {
+        "residue": 27,
+        "resname": "ALA",
+        "coord": [
+          -38.44,
+          -92.679,
+          -24.098
+        ],
+        "bfactor": 28.399999618530273
+      },
+      {
+        "residue": 28,
+        "resname": "GLY",
+        "coord": [
+          -37.676,
+          -95.516,
+          -26.496
+        ],
+        "bfactor": 23.649999618530273
+      },
+      {
+        "residue": 29,
+        "resname": "LEU",
+        "coord": [
+          -34.064,
+          -94.413,
+          -26.809
+        ],
+        "bfactor": 24.040000915527344
+      },
+      {
+        "residue": 30,
+        "resname": "CYS",
+        "coord": [
+          -30.532,
+          -94.827,
+          -25.454
+        ],
+        "bfactor": 18.579999923706055
+      },
+      {
+        "residue": 31,
+        "resname": "GLN",
+        "coord": [
+          -29.283,
+          -92.109,
+          -23.141
+        ],
+        "bfactor": 18.219999313354492
+      },
+      {
+        "residue": 32,
+        "resname": "THR",
+        "coord": [
+          -26.274,
+          -91.481,
+          -20.93
+        ],
+        "bfactor": 16.709999084472656
+      },
+      {
+        "residue": 33,
+        "resname": "PHE",
+        "coord": [
+          -25.983,
+          -91.915,
+          -17.175
+        ],
+        "bfactor": 11.6899995803833
+      },
+      {
+        "residue": 34,
+        "resname": "VAL",
+        "coord": [
+          -23.209,
+          -91.907,
+          -14.601
+        ],
+        "bfactor": 8.699999809265137
+      },
+      {
+        "residue": 35,
+        "resname": "TYR",
+        "coord": [
+          -21.79,
+          -95.366,
+          -13.905
+        ],
+        "bfactor": 8.59000015258789
+      },
+      {
+        "residue": 36,
+        "resname": "GLY",
+        "coord": [
+          -19.74,
+          -95.785,
+          -10.726
+        ],
+        "bfactor": 7.289999961853027
+      },
+      {
+        "residue": 37,
+        "resname": "GLY",
+        "coord": [
+          -17.007,
+          -97.991,
+          -12.144
+        ],
+        "bfactor": 8.1899995803833
+      },
+      {
+        "residue": 38,
+        "resname": "CYS",
+        "coord": [
+          -17.945,
+          -101.46,
+          -10.841
+        ],
+        "bfactor": 9.350000381469727
+      },
+      {
+        "residue": 39,
+        "resname": "ARG",
+        "coord": [
+          -20.595,
+          -104.187,
+          -10.792
+        ],
+        "bfactor": 14.130000114440918
+      },
+      {
+        "residue": 40,
+        "resname": "ALA",
+        "coord": [
+          -22.365,
+          -103.02,
+          -13.946
+        ],
+        "bfactor": 11.970000267028809
+      },
+      {
+        "residue": 41,
+        "resname": "LYS",
+        "coord": [
+          -25.756,
+          -104.44,
+          -14.898
+        ],
+        "bfactor": 15.149999618530273
+      },
+      {
+        "residue": 42,
+        "resname": "ARG",
+        "coord": [
+          -26.61,
+          -105.477,
+          -18.459
+        ],
+        "bfactor": 14.079999923706055
+      },
+      {
+        "residue": 43,
+        "resname": "ASN",
+        "coord": [
+          -28.406,
+          -102.218,
+          -19.354
+        ],
+        "bfactor": 11.90999984741211
+      },
+      {
+        "residue": 44,
+        "resname": "ASN",
+        "coord": [
+          -24.987,
+          -100.547,
+          -19.522
+        ],
+        "bfactor": 13.029999732971191
+      },
+      {
+        "residue": 45,
+        "resname": "PHE",
+        "coord": [
+          -23.241,
+          -99.854,
+          -22.848
+        ],
+        "bfactor": 15.020000457763672
+      },
+      {
+        "residue": 46,
+        "resname": "LYS",
+        "coord": [
+          -20.02,
+          -98.135,
+          -23.883
+        ],
+        "bfactor": 22.809999465942383
+      },
+      {
+        "residue": 47,
+        "resname": "SER",
+        "coord": [
+          -21.733,
+          -96.756,
+          -27.002
+        ],
+        "bfactor": 24.209999084472656
+      },
+      {
+        "residue": 48,
+        "resname": "ALA",
+        "coord": [
+          -25.192,
+          -95.732,
+          -28.166
+        ],
+        "bfactor": 24.100000381469727
+      },
+      {
+        "residue": 49,
+        "resname": "GLU",
+        "coord": [
+          -24.857,
+          -97.991,
+          -31.212
+        ],
+        "bfactor": 28.260000228881836
+      },
+      {
+        "residue": 50,
+        "resname": "ASP",
+        "coord": [
+          -24.255,
+          -101.112,
+          -29.143
+        ],
+        "bfactor": 25.780000686645508
+      },
+      {
+        "residue": 51,
+        "resname": "CYS",
+        "coord": [
+          -27.081,
+          -100.026,
+          -26.863
+        ],
+        "bfactor": 18.25
+      },
+      {
+        "residue": 52,
+        "resname": "MET",
+        "coord": [
+          -29.583,
+          -99.606,
+          -29.711
+        ],
+        "bfactor": 19.610000610351562
+      },
+      {
+        "residue": 53,
+        "resname": "ARG",
+        "coord": [
+          -28.534,
+          -102.872,
+          -31.349
+        ],
+        "bfactor": 21.270000457763672
+      },
+      {
+        "residue": 54,
+        "resname": "THR",
+        "coord": [
+          -29.013,
+          -104.846,
+          -28.141
+        ],
+        "bfactor": 18.459999084472656
+      },
+      {
+        "residue": 55,
+        "resname": "CYS",
+        "coord": [
+          -32.081,
+          -103.065,
+          -26.758
+        ],
+        "bfactor": 20.040000915527344
+      },
+      {
+        "residue": 56,
+        "resname": "GLY",
+        "coord": [
+          -33.495,
+          -101.42,
+          -29.878
+        ],
+        "bfactor": 35.720001220703125
+      }
+    ],
+    "target_trace": [
+      {
+        "residue": 1,
+        "resname": "MET",
+        "coord": [
+          -49.525028774907966,
+          -124.2456569563108,
+          -75.97303611586068
+        ],
+        "bfactor": 72.94000244140625
+      },
+      {
+        "residue": 2,
+        "resname": "LYS",
+        "coord": [
+          -46.4523712290674,
+          -125.8000858950726,
+          -74.15334485624302
+        ],
+        "bfactor": 83.62000274658203
+      },
+      {
+        "residue": 3,
+        "resname": "THR",
+        "coord": [
+          -44.633996498994236,
+          -122.40255275604402,
+          -73.79625955798221
+        ],
+        "bfactor": 88.12000274658203
+      },
+      {
+        "residue": 4,
+        "resname": "TYR",
+        "coord": [
+          -47.58470801489369,
+          -120.69297461347797,
+          -71.99605981228763
+        ],
+        "bfactor": 87.75
+      },
+      {
+        "residue": 5,
+        "resname": "LEU",
+        "coord": [
+          -47.75039830288635,
+          -123.59468027266699,
+          -69.47999383622593
+        ],
+        "bfactor": 89.12000274658203
+      },
+      {
+        "residue": 6,
+        "resname": "ILE",
+        "coord": [
+          -43.99330963586339,
+          -123.20227236740647,
+          -68.70598816181737
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 7,
+        "resname": "LEU",
+        "coord": [
+          -44.36590003948269,
+          -119.40107356932799,
+          -68.2410009699318
+        ],
+        "bfactor": 90.55999755859375
+      },
+      {
+        "residue": 8,
+        "resname": "ALA",
+        "coord": [
+          -47.44741808119362,
+          -119.84753255126908,
+          -65.97893157752708
+        ],
+        "bfactor": 91.25
+      },
+      {
+        "residue": 9,
+        "resname": "THR",
+        "coord": [
+          -45.546107609537664,
+          -122.40516664910808,
+          -63.80929397830856
+        ],
+        "bfactor": 90.94000244140625
+      },
+      {
+        "residue": 10,
+        "resname": "LEU",
+        "coord": [
+          -42.50035365711042,
+          -120.08247846929808,
+          -63.56623744034932
+        ],
+        "bfactor": 92.19000244140625
+      },
+      {
+        "residue": 11,
+        "resname": "ALA",
+        "coord": [
+          -44.78669881490834,
+          -117.15305374959453,
+          -62.5765391878482
+        ],
+        "bfactor": 91.30999755859375
+      },
+      {
+        "residue": 12,
+        "resname": "LEU",
+        "coord": [
+          -46.397962808739685,
+          -119.33581611646011,
+          -59.82991475193089
+        ],
+        "bfactor": 86.05999755859375
+      },
+      {
+        "residue": 13,
+        "resname": "ILE",
+        "coord": [
+          -42.95241418907864,
+          -120.47219085300678,
+          -58.52776569452989
+        ],
+        "bfactor": 86.05999755859375
+      },
+      {
+        "residue": 14,
+        "resname": "PHE",
+        "coord": [
+          -41.74412033525465,
+          -116.82986692847093,
+          -58.56977035575914
+        ],
+        "bfactor": 81.55999755859375
+      },
+      {
+        "residue": 15,
+        "resname": "SER",
+        "coord": [
+          -44.879832032546034,
+          -115.67568013467185,
+          -56.64279370917262
+        ],
+        "bfactor": 80.87999725341797
+      },
+      {
+        "residue": 16,
+        "resname": "ALA",
+        "coord": [
+          -44.3628353687501,
+          -118.41700726209635,
+          -53.9772678642275
+        ],
+        "bfactor": 77.19000244140625
+      },
+      {
+        "residue": 17,
+        "resname": "MET",
+        "coord": [
+          -40.661476654499054,
+          -117.43258328693182,
+          -53.60678560343886
+        ],
+        "bfactor": 75.87999725341797
+      },
+      {
+        "residue": 18,
+        "resname": "LEU",
+        "coord": [
+          -41.67364927983427,
+          -113.76518656902671,
+          -52.992357503478544
+        ],
+        "bfactor": 70.69000244140625
+      },
+      {
+        "residue": 19,
+        "resname": "THR",
+        "coord": [
+          -43.81166798573524,
+          -114.7603341801359,
+          -49.914408958534814
+        ],
+        "bfactor": 67.12000274658203
+      },
+      {
+        "residue": 20,
+        "resname": "ASN",
+        "coord": [
+          -40.79577500878861,
+          -116.05468011127941,
+          -47.84888114169567
+        ],
+        "bfactor": 67.30999755859375
+      },
+      {
+        "residue": 21,
+        "resname": "ILE",
+        "coord": [
+          -40.00093762033767,
+          -112.7157843704776,
+          -46.12790619766652
+        ],
+        "bfactor": 70.05999755859375
+      },
+      {
+        "residue": 22,
+        "resname": "CYS",
+        "coord": [
+          -40.16817043915961,
+          -113.93383628913631,
+          -42.53840056210043
+        ],
+        "bfactor": 64.5
+      },
+      {
+        "residue": 23,
+        "resname": "ALA",
+        "coord": [
+          -39.570504667543176,
+          -110.75376540043943,
+          -40.59892156806599
+        ],
+        "bfactor": 69.25
+      },
+      {
+        "residue": 24,
+        "resname": "VAL",
+        "coord": [
+          -37.76013874979134,
+          -112.32801743174227,
+          -37.62541407929428
+        ],
+        "bfactor": 74.19000244140625
+      },
+      {
+        "residue": 25,
+        "resname": "ALA",
+        "coord": [
+          -39.629516926409195,
+          -110.64402494443567,
+          -34.76708930147776
+        ],
+        "bfactor": 80.80999755859375
+      },
+      {
+        "residue": 26,
+        "resname": "PHE",
+        "coord": [
+          -36.91730812630995,
+          -109.14380501974325,
+          -32.53638098297889
+        ],
+        "bfactor": 88.69000244140625
+      },
+      {
+        "residue": 27,
+        "resname": "GLU",
+        "coord": [
+          -37.223844171140556,
+          -110.31689338656312,
+          -28.896438354742628
+        ],
+        "bfactor": 92.44000244140625
+      },
+      {
+        "residue": 28,
+        "resname": "GLN",
+        "coord": [
+          -35.968854430554714,
+          -107.45640981756333,
+          -26.68418079683792
+        ],
+        "bfactor": 93.94000244140625
+      },
+      {
+        "residue": 29,
+        "resname": "PRO",
+        "coord": [
+          -33.6195633167024,
+          -108.7654309919696,
+          -23.91896691228385
+        ],
+        "bfactor": 95.55999755859375
+      },
+      {
+        "residue": 30,
+        "resname": "LYS",
+        "coord": [
+          -35.34829384823344,
+          -108.58145923180065,
+          -20.482080073760834
+        ],
+        "bfactor": 94.25
+      },
+      {
+        "residue": 31,
+        "resname": "TYR",
+        "coord": [
+          -32.436523676370214,
+          -106.54947632383866,
+          -19.05354903524683
+        ],
+        "bfactor": 93.75
+      },
+      {
+        "residue": 32,
+        "resname": "CYS",
+        "coord": [
+          -33.19756882097936,
+          -103.61936488474497,
+          -21.450168162759404
+        ],
+        "bfactor": 94.55999755859375
+      },
+      {
+        "residue": 33,
+        "resname": "THR",
+        "coord": [
+          -36.19322062522436,
+          -102.97486164231479,
+          -19.093884046142595
+        ],
+        "bfactor": 90.25
+      },
+      {
+        "residue": 34,
+        "resname": "GLU",
+        "coord": [
+          -34.072588353767614,
+          -103.05507442468613,
+          -15.91023728828763
+        ],
+        "bfactor": 89.05999755859375
+      },
+      {
+        "residue": 35,
+        "resname": "ALA",
+        "coord": [
+          -33.91934083172124,
+          -99.67658546047775,
+          -14.192232190591785
+        ],
+        "bfactor": 80.62000274658203
+      },
+      {
+        "residue": 36,
+        "resname": "PRO",
+        "coord": [
+          -30.828940696048683,
+          -97.60937106224121,
+          -15.1009420635207
+        ],
+        "bfactor": 71.44000244140625
+      },
+      {
+        "residue": 37,
+        "resname": "GLY",
+        "coord": [
+          -28.54669221077684,
+          -98.13672731385458,
+          -12.191442925291119
+        ],
+        "bfactor": 70.30999755859375
+      },
+      {
+        "residue": 38,
+        "resname": "ASP",
+        "coord": [
+          -28.18042854209336,
+          -94.68382160714552,
+          -10.613041802135621
+        ],
+        "bfactor": 73.12000274658203
+      },
+      {
+        "residue": 39,
+        "resname": "GLY",
+        "coord": [
+          -24.347835622159103,
+          -95.07779070818009,
+          -11.00339402449363
+        ],
+        "bfactor": 74.80999755859375
+      },
+      {
+        "residue": 40,
+        "resname": "LYS",
+        "coord": [
+          -23.893531846382515,
+          -95.25093652710542,
+          -7.192119355212521
+        ],
+        "bfactor": 75.87999725341797
+      },
+      {
+        "residue": 41,
+        "resname": "CYS",
+        "coord": [
+          -22.50105242199837,
+          -97.87149818767884,
+          -4.8812830053600464
+        ],
+        "bfactor": 76.80999755859375
+      },
+      {
+        "residue": 42,
+        "resname": "PRO",
+        "coord": [
+          -24.338001831957534,
+          -99.21772053166933,
+          -1.8175404793322087
+        ],
+        "bfactor": 79.5
+      },
+      {
+        "residue": 43,
+        "resname": "GLY",
+        "coord": [
+          -24.674136364852238,
+          -96.30095221682372,
+          0.6424418729029391
+        ],
+        "bfactor": 83.69000244140625
+      },
+      {
+        "residue": 44,
+        "resname": "GLU",
+        "coord": [
+          -25.40739621769206,
+          -93.74509249555118,
+          -2.1779680393952603
+        ],
+        "bfactor": 78.75
+      },
+      {
+        "residue": 45,
+        "resname": "VAL",
+        "coord": [
+          -21.631284851277837,
+          -93.30864159244831,
+          -2.8134517587917607
+        ],
+        "bfactor": 81.69000244140625
+      },
+      {
+        "residue": 46,
+        "resname": "ARG",
+        "coord": [
+          -20.552143617487438,
+          -92.16664576705261,
+          -6.3058156762998046
+        ],
+        "bfactor": 78.0
+      },
+      {
+        "residue": 47,
+        "resname": "PRO",
+        "coord": [
+          -17.560439182676596,
+          -94.32059944176635,
+          -7.420761478534308
+        ],
+        "bfactor": 79.80999755859375
+      },
+      {
+        "residue": 48,
+        "resname": "ALA",
+        "coord": [
+          -14.332094645542547,
+          -92.27459477875703,
+          -7.756543354907793
+        ],
+        "bfactor": 83.55999755859375
+      },
+      {
+        "residue": 49,
+        "resname": "ILE",
+        "coord": [
+          -14.110951480443614,
+          -93.58197650893815,
+          -11.365710116380395
+        ],
+        "bfactor": 82.25
+      },
+      {
+        "residue": 50,
+        "resname": "SER",
+        "coord": [
+          -17.200239617466544,
+          -93.1150714935304,
+          -13.577192314598703
+        ],
+        "bfactor": 86.62000274658203
+      },
+      {
+        "residue": 51,
+        "resname": "THR",
+        "coord": [
+          -17.383298848903912,
+          -93.13727848605853,
+          -17.403753455789108
+        ],
+        "bfactor": 87.94000244140625
+      },
+      {
+        "residue": 52,
+        "resname": "ALA",
+        "coord": [
+          -20.027735577359053,
+          -92.03460127504549,
+          -19.887264953147223
+        ],
+        "bfactor": 89.44000244140625
+      },
+      {
+        "residue": 53,
+        "resname": "ASN",
+        "coord": [
+          -22.22554094530692,
+          -95.08609951010806,
+          -20.57787271883597
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 54,
+        "resname": "TRP",
+        "coord": [
+          -25.605056781415435,
+          -95.66436050845363,
+          -22.224120552937553
+        ],
+        "bfactor": 94.0
+      },
+      {
+        "residue": 55,
+        "resname": "THR",
+        "coord": [
+          -28.794673811206263,
+          -97.1976460565877,
+          -20.791976834188784
+        ],
+        "bfactor": 93.62000274658203
+      },
+      {
+        "residue": 56,
+        "resname": "PHE",
+        "coord": [
+          -31.927616616284695,
+          -98.18178476994179,
+          -22.67889876500231
+        ],
+        "bfactor": 95.05999755859375
+      },
+      {
+        "residue": 57,
+        "resname": "SER",
+        "coord": [
+          -34.97226733997762,
+          -96.28880266066662,
+          -21.404652829289645
+        ],
+        "bfactor": 93.55999755859375
+      },
+      {
+        "residue": 58,
+        "resname": "LYS",
+        "coord": [
+          -38.40756455055053,
+          -97.04777502469197,
+          -22.851961374720002
+        ],
+        "bfactor": 90.19000244140625
+      },
+      {
+        "residue": 59,
+        "resname": "SER",
+        "coord": [
+          -39.66216407394252,
+          -93.78809880910832,
+          -21.231194270703245
+        ],
+        "bfactor": 90.80999755859375
+      },
+      {
+        "residue": 60,
+        "resname": "PHE",
+        "coord": [
+          -37.112892627070394,
+          -91.73657548397625,
+          -23.25833810787947
+        ],
+        "bfactor": 91.0
+      },
+      {
+        "residue": 61,
+        "resname": "GLY",
+        "coord": [
+          -37.7522899104728,
+          -93.87155338010805,
+          -26.400534075193764
+        ],
+        "bfactor": 91.30999755859375
+      },
+      {
+        "residue": 62,
+        "resname": "GLY",
+        "coord": [
+          -34.12882744200695,
+          -95.14719931937594,
+          -26.580925807955392
+        ],
+        "bfactor": 94.37999725341797
+      },
+      {
+        "residue": 63,
+        "resname": "CYS",
+        "coord": [
+          -30.59929878544379,
+          -95.1397778946462,
+          -25.16636814389414
+        ],
+        "bfactor": 95.69000244140625
+      },
+      {
+        "residue": 64,
+        "resname": "VAL",
+        "coord": [
+          -29.667619571078014,
+          -92.25026083911355,
+          -22.82471444889467
+        ],
+        "bfactor": 93.69000244140625
+      },
+      {
+        "residue": 65,
+        "resname": "ALA",
+        "coord": [
+          -26.144101687212604,
+          -91.23850291194651,
+          -21.80399185244876
+        ],
+        "bfactor": 92.69000244140625
+      },
+      {
+        "residue": 66,
+        "resname": "HIS",
+        "coord": [
+          -25.314568873267937,
+          -91.31057029829577,
+          -18.051012289166565
+        ],
+        "bfactor": 87.30999755859375
+      },
+      {
+        "residue": 67,
+        "resname": "ARG",
+        "coord": [
+          -22.293495179067108,
+          -91.4963282159872,
+          -15.690291693623188
+        ],
+        "bfactor": 86.37999725341797
+      },
+      {
+        "residue": 68,
+        "resname": "TRP",
+        "coord": [
+          -21.746150533746338,
+          -95.08222557710893,
+          -14.55488385731988
+        ],
+        "bfactor": 83.55999755859375
+      },
+      {
+        "residue": 69,
+        "resname": "GLY",
+        "coord": [
+          -19.20598209886631,
+          -96.2495247415766,
+          -12.004066148609148
+        ],
+        "bfactor": 76.87999725341797
+      },
+      {
+        "residue": 70,
+        "resname": "SER",
+        "coord": [
+          -18.73914446728405,
+          -100.10021243406119,
+          -12.02239428780268
+        ],
+        "bfactor": 72.55999755859375
+      },
+      {
+        "residue": 71,
+        "resname": "CYS",
+        "coord": [
+          -20.941361711674386,
+          -100.57982977567787,
+          -8.90550875667864
+        ],
+        "bfactor": 75.5
+      },
+      {
+        "residue": 72,
+        "resname": "GLY",
+        "coord": [
+          -24.019288501698703,
+          -102.7948192307133,
+          -8.975860653116928
+        ],
+        "bfactor": 67.94000244140625
+      },
+      {
+        "residue": 73,
+        "resname": "ASN",
+        "coord": [
+          -24.392145392373724,
+          -105.65488355862809,
+          -11.473283881019139
+        ],
+        "bfactor": 67.12000274658203
+      },
+      {
+        "residue": 74,
+        "resname": "HIS",
+        "coord": [
+          -26.652393062495747,
+          -104.18377025892028,
+          -14.225911739835283
+        ],
+        "bfactor": 75.37999725341797
+      },
+      {
+        "residue": 75,
+        "resname": "SER",
+        "coord": [
+          -26.9052662047629,
+          -105.53342687169717,
+          -17.80333933539994
+        ],
+        "bfactor": 88.69000244140625
+      },
+      {
+        "residue": 76,
+        "resname": "ASN",
+        "coord": [
+          -28.698553625245168,
+          -102.34167935905023,
+          -19.045959568235432
+        ],
+        "bfactor": 93.05999755859375
+      },
+      {
+        "residue": 77,
+        "resname": "VAL",
+        "coord": [
+          -25.3340030735929,
+          -100.48287118516197,
+          -19.29928299404246
+        ],
+        "bfactor": 91.87999725341797
+      },
+      {
+        "residue": 78,
+        "resname": "PHE",
+        "coord": [
+          -23.395272696433903,
+          -100.06175203336284,
+          -22.542985844901168
+        ],
+        "bfactor": 93.55999755859375
+      },
+      {
+        "residue": 79,
+        "resname": "PRO",
+        "coord": [
+          -20.123222690468744,
+          -98.22172499618607,
+          -23.394048275585252
+        ],
+        "bfactor": 92.30999755859375
+      },
+      {
+        "residue": 80,
+        "resname": "LYS",
+        "coord": [
+          -21.589007432143365,
+          -96.84443924649247,
+          -26.7053916668337
+        ],
+        "bfactor": 95.94000244140625
+      },
+      {
+        "residue": 81,
+        "resname": "CYS",
+        "coord": [
+          -24.9421646036813,
+          -95.56432724898103,
+          -28.011714466447568
+        ],
+        "bfactor": 97.05999755859375
+      },
+      {
+        "residue": 82,
+        "resname": "LEU",
+        "coord": [
+          -24.91389578983143,
+          -97.96768812671229,
+          -31.007757918327787
+        ],
+        "bfactor": 97.80999755859375
+      },
+      {
+        "residue": 83,
+        "resname": "SER",
+        "coord": [
+          -24.21106770414013,
+          -100.96722727986153,
+          -28.721377470832607
+        ],
+        "bfactor": 96.80999755859375
+      },
+      {
+        "residue": 84,
+        "resname": "CYS",
+        "coord": [
+          -27.184888998370713,
+          -100.00169712029478,
+          -26.507775333828814
+        ],
+        "bfactor": 97.0
+      },
+      {
+        "residue": 85,
+        "resname": "MET",
+        "coord": [
+          -29.612783738953752,
+          -99.41498027429392,
+          -29.426891547902525
+        ],
+        "bfactor": 97.37999725341797
+      },
+      {
+        "residue": 86,
+        "resname": "THR",
+        "coord": [
+          -28.456048733005883,
+          -102.51685519888561,
+          -31.40870614019014
+        ],
+        "bfactor": 96.94000244140625
+      },
+      {
+        "residue": 87,
+        "resname": "THR",
+        "coord": [
+          -29.088825031277057,
+          -104.66407869792742,
+          -28.290914870475493
+        ],
+        "bfactor": 96.69000244140625
+      },
+      {
+        "residue": 88,
+        "resname": "CYS",
+        "coord": [
+          -32.38430344233341,
+          -103.1249504607224,
+          -27.086946302904206
+        ],
+        "bfactor": 96.37999725341797
+      },
+      {
+        "residue": 89,
+        "resname": "ASP",
+        "coord": [
+          -34.061852057475484,
+          -101.47760795279646,
+          -30.167310454334224
+        ],
+        "bfactor": 95.0
+      },
+      {
+        "residue": 90,
+        "resname": "PRO",
+        "coord": [
+          -32.14927294728812,
+          -102.2705725133092,
+          -33.41609766697923
+        ],
+        "bfactor": 94.69000244140625
+      },
+      {
+        "residue": 91,
+        "resname": "GLU",
+        "coord": [
+          -34.71456367303866,
+          -100.88735041931588,
+          -35.96210299514863
+        ],
+        "bfactor": 91.80999755859375
+      },
+      {
+        "residue": 92,
+        "resname": "ASN",
+        "coord": [
+          -33.35291907202411,
+          -97.2960039588934,
+          -35.813406721695685
+        ],
+        "bfactor": 89.75
+      },
+      {
+        "residue": 93,
+        "resname": "ALA",
+        "coord": [
+          -29.983734966549306,
+          -97.82068835773086,
+          -34.03632041399071
+        ],
+        "bfactor": 96.0
+      },
+      {
+        "residue": 94,
+        "resname": "THR",
+        "coord": [
+          -27.792134356893207,
+          -96.10612004372909,
+          -36.70933954306109
+        ],
+        "bfactor": 95.37999725341797
+      },
+      {
+        "residue": 95,
+        "resname": "THR",
+        "coord": [
+          -30.073708419361274,
+          -93.03966630490545,
+          -37.14115115143619
+        ],
+        "bfactor": 96.12000274658203
+      },
+      {
+        "residue": 96,
+        "resname": "TYR",
+        "coord": [
+          -30.685983763422737,
+          -92.69935754280789,
+          -33.366350779298074
+        ],
+        "bfactor": 95.80999755859375
+      },
+      {
+        "residue": 97,
+        "resname": "CYS",
+        "coord": [
+          -26.937836328318355,
+          -92.86243289097442,
+          -32.5333416343658
+        ],
+        "bfactor": 96.94000244140625
+      },
+      {
+        "residue": 98,
+        "resname": "ASP",
+        "coord": [
+          -25.77831089562916,
+          -90.53770555376002,
+          -35.35211327792881
+        ],
+        "bfactor": 95.62000274658203
+      },
+      {
+        "residue": 99,
+        "resname": "GLY",
+        "coord": [
+          -23.14271160924606,
+          -88.25278373491392,
+          -33.73767756122221
+        ],
+        "bfactor": 92.94000244140625
+      },
+      {
+        "residue": 100,
+        "resname": "TRP",
+        "coord": [
+          -22.999141276234134,
+          -90.41470718070207,
+          -30.50275892638295
+        ],
+        "bfactor": 88.55999755859375
+      },
+      {
+        "residue": 101,
+        "resname": "ASN",
+        "coord": [
+          -20.607971742297096,
+          -93.3194708522435,
+          -31.431459778360846
+        ],
+        "bfactor": 73.30999755859375
+      }
+    ],
+    "transform": [
+      [
+        0.7953907879409715,
+        -0.330080415317648,
+        0.508331008184991,
+        -29.118049294859727
+      ],
+      [
+        0.028104505035743937,
+        -0.8177078097228284,
+        -0.5749470190504428,
+        -98.40945602679719
+      ],
+      [
+        0.6054449861509601,
+        0.4715939538862043,
+        -0.6411205123864313,
+        -22.6678414062389
+      ]
+    ]
+  }
+]

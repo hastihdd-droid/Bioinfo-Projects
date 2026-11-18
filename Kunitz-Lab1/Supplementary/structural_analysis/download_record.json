@@ -1,0 +1,29 @@
+[
+  {
+    "Entry": "D3GGZ8",
+    "metadata_url": "https://alphafold.ebi.ac.uk/api/prediction/D3GGZ8",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-D3GGZ8-F1-model_v6.pdb",
+    "model_id": "AF-D3GGZ8-F1",
+    "metadata_sha256": "ed2486136a10069076ab0b4148e03f956cd392073b85ac49b9bac2ccbe6861d6",
+    "pdb_sha256": "6e1cab2ecee6e37862de5b3490c893b032e8ff5af534ec0b0c1f05b84f57c96a",
+    "status": "downloaded"
+  },
+  {
+    "Entry": "O62247",
+    "metadata_url": "https://alphafold.ebi.ac.uk/api/prediction/O62247",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-O62247-F1-model_v6.pdb",
+    "model_id": "AF-O62247-F1",
+    "metadata_sha256": "3eedec065bc754af8bbd3a9fb45e8b21dc59bb6504b4c8bd8f1a1059ee957e90",
+    "pdb_sha256": "3916a679c51b4976f9f1e52c3b2f4a11de09275d12fb2330f934d8aa185d435f",
+    "status": "downloaded"
+  },
+  {
+    "Entry": "A0A1Q1NL17",
+    "metadata_url": "https://alphafold.ebi.ac.uk/api/prediction/A0A1Q1NL17",
+    "model_url": "https://alphafold.ebi.ac.uk/files/AF-A0A1Q1NL17-F1-model_v6.pdb",
+    "model_id": "AF-A0A1Q1NL17-F1",
+    "metadata_sha256": "21403c3becf4d2b2e8027f99a2d8dc46939c74ed21c358ffb68492da9a2837ba",
+    "pdb_sha256": "4af5a82ab1f441c73386de284dc45b2565b33cf6a2609b175058504ae61156c3",
+    "status": "downloaded"
+  }
+]

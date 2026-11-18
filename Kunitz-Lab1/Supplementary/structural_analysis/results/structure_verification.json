@@ -1,0 +1,32 @@
+[
+  {
+    "Entry": "D3GGZ8",
+    "split": "validation",
+    "sequence_exactly_matches_project": true,
+    "full_pairs": 53,
+    "pruned_core_pairs": 39,
+    "full_rmsd_independently_verified": 2.9313678791310673,
+    "core_rmsd_independently_verified": 0.8418149476452239,
+    "mean_core_pLDDT": 97.02333342723357
+  },
+  {
+    "Entry": "O62247",
+    "split": "test",
+    "sequence_exactly_matches_project": true,
+    "full_pairs": 54,
+    "pruned_core_pairs": 39,
+    "full_rmsd_independently_verified": 3.3834625228249204,
+    "core_rmsd_independently_verified": 0.8167778826119559,
+    "mean_core_pLDDT": 95.67410297882863
+  },
+  {
+    "Entry": "A0A1Q1NL17",
+    "split": "test",
+    "sequence_exactly_matches_project": true,
+    "full_pairs": 56,
+    "pruned_core_pairs": 43,
+    "full_rmsd_independently_verified": 3.4179942131523915,
+    "core_rmsd_independently_verified": 0.8731115291390397,
+    "mean_core_pLDDT": 91.39999939674554
+  }
+]
