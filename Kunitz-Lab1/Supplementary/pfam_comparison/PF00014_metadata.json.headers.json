@@ -1,0 +1,16 @@
+{
+  "Server": "gunicorn",
+  "Vary": "Accept, Cookie, origin",
+  "Content-Type": "application/json",
+  "InterPro-Version": "111.0",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "Date": "Wed, 18 Nov 2026 13:22:14 GMT",
+  "InterPro-Version-Minor": "0",
+  "Cross-Origin-Opener-Policy": "same-origin",
+  "X-Content-Type-Options": "nosniff",
+  "Connection": "close",
+  "Allow": "GET, HEAD",
+  "X-Frame-Options": "DENY",
+  "Referrer-Policy": "same-origin",
+  "Content-Length": "17566"
+}

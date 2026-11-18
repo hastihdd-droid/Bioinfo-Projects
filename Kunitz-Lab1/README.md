@@ -217,6 +217,26 @@ The original perfect sampled benchmark was numerically correct. Its random negat
 
 On the expanded test, the higher cutoff reduces false positives from nine to two but loses two reference positives. It improves precision and MCC while reducing sensitivity. It is therefore a different operating point, not a uniformly better detector for every biological objective. The test comparison illustrates the trade-off; validation MCC determined the selected cutoff.
 
+### 7.3 Comparison with the official Pfam reference
+
+The official **PF00014.31** HMM was downloaded from InterPro release 111.0 on 18 November 2026. It contains 53 match states and 98 seed sequences. Both this reference and the unchanged structural HMM were searched afresh against the same 566,420 evaluation proteins, using PyHMMER 0.12.3 with the permissive settings described above. All 283,992 structural-model test classifications exactly matched the archived benchmark.
+
+The primary reference cutoff was selected solely by validation MCC, using the same midpoint rule as the structural analysis. The optimal interval was (19.6, 21.0] bits, giving **20.3 bits**. The original structural cutoff remained **17.2 bits**. The published Pfam gathering cutoffs (GA) were also evaluated without tuning: both sequence and domain scores must be at least 21 bits.
+
+| Model and operating point | Test TP | FN | FP | TN | Sensitivity | Precision | MCC |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Structural HMM, fixed 17.2 bits | 172 | 2 | 2 | 283816 | 98.85% | 98.85% | 0.9885 |
+| Pfam, validation-selected 20.3 bits | 174 | 0 | 1 | 283817 | 100.00% | 99.43% | 0.9971 |
+| Pfam, published 21-bit GA | 174 | 0 | 0 | 283818 | 100.00% | 100.00% | 1.0000 |
+
+Calibrated Pfam recovered both structural-model false negatives, **A0A1Q1NL17** and **O62247**, and rejected **Q09JW3**. **P56409** remained an annotation-defined false positive at 20.3 bits but was rejected at the published GA cutoff.
+
+The published GA rule produced 173 TP and 1 FN on validation. The missed protein **Q8WPG5** has native sequence/domain score 20.956762 bits: its rounded tblout value is 21.0, so using rounded scores for the GA boundary would incorrectly include it. The native-score boundary check is archived in the supplement. The primary midpoint comparison consistently uses the one-decimal precision specified by its protocol.
+
+Pfam performed better on this annotation-defined benchmark. Since PF00014 annotation defines the labels, the comparison measures agreement with that reference and is not independent biological validation. Possible overlap between the reference seed and evaluation proteins was not excluded. The result does not demonstrate that the models are equivalent or that using fewer training sequences is inherently superior.
+
+[Comparison methods and provenance](Supplementary/pfam_comparison/README.md) · [Executed calculation notebook](Supplementary/pfam_comparison/Pfam_Comparison_Executed.ipynb) · [Full result summaries](Supplementary/pfam_comparison/computed/comparison_results.json) · [Test disagreements](Supplementary/pfam_comparison/computed/test_disagreements.csv)
+
 ## 8. Error analysis
 
 ### 8.1 Missed reference positives
@@ -307,7 +327,7 @@ This small subset illustrates a recovery trade-off, but does not establish broad
 
 The model uses 13 fragments from 10 accessions. Selection emphasizes structural quality and reduced redundancy, but the seed cannot be assumed to represent the entire diversity of the family. The reanalysis also retains the original positive split after earlier results had been inspected.
 
-A future assessment could use a new external dataset, stricter homology-aware separation and a direct comparison with alternative search methods. These are possible extensions; they were not performed here and are not implied by the reported metrics.
+A future assessment could use a new external dataset and stricter homology-aware separation. The reference-model comparison in Section 7.3 adds an established baseline, but does not resolve these independence limitations.
 
 ## 11. Reproducibility and repository files
 
@@ -317,7 +337,7 @@ The original analysis used Google Colab, Python/Biopython, MUSTANG **3.2.4**, HM
 
 During the final local audit, the reanalysis calculation cells were executed again from archived data, reproducing the selected threshold and result summaries. All **2,270 files** listed in the complete source-backup manifest were checked against their recorded sizes and SHA256 hashes. The verification scope and execution log are in [Audit](Audit/).
 
-The audit did not rebuild the HMM or rerun HMMER in a fresh environment. Archived-score reproducibility and complete end-to-end execution are therefore separate claims.
+The earlier audit did not rebuild the HMM or rerun its searches. The subsequent Pfam comparison searched both fixed models afresh and reproduced all structural-model test decisions. A complete fresh run of the original structure-retrieval and model-building workflow remains a separate claim.
 
 ### 11.2 Repository structure
 
@@ -331,6 +351,7 @@ The audit did not rebuild the HMM or rerun HMMER in a fresh environment. Archive
 | [Supplementary/raw_recomputed](Supplementary/raw_recomputed/) | Recalculation of the original benchmark |
 | [Supplementary/model_evidence_figures](Supplementary/model_evidence_figures/) | Alignment figure, model logo, taxonomy figure, emission table and provenance |
 | [Supplementary/final_reanalysis_figures](Supplementary/final_reanalysis_figures/) | Confusion matrix, validation curve and full-scan comparison |
+| [Supplementary/pfam_comparison](Supplementary/pfam_comparison/) | Official reference HMM, matched search outputs, comparison notebook and provenance |
 | [Audit](Audit/) | Submission-readiness checklist and calculation log |
 | [SHA256SUMS.json](SHA256SUMS.json) | Checksums of repository project files |
 
@@ -362,3 +383,5 @@ Applied to complete Swiss-Prot, the fixed rule identified **398 candidate protei
 2. Eddy SR. Accelerated Profile HMM Searches. *PLoS Computational Biology*. 2011;7:e1002195. [doi:10.1371/journal.pcbi.1002195](https://doi.org/10.1371/journal.pcbi.1002195).
 3. Steinegger M, Söding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. *Nature Biotechnology*. 2017;35:1026–1028. [doi:10.1038/nbt.3988](https://doi.org/10.1038/nbt.3988).
 4. Hadadi E. Laboratory of Bioinformatics I Kunitz project. [Original executed notebook](Notebooks/Lab1.ElhamHadadi.snapshot-fixed.ipynb) and [retrospective reanalysis](Notebooks/Lab1_ElhamHadadi_Reanalysis_Executed.ipynb), with archived inputs and outputs linked above.
+
+5. InterPro. Pfam PF00014.31 Kunitz/BPTI profile HMM, InterPro 111.0. [Official profile source](https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF00014/?annotation=hmm).

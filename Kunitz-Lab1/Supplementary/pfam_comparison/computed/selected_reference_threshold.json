@@ -1,0 +1,11 @@
+{
+  "model": "PF00014.31",
+  "threshold_bits": 20.3,
+  "validation_optimal_interval": [
+    19.6,
+    21.0
+  ],
+  "criterion": "validation MCC",
+  "protocol_sha256": "75fb0537352e36985e2a2550faae57f724d32617b38998974e6cec3c092167f5",
+  "test_metrics_used": false
+}

@@ -1,0 +1,14 @@
+{
+  "download_url": "https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF00014/?annotation=hmm",
+  "metadata_url": "https://www.ebi.ac.uk/interpro/wwwapi/entry/pfam/PF00014/",
+  "retrieved_date": "2026-11-18",
+  "reference_accession": "PF00014.31",
+  "InterPro_version": "111.0",
+  "NSEQ": 98,
+  "match_states": 53,
+  "GA_sequence_bits": 21,
+  "GA_domain_bits": 21,
+  "model_sha256": "9f1e62410a39afbc2509ae8ba695a0a995dec7c71549c4309c7449e45870ec7a",
+  "raw_download_gzip_sha256": "7a0e0cc0d21edbd07f8e1a01318ae414879cf737faa0b170b27cae99868347bd",
+  "comparison_rule": "Primary best-domain thresholds at stored one-decimal precision, with reference threshold selected by validation only. Secondary published GA uses native boundary scores; Q8WPG5 has20.956762 bits and is below21 despite tblout rounding to21.0."
+}

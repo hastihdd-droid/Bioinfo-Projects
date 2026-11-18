@@ -1,0 +1,188 @@
+{
+  "scope": "Reference-model comparison on the existing expanded benchmark; not external validation",
+  "source_model": {
+    "pyhmmer_version": "0.12.3",
+    "settings": {
+      "cpus": 2,
+      "bias_filter": false,
+      "F1": 1.0,
+      "F2": 1.0,
+      "F3": 1.0,
+      "E": 1000000,
+      "domE": 1000000,
+      "seed": 42
+    },
+    "sequence_count": 566420,
+    "protocol_sha256": "75fb0537352e36985e2a2550faae57f724d32617b38998974e6cec3c092167f5",
+    "input_fasta_sha256": "e6973a0346ea379f90050a14f9a01e5b2f69bd6d0173e3e72e493ec4977a6cce",
+    "model_sha256": {
+      "kunitz_initial.hmm": "3d315c6484a3ad992f3b15d52d881da790dffcb5f010139c8fb73aeca9cb0308",
+      "PF00014.hmm": "9f1e62410a39afbc2509ae8ba695a0a995dec7c71549c4309c7449e45870ec7a"
+    },
+    "reference_accession": "PF00014.31",
+    "reference_match_states": 53,
+    "reference_nseq": 98,
+    "gathering_cutoffs": [
+      21.0,
+      21.0
+    ],
+    "elapsed_seconds": 142.6,
+    "search_completed": true
+  },
+  "selected_reference_threshold": {
+    "model": "PF00014.31",
+    "threshold_bits": 20.3,
+    "validation_optimal_interval": [
+      19.6,
+      21.0
+    ],
+    "criterion": "validation MCC",
+    "protocol_sha256": "75fb0537352e36985e2a2550faae57f724d32617b38998974e6cec3c092167f5",
+    "test_metrics_used": false
+  },
+  "models": [
+    {
+      "model": "Structural HMM",
+      "domain_cutoff_bits": 17.2,
+      "sequence_cutoff_bits": null,
+      "validation": {
+        "TP": 173,
+        "FN": 1,
+        "FP": 0,
+        "TN": 282254,
+        "sensitivity": 0.9942528735632183,
+        "precision": 1.0,
+        "specificity": 1.0,
+        "F1": 0.9971181556195965,
+        "MCC": 0.9971205298403392
+      },
+      "test": {
+        "TP": 172,
+        "FN": 2,
+        "FP": 2,
+        "TN": 283816,
+        "sensitivity": 0.9885057471264368,
+        "precision": 0.9885057471264368,
+        "specificity": 0.9999929532305915,
+        "F1": 0.9885057471264368,
+        "MCC": 0.9884987003570282
+      }
+    },
+    {
+      "model": "Pfam validation-calibrated",
+      "domain_cutoff_bits": 20.3,
+      "sequence_cutoff_bits": null,
+      "validation": {
+        "TP": 174,
+        "FN": 0,
+        "FP": 0,
+        "TN": 282254,
+        "sensitivity": 1.0,
+        "precision": 1.0,
+        "specificity": 1.0,
+        "F1": 1.0,
+        "MCC": 1.0
+      },
+      "test": {
+        "TP": 174,
+        "FN": 0,
+        "FP": 1,
+        "TN": 283817,
+        "sensitivity": 1.0,
+        "precision": 0.9942857142857143,
+        "specificity": 0.9999964766152957,
+        "F1": 0.997134670487106,
+        "MCC": 0.9971370071532982
+      }
+    },
+    {
+      "model": "Pfam curated GA",
+      "domain_cutoff_bits": 21.0,
+      "sequence_cutoff_bits": 21.0,
+      "validation": {
+        "TP": 173,
+        "FN": 1,
+        "FP": 0,
+        "TN": 282254,
+        "sensitivity": 0.9942528735632183,
+        "precision": 1.0,
+        "specificity": 1.0,
+        "F1": 0.9971181556195965,
+        "MCC": 0.9971205298403392
+      },
+      "test": {
+        "TP": 174,
+        "FN": 0,
+        "FP": 0,
+        "TN": 283818,
+        "sensitivity": 1.0,
+        "precision": 1.0,
+        "specificity": 1.0,
+        "F1": 1.0,
+        "MCC": 1.0
+      }
+    }
+  ],
+  "structural_test_decisions_reproduced": 283992,
+  "test_disagreements": [
+    {
+      "Entry": "A0A1Q1NL17",
+      "reference_label": 1,
+      "structural_score_bits": 11.2,
+      "pfam_domain_score_bits": 23.1,
+      "pfam_sequence_score_bits": 23.7,
+      "structural_prediction": 0,
+      "pfam_calibrated_prediction": 1,
+      "pfam_GA_prediction": 1
+    },
+    {
+      "Entry": "O62247",
+      "reference_label": 1,
+      "structural_score_bits": 13.9,
+      "pfam_domain_score_bits": 23.2,
+      "pfam_sequence_score_bits": 23.2,
+      "structural_prediction": 0,
+      "pfam_calibrated_prediction": 1,
+      "pfam_GA_prediction": 1
+    },
+    {
+      "Entry": "P56409",
+      "reference_label": 0,
+      "structural_score_bits": 18.0,
+      "pfam_domain_score_bits": 20.3,
+      "pfam_sequence_score_bits": 20.3,
+      "structural_prediction": 1,
+      "pfam_calibrated_prediction": 1,
+      "pfam_GA_prediction": 0
+    },
+    {
+      "Entry": "Q09JW3",
+      "reference_label": 0,
+      "structural_score_bits": 17.2,
+      "pfam_domain_score_bits": 17.2,
+      "pfam_sequence_score_bits": 18.2,
+      "structural_prediction": 1,
+      "pfam_calibrated_prediction": 0,
+      "pfam_GA_prediction": 0
+    }
+  ],
+  "limits": [
+    "Existing benchmark already inspected; this is a reference-model comparison, not new external validation",
+    "PF00014 labels derive from Pfam annotation, so comparison measures annotation agreement and favors that reference definition",
+    "Pfam model seed overlap with evaluation data not assumed absent",
+    "Similarity and retrospective limitations of original benchmark remain",
+    "No claim of equivalence from one dataset or superiority from training sequence count alone"
+  ],
+  "GA_boundary_native_check": {
+    "scope": "Native-score check for hits rounded to the published21.0bit boundary; primary comparison remains one-decimal",
+    "targets": 1,
+    "rows": [
+      {
+        "Entry": "Q8WPG5",
+        "sequence_score_native": 20.956762313842773,
+        "domain_score_native": 20.956762313842773,
+        "GA_positive": false
+      }
+    ]
+  }
+}

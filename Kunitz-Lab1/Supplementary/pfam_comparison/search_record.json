@@ -1,0 +1,29 @@
+{
+  "pyhmmer_version": "0.12.3",
+  "settings": {
+    "cpus": 2,
+    "bias_filter": false,
+    "F1": 1.0,
+    "F2": 1.0,
+    "F3": 1.0,
+    "E": 1000000,
+    "domE": 1000000,
+    "seed": 42
+  },
+  "sequence_count": 566420,
+  "protocol_sha256": "75fb0537352e36985e2a2550faae57f724d32617b38998974e6cec3c092167f5",
+  "input_fasta_sha256": "e6973a0346ea379f90050a14f9a01e5b2f69bd6d0173e3e72e493ec4977a6cce",
+  "model_sha256": {
+    "kunitz_initial.hmm": "3d315c6484a3ad992f3b15d52d881da790dffcb5f010139c8fb73aeca9cb0308",
+    "PF00014.hmm": "9f1e62410a39afbc2509ae8ba695a0a995dec7c71549c4309c7449e45870ec7a"
+  },
+  "reference_accession": "PF00014.31",
+  "reference_match_states": 53,
+  "reference_nseq": 98,
+  "gathering_cutoffs": [
+    21.0,
+    21.0
+  ],
+  "elapsed_seconds": 142.6,
+  "search_completed": true
+}

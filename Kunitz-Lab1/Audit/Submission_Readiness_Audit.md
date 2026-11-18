@@ -23,3 +23,8 @@ Scope: local executed notebook snapshots, full archived project, actual raw HMME
 4. Submission portal rules (size/allowed extensions/contact) must be checked at submission; supplementary files are permitted by p23, not mandated as this exact package.
 
 No verified numerical inconsistency requiring a report/model correction was found in the checks above. Overall: PASS for reproduced archived-score results; WARNING for complete original end-to-end reproducibility. Do not summarize this as an unconditional PASS.
+
+
+## Update 18 November 2026 — Pfam reference comparison
+PASS: Both fixed models were searched against the same 566,420 evaluation proteins with PyHMMER 0.12.3; all 283,992 original structural-model test decisions were reproduced. No model was rebuilt or structural cutoff retuned. Official reference: PF00014.31, InterPro 111.0, 53 states, 98 seed sequences. Validation selected a 20.3-bit reference cutoff; test TP174/FN0/FP1/TN283817, MCC0.9971. Published GA21 applied to native sequence and domain scores gave a different fixed operating point; boundary verification correctly excluded validation Q8WPG5 (native20.956762, rounded21.0). The portable score-comparison notebook was executed and matched the results exactly. The report now includes Table2 and Section3.5, while retaining four pages and six figures.
+WARNING: This reference-model comparison does not establish external independence. Labels derive from PF00014 annotations; possible Pfam-seed overlap was not excluded. A fresh complete original structure-retrieval/model-build workflow remains unverified. In the GitHub repository, the large source backup is linked separately rather than committed.

@@ -1,0 +1,12 @@
+{
+  "scope": "Native-score check for hits rounded to the published21.0bit boundary; primary comparison remains one-decimal",
+  "targets": 1,
+  "rows": [
+    {
+      "Entry": "Q8WPG5",
+      "sequence_score_native": 20.956762313842773,
+      "domain_score_native": 20.956762313842773,
+      "GA_positive": false
+    }
+  ]
+}

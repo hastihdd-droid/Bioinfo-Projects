@@ -1,0 +1,5 @@
+Entry,reference_label,structural_score_bits,pfam_domain_score_bits,pfam_sequence_score_bits,structural_prediction,pfam_calibrated_prediction,pfam_GA_prediction
+A0A1Q1NL17,1,11.2,23.1,23.7,0,1,1
+O62247,1,13.9,23.2,23.2,0,1,1
+P56409,0,18.0,20.3,20.3,1,1,0
+Q09JW3,0,17.2,17.2,18.2,1,0,0

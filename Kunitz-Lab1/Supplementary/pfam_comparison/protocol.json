@@ -1,0 +1,12 @@
+{
+  "purpose": "Compare the fixed structural HMM with the official Pfam PF00014 reference on identical existing evaluation proteins",
+  "primary_reference_rule": "Best-domain bit-score cutoff selected solely by validation MCC; midpoint of widest maximum-MCC interval, with higher midpoint breaking equal-width ties",
+  "structural_model_rule": "Original fixed best-domain score >=17.2 bits; no threshold retuning",
+  "secondary_reference_rule": "Published Pfam gathering cutoffs: sequence score >=sequence GA and best-domain score >=domain GA; available values read from downloaded model",
+  "score_precision": "One decimal as written in HMMER tblout, matching existing report",
+  "search_settings": {"bias_filter": false, "F1": 1.0, "F2": 1.0, "F3": 1.0, "E": 1000000, "domE": 1000000, "seed": 42, "cpu": 2},
+  "membership": "Existing expanded validation and test assignments, unchanged; reviewed nonfragment Swiss-Prot2026_03; PF00014 label unchanged",
+  "test_metrics": "TP,FN,FP,TN,sensitivity,precision,specificity,F1,MCC; named disagreements",
+  "fixed_before_test_evaluation": true,
+  "limits": ["Existing benchmark already inspected; this is a reference-model comparison, not new external validation", "PF00014 labels derive from Pfam annotation, so comparison measures annotation agreement and favors that reference definition", "Pfam model seed overlap with evaluation data not assumed absent", "Similarity and retrospective limitations of original benchmark remain", "No claim of equivalence from one dataset or superiority from training sequence count alone"]
+}

@@ -1,0 +1,14 @@
+{
+  "Server": "gunicorn",
+  "Vary": "Accept, Cookie, origin",
+  "Content-Type": "application/gzip",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "Date": "Wed, 18 Nov 2026 13:22:15 GMT",
+  "Cross-Origin-Opener-Policy": "same-origin",
+  "X-Content-Type-Options": "nosniff",
+  "Connection": "close",
+  "Allow": "GET, HEAD",
+  "X-Frame-Options": "DENY",
+  "Referrer-Policy": "same-origin",
+  "Content-Length": "5765"
+}
