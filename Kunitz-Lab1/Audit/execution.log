@@ -1,0 +1,289 @@
+Cell 2: PASS
+{
+ "purpose":"Retrospective reanalysis to assess negative-sampling dependence; not to target a lower sensitivity",
+ "model":"Original frozen 53-state structural HMM, unchanged",
+ "reference":"Same Swiss-Prot 2026_03 reviewed nonfragment PF00014 definition",
+ "positives":"Keep original 174 validation and 174 test positives and their original group allocation",
+ "negatives":"All 566072 eligible reference-negative proteins; exact complete-sequence duplicates grouped globally; original negative 80-percent groups also kept intact",
+ "negative_assignment":"Keep original negative groups on their original side; for each new connected group, deterministic SHA256 of seed 42 plus smallest accession; even parity validation, odd test",
+ "conflicting_labels":"Exclude any complete-sequence group with both reference labels, report count",
+ "threshold":"Maximize validation MCC over distinct best-domain scores; midpoint of widest finite optimal interval, higher midpoint on tie; freeze before evaluating test",
+ "scores":"Reparse archived raw tblout; use full-scan scores for all proteins and verify original validation/test scores unchanged at decision-relevant scores; inspect any discrepancy",
+ "no_hit":"Negative at finite cutoff",
+ "limits":"Post hoc; original positive homology limits remain; new negative homology clustering beyond exact duplicates is not performed; annotation labels are operational",
+ "iterations":"One fixed seed and design; no retries chosen by resulting test performance"
+}
+
+
+Cell 3: PASS
+training fields ['Entry', 'split', 'training_seed_id', 'alignment_score', 'identity_percent', 'seed_coverage_percent', 'coverage_qualified', 'alignment_columns', 'paired_positions', 'target_start', 'target_end', 'has_coverage_qualified_match', 'best_score_seed_id', 'best_score_identity_percent', 'best_score_seed_coverage_percent', 'training_identity_band']
+{
+  "status": "Recomputed from verified extracted raw HMMER tblout and metadata; HMMER itself was not rerun",
+  "threshold_recomputed_from_validation": 8.7,
+  "optimal_interval": {
+    "lower_exclusive": 6.1,
+    "upper_inclusive": 11.3
+  },
+  "same_model_hash_validation_test": "3d315c6484a3ad992f3b15d52d881da790dffcb5f010139c8fb73aeca9cb0308",
+  "no_shared_accessions_sequences_or_80pct_groups": true,
+  "splits": {
+    "validation": {
+      "rows": 1914,
+      "raw_hits": 1001,
+      "missing_positive_hits": 0,
+      "recomputed_metrics": {
+        "TP": 174,
+        "TN": 1740,
+        "FP": 0,
+        "FN": 0,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "MCC": 1.0
+      },
+      "lowest_positive": 11.3,
+      "highest_reported_negative": 6.1
+    },
+    "test": {
+      "rows": 1914,
+      "raw_hits": 997,
+      "missing_positive_hits": 0,
+      "recomputed_metrics": {
+        "TP": 174,
+        "TN": 1740,
+        "FP": 0,
+        "FN": 0,
+        "sensitivity": 1.0,
+        "specificity": 1.0,
+        "precision": 1.0,
+        "MCC": 1.0
+      },
+      "lowest_positive": 11.2,
+      "highest_reported_negative": 5.3
+    }
+  },
+  "expanded_background_audit": {
+    "TP": 174,
+    "TN": 562577,
+    "FP": 15,
+    "FN": 0,
+    "sensitivity": 1.0,
+    "specificity": 0.9999733376941016,
+    "precision": 0.9206349206349206,
+    "MCC": 0.9594844315490721
+  },
+  "expanded_negative_count": 562592,
+  "expanded_FP_accessions": [
+    "A0LE53",
+    "A2QRA0",
+    "C0HMD5",
+    "C5H8E7",
+    "P36235",
+    "P40500",
+    "P56409",
+    "P71089",
+    "P78746",
+    "Q09JW3",
+    "Q09JW4",
+    "Q10658",
+    "Q8MVZ2",
+    "Q8MVZ3",
+    "W6HZ31"
+  ],
+  "positive_exclusions_total": 20,
+  "positive_exclusion_criterion": "training overlap or close training similarity, not HMM scores"
+}
+
+Cell 4: PASS
+Frozen new split: {('test', 0): 283818, ('validation', 0): 282254, ('test', 1): 174, ('validation', 1): 174} conflicts 0
+Score discrepancies 0 []
+{
+  "status": "Retrospective expanded-negative reanalysis of archived scores; fixed HMM",
+  "selected_threshold": {
+    "threshold_bits": 17.2,
+    "optimal_interval_lower_exclusive": 13.6,
+    "optimal_interval_upper_inclusive": 20.8,
+    "metric": "MCC",
+    "design_sha256": "fa5955de94a52e2281d7bd2a88523b3a9b11999972489e64c0aab558f92a0a7d",
+    "split_sha256": "849fc114829003a5ee2f0064352289b59d79355cbb52ae5a489c3ab78152e133",
+    "validation_metrics": {
+      "TP": 173,
+      "FN": 1,
+      "FP": 0,
+      "TN": 282254,
+      "sensitivity": 0.9942528735632183,
+      "specificity": 1.0,
+      "precision": 1.0,
+      "MCC": 0.9971205298403392,
+      "F1": 0.9971181556195965
+    },
+    "test_metrics_not_used": true
+  },
+  "test_metrics": {
+    "TP": 172,
+    "FN": 2,
+    "FP": 2,
+    "TN": 283816,
+    "sensitivity": 0.9885057471264368,
+    "specificity": 0.9999929532305915,
+    "precision": 0.9885057471264368,
+    "MCC": 0.9884987003570282,
+    "F1": 0.9885057471264368
+  },
+  "counts": {
+    "validation": {
+      "0": 282254,
+      "1": 174
+    },
+    "test": {
+      "0": 283818,
+      "1": 174
+    }
+  },
+  "label_conflicts_excluded": [],
+  "original_cutoff_metrics": {
+    "validation": {
+      "TP": 174,
+      "FN": 0,
+      "FP": 6,
+      "TN": 282248,
+      "sensitivity": 1.0,
+      "specificity": 0.9999787425510356,
+      "precision": 0.9666666666666667,
+      "MCC": 0.9831816301169048,
+      "F1": 0.9830508474576272
+    },
+    "test": {
+      "TP": 174,
+      "FN": 0,
+      "FP": 9,
+      "TN": 283809,
+      "sensitivity": 1.0,
+      "specificity": 0.9999682895376615,
+      "precision": 0.9508196721311475,
+      "MCC": 0.975084366195943,
+      "F1": 0.9747899159663865
+    }
+  }
+}
+
+Cell 5: PASS
+{
+  "threshold_bits": 17.2,
+  "database_proteins": 575748,
+  "predicted_proteins": 398,
+  "PF00014_detected": 395,
+  "PF00014_missed": 3,
+  "additional_predictions": 3,
+  "annotation_agreement": 0.992462311557789,
+  "domains_above_threshold": 485,
+  "multidomain_proteins": 52,
+  "review_counts": {
+    "Kunitz_supported_other": 2,
+    "Kunitz_supported_fragment": 1
+  },
+  "taxonomic_counts": {
+    "Vertebrates": 223,
+    "Arthropods": 97,
+    "Cnidarians": 57,
+    "Nematodes": 4,
+    "Other metazoans": 17
+  },
+  "explicit_fragment_count": 31,
+  "missed_PF00014": [
+    {
+      "Entry": "A0A1Q1NL17",
+      "score": 11.2,
+      "is_fragment": "False",
+      "length": "101",
+      "taxon": "Arthropods"
+    },
+    {
+      "Entry": "D3GGZ8",
+      "score": 11.3,
+      "is_fragment": "False",
+      "length": "195",
+      "taxon": "Nematodes"
+    },
+    {
+      "Entry": "O62247",
+      "score": 13.9,
+      "is_fragment": "False",
+      "length": "202",
+      "taxon": "Nematodes"
+    }
+  ],
+  "additional_accessions": [
+    "P56409",
+    "P84555",
+    "Q09JW3"
+  ],
+  "test_errors": [
+    {
+      "Entry": "A0A1Q1NL17",
+      "reference_label": "1",
+      "score_bits": "11.2",
+      "predicted_label": "0",
+      "outcome": "FN"
+    },
+    {
+      "Entry": "O62247",
+      "reference_label": "1",
+      "score_bits": "13.9",
+      "predicted_label": "0",
+      "outcome": "FN"
+    },
+    {
+      "Entry": "P56409",
+      "reference_label": "0",
+      "score_bits": "18.0",
+      "predicted_label": "1",
+      "outcome": "FP",
+      "annotation_review": "Kunitz_supported_other"
+    },
+    {
+      "Entry": "Q09JW3",
+      "reference_label": "0",
+      "score_bits": "17.2",
+      "predicted_label": "1",
+      "outcome": "FP",
+      "annotation_review": "Kunitz_supported_other"
+    }
+  ]
+}
+
+Cell 6: PASS
+PASS: all reanalysis predictions match the frozen threshold; counts and full-scan summaries reconcile.
+PASS: no shared accessions, connected groups or exact complete-sequence hashes across the new split.
+PASS: 7/9 test positives below 40% training identity detected at 17.2 bits.
+Scope: archived raw scores were reprocessed; HMMER was not rerun, and distant homology is not excluded.
+
+final_consistency_check.py:
+PASS: all reanalysis predictions match the frozen threshold; counts and full-scan summaries reconcile.
+PASS: no shared accessions, connected groups or exact complete-sequence hashes across the new split.
+PASS: 7/9 test positives below 40% training identity detected at 17.2 bits.
+Scope: archived raw scores were reprocessed; HMMER was not rerun, and distant homology is not excluded.
+
+check_direct_training_overlap.py:
+{
+  "scope": "All 566420 proteins in retrospective expanded evaluation, including all added negatives",
+  "training_accessions": [
+    "O43278",
+    "O43291",
+    "P00974",
+    "P02760",
+    "P05067",
+    "P10646",
+    "P12111",
+    "P48307",
+    "Q964Q0",
+    "Q96NZ8"
+  ],
+  "training_accession_overlap": [],
+  "proteins_containing_exact_complete_training_fragment": [],
+  "training_fragments": 13,
+  "evaluated_proteins": 566420,
+  "interpretation": "Exact full seed-segment and accession checks only; does not rule out shorter matches, homologous relationships, shared ancestry or retrospective test reuse."
+}
+
+Full original archive: 2270 files verified against size and SHA256 manifest.

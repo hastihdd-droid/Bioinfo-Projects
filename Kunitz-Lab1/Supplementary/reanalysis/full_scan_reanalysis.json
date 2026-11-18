@@ -1,0 +1,83 @@
+{
+  "threshold_bits": 17.2,
+  "database_proteins": 575748,
+  "predicted_proteins": 398,
+  "PF00014_detected": 395,
+  "PF00014_missed": 3,
+  "additional_predictions": 3,
+  "annotation_agreement": 0.992462311557789,
+  "domains_above_threshold": 485,
+  "multidomain_proteins": 52,
+  "review_counts": {
+    "Kunitz_supported_other": 2,
+    "Kunitz_supported_fragment": 1
+  },
+  "taxonomic_counts": {
+    "Vertebrates": 223,
+    "Arthropods": 97,
+    "Other metazoans": 17,
+    "Cnidarians": 57,
+    "Nematodes": 4
+  },
+  "explicit_fragment_count": 31,
+  "missed_PF00014": [
+    {
+      "Entry": "A0A1Q1NL17",
+      "score": 11.2,
+      "is_fragment": "False",
+      "length": "101",
+      "taxon": "Arthropods"
+    },
+    {
+      "Entry": "D3GGZ8",
+      "score": 11.3,
+      "is_fragment": "False",
+      "length": "195",
+      "taxon": "Nematodes"
+    },
+    {
+      "Entry": "O62247",
+      "score": 13.9,
+      "is_fragment": "False",
+      "length": "202",
+      "taxon": "Nematodes"
+    }
+  ],
+  "additional_accessions": [
+    "P56409",
+    "P84555",
+    "Q09JW3"
+  ],
+  "test_errors": [
+    {
+      "Entry": "A0A1Q1NL17",
+      "reference_label": "1",
+      "score_bits": "11.2",
+      "predicted_label": "0",
+      "outcome": "FN"
+    },
+    {
+      "Entry": "O62247",
+      "reference_label": "1",
+      "score_bits": "13.9",
+      "predicted_label": "0",
+      "outcome": "FN"
+    },
+    {
+      "Entry": "P56409",
+      "reference_label": "0",
+      "score_bits": "18.0",
+      "predicted_label": "1",
+      "outcome": "FP",
+      "annotation_review": "Kunitz_supported_other"
+    },
+    {
+      "Entry": "Q09JW3",
+      "reference_label": "0",
+      "score_bits": "17.2",
+      "predicted_label": "1",
+      "outcome": "FP",
+      "annotation_review": "Kunitz_supported_other"
+    }
+  ]
+}

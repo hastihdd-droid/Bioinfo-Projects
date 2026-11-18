@@ -1,0 +1,20 @@
+{
+  "scope": "All 566420 proteins in retrospective expanded evaluation, including all added negatives",
+  "training_accessions": [
+    "O43278",
+    "O43291",
+    "P00974",
+    "P02760",
+    "P05067",
+    "P10646",
+    "P12111",
+    "P48307",
+    "Q964Q0",
+    "Q96NZ8"
+  ],
+  "training_accession_overlap": [],
+  "proteins_containing_exact_complete_training_fragment": [],
+  "training_fragments": 13,
+  "evaluated_proteins": 566420,
+  "interpretation": "Exact full seed-segment and accession checks only; does not rule out shorter matches, homologous relationships, shared ancestry or retrospective test reuse."
+}

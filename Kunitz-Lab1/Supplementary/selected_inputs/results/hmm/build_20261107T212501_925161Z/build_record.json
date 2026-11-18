@@ -1,0 +1,33 @@
+{
+  "started_at_utc": "2026-11-07T21:25:01.926376+00:00",
+  "command": [
+    "/usr/bin/hmmbuild",
+    "--amino",
+    "--informat",
+    "stockholm",
+    "--seed",
+    "42",
+    "--cpu",
+    "2",
+    "-n",
+    "Kunitz_structural_seed_v1",
+    "/content/kunitz_project/results/hmm/build_20261107T212501_925161Z/kunitz_initial.hmm",
+    "/content/kunitz_project/results/hmm/build_20261107T212501_925161Z/kunitz_seed.sto"
+  ],
+  "input_alignment": "/content/kunitz_project/results/hmm/build_20261107T212501_925161Z/kunitz_seed.sto",
+  "input_sha256": "2a6b715c549035d344765d5a82f20a238a653e7fe7a361bb6452a5c458cfb5a5",
+  "input_sequences": 13,
+  "input_alignment_columns": 53,
+  "return_code": 0,
+  "finished_at_utc": "2026-11-07T21:25:01.968512+00:00",
+  "model_path": "/content/kunitz_project/results/hmm/build_20261107T212501_925161Z/kunitz_initial.hmm",
+  "model_sha256": "3d315c6484a3ad992f3b15d52d881da790dffcb5f010139c8fb73aeca9cb0308",
+  "model_header": {
+    "NAME": "Kunitz_structural_seed_v1",
+    "LENG": "53",
+    "ALPH": "amino",
+    "NSEQ": "13",
+    "EFFN": "1.583740"
+  },
+  "basic_validation": "passed"
+}

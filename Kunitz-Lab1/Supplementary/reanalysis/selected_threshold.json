@@ -1,0 +1,20 @@
+{
+  "threshold_bits": 17.2,
+  "optimal_interval_lower_exclusive": 13.6,
+  "optimal_interval_upper_inclusive": 20.8,
+  "metric": "MCC",
+  "design_sha256": "fa5955de94a52e2281d7bd2a88523b3a9b11999972489e64c0aab558f92a0a7d",
+  "split_sha256": "849fc114829003a5ee2f0064352289b59d79355cbb52ae5a489c3ab78152e133",
+  "validation_metrics": {
+    "TP": 173,
+    "FN": 1,
+    "FP": 0,
+    "TN": 282254,
+    "sensitivity": 0.9942528735632183,
+    "specificity": 1.0,
+    "precision": 1.0,
+    "MCC": 0.9971205298403392,
+    "F1": 0.9971181556195965
+  },
+  "test_metrics_not_used": true
+}

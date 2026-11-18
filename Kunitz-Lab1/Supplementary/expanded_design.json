@@ -1,0 +1,14 @@
+{
+ "purpose":"Retrospective reanalysis to assess negative-sampling dependence; not to target a lower sensitivity",
+ "model":"Original frozen 53-state structural HMM, unchanged",
+ "reference":"Same Swiss-Prot 2026_03 reviewed nonfragment PF00014 definition",
+ "positives":"Keep original 174 validation and 174 test positives and their original group allocation",
+ "negatives":"All 566072 eligible reference-negative proteins; exact complete-sequence duplicates grouped globally; original negative 80-percent groups also kept intact",
+ "negative_assignment":"Keep original negative groups on their original side; for each new connected group, deterministic SHA256 of seed 42 plus smallest accession; even parity validation, odd test",
+ "conflicting_labels":"Exclude any complete-sequence group with both reference labels, report count",
+ "threshold":"Maximize validation MCC over distinct best-domain scores; midpoint of widest finite optimal interval, higher midpoint on tie; freeze before evaluating test",
+ "scores":"Reparse archived raw tblout; use full-scan scores for all proteins and verify original validation/test scores unchanged at decision-relevant scores; inspect any discrepancy",
+ "no_hit":"Negative at finite cutoff",
+ "limits":"Post hoc; original positive homology limits remain; new negative homology clustering beyond exact duplicates is not performed; annotation labels are operational",
+ "iterations":"One fixed seed and design; no retries chosen by resulting test performance"
+}
