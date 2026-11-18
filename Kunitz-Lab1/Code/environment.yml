@@ -1,0 +1,17 @@
+name: kunitz-lab1
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - mustang=3.2.4
+  - hmmer=3.4
+  - mmseqs2=15.6f452
+  - biopython=1.88
+  - pandas
+  - numpy
+  - matplotlib
+  - requests
+  - ipython
+  - nbformat
+  - jupyterlab

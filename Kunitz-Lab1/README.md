@@ -374,11 +374,11 @@ A future assessment could use a new external dataset and stricter homology-aware
 
 ### 11.1 Software and saved execution
 
-The original analysis used Google Colab, Python/Biopython, MUSTANG **3.2.4**, HMMER **3.4** and MMseqs2 **15-6f452+ds-2**. The saved original notebook contains 70 executed code cells without recorded error outputs. The separate reanalysis notebook contains six executed code cells.
+The original analysis used Google Colab, Python/Biopython, MUSTANG **3.2.4**, HMMER **3.4** and MMseqs2 **15-6f452+ds-2**. The repaired original-workflow notebook contains 71 freshly executed code cells, including archive setup, with no error outputs. The separate reanalysis notebook contains six executed code cells.
 
 During the final local audit, the reanalysis calculation cells were executed again from archived data, reproducing the selected threshold and result summaries. All **2,270 files** listed in the complete source-backup manifest were checked against their recorded sizes and SHA256 hashes. The verification scope and execution log are in [Audit](Audit/).
 
-The earlier audit did not rebuild the HMM or rerun its searches. The subsequent Pfam comparison searched both fixed models afresh and reproduced all structural-model test decisions. A complete fresh run of the original structure-retrieval and model-building workflow remains a separate claim.
+A clean local reproduction restored only verified raw inputs from the November 7 archive and executed all 71 workflow cells. Structural selection, alignment, model building, MMseqs2 grouping and HMMER searches ran again. All 13 extracted PDB fragments and the Stockholm alignment were byte-identical to the archive; rebuilt HMM parameters matched after excluding the new build date. Original sampled validation/test membership and decision scores, and all full-database classifications and domain counts at 8.7 and 17.2 bits, matched. A small number of printed weak-hit fields differed across native CPU builds without changing results. See [execution evidence](Audit/reproduction_verification.json).
 
 ### 11.2 Repository structure
 
@@ -409,9 +409,9 @@ The notebook calculates results using the Python standard library. Figure genera
 
 ### 11.4 Remaining execution dependency
 
-The full backup is linked separately because of its size. A fresh execution of the **original** snapshot-fixed notebook additionally requires `kunitz_project_backup_20261103T233052_775093Z.zip`, an older snapshot requested by that notebook. This older archive is not included in the repository; its Drive accessibility has not been verified. External service access and software installation would also need to be available for a complete new original run.
+The full backup is linked separately because of its size. The repaired original notebook uses that November 7 archive; no separate November 3 archive is required. Its setup verifies the archive checksum and restores raw inputs only. A clean local execution of all 71 cells was completed successfully.
 
-This dependency does not prevent the archived-score reanalysis from reproducing the reported results. It does prevent describing the original notebook as a verified, self-contained fresh “Run all.” See the [complete checklist](Audit/Submission_Readiness_Audit.md) for details.
+For the original workflow, follow [REPRODUCING.md](REPRODUCING.md), including the pinned [environment](Code/environment.yml) and [command-line runner](Code/run_original_notebook.py). The original notebook yields the historical 8.7-bit benchmark; the separate reanalysis notebook reproduces the report's 17.2-bit expanded evaluation. The tested execution environment was local macOS; fresh Colab authorization and installation were not part of that test.
 
 ## 12. Conclusion
 
